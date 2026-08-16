@@ -5,7 +5,7 @@ Based and inspired by :
 https://en.wikipedia.org/wiki/Byte-pair_encoding
 https://github.com/openai/tiktoken/tree/main
 */
-use std::{collections::HashMap, fmt::{Debug, Formatter, Result as FmtResult}, hash::Hash, mem, ops::{Deref, DerefMut}};
+use std::{collections::{HashMap, HashSet}, fmt::{Debug, Formatter, Result as FmtResult}, hash::Hash, ops::{Deref, DerefMut}};
 
 mod byte_str;
 pub use byte_str::*;
@@ -25,9 +25,11 @@ impl Span
     {
         ByteStr::from_ref(&input[self.begin..self.begin+self.len])
     }
+
+    pub fn is_empty(&self) -> bool { self.len == 0 }
 }
 
-pub type Frequency = u64;
+pub type Count = u64;
 
 
 // Can generalize over dimension (1D, 2D), shape dection, how the testing new shape work (here adjacency only)
@@ -42,18 +44,34 @@ impl<T> IndividualShapeSpan for T where T: Iterator<Item=u8>
     }
 } 
 
+pub type SpanID = usize;
+
+#[derive(Clone, Default, PartialEq, Eq, Debug)]
+pub struct MorpheneEntry
+{
+    //pub prefix : &'a Morphene,
+    //pub suffix : &'a Morphene,
+    pub spans_id : HashSet<SpanID>,
+}
+impl MorpheneEntry
+{
+    pub fn nb(&self) -> usize { self.spans_id.len() }
+}
+
+#[derive(Debug)]
 pub struct SpanMerger<'a>
 {
     pub input : &'a ByteStr,
-    pub span: OldNextSpans,
+    /// Span are never removed. Instead they are replaced by a Span with a 0 len
+    pub spans: Vec<Span>, //OldNextSpans,
     /// Morphene encoder
-    pub morphene : HashMap<&'a Morphene, Frequency>,
+    pub glued_morphenes : HashMap<&'a Morphene, MorpheneEntry>,
 }
 impl<'a> SpanMerger<'a>
 {
     pub fn colored<'b>(&'b self) -> SpanColored<'b>
     {
-        SpanColored { input: self.input, span: &self.span.current }
+        SpanColored { input: self.input, span: &self.spans }
     }
 }
 
@@ -68,7 +86,7 @@ impl<'a> SpanColored<'a>
     pub fn limit(self, max_byte: usize) -> Self 
     {
         let end_slice_idx = self.span.partition_point(|s| s.end() <= max_byte);
-        Self { input: &self.input[0.. max_byte], span: &self.span[0..end_slice_idx] }
+        Self { input: &self.input[0.. max_byte.min(self.input.len())], span: &self.span[0..end_slice_idx] }
     }
 }
 impl Debug for SpanColored<'_>
@@ -86,6 +104,7 @@ impl Debug for SpanColored<'_>
     }
 }
 
+/*
 pub type OldNextSpans = OldNext<Vec<Span>>;
 #[derive(Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash, Debug)]
 pub struct OldNext<T>
@@ -100,14 +119,27 @@ impl<T> OldNext<T>
         mem::swap(&mut self.current, &mut self.next);
     }
 }
+*/
 
 impl<'a> SpanMerger<'a> 
 {
+    pub(crate) fn generate_morphene(mut self) -> Self
+    {
+        self.glued_morphenes.clear();
+        for (idx, s) in self.spans.iter().enumerate()
+        {
+            let key = s.get(self.input);
+            let entry = self.glued_morphenes.entry(key).or_insert_with(||  MorpheneEntry::default());
+            entry.spans_id.insert(idx);
+        }
+        self
+    }
+
     pub fn from_bytes<T>(value: T) -> Self 
         where T: Into<&'a ByteStr>
     {
         let value = value.into();
-        Self { input: value, span: OldNext { current: value.iter().enumerate().map(|(idx, _)| Span { begin: idx, len: 1 }).collect(), next: Vec::new() }, morphene: HashMap::new() }
+        Self { input: value, spans: value.iter().enumerate().map(|(idx, _)| Span { begin: idx, len: 1 }).collect(), glued_morphenes: HashMap::new() }.generate_morphene()
     }
 
     pub fn from_text<T>(value: T) -> Self 
@@ -126,29 +158,104 @@ impl<'a> SpanMerger<'a>
         
         Self {
             input: value,
-            span: OldNext {
-                current: spans,
-                next: Vec::new(),
-            },
-            morphene: HashMap::new(),
-        }
+            spans,
+            glued_morphenes: HashMap::new(),
+        }.generate_morphene()
     }
 }
 
 
 pub type Morphene = ByteStr;
-pub type MorpheneFrequency<'a> = (&'a Morphene, Frequency);
+//pub type NextMorpheneEntry<'a, 'entry> = (&'a Morphene, &'entry MorpheneEntry);
+
+impl<'a> SpanMerger<'a>
+{
+    pub fn most_frequent_morphene(&self) -> Option<(&'a Morphene, &MorpheneEntry)>
+    {
+        let Some((morphene, entry)) = self.glued_morphenes.iter().max_by_key(|(_bytes, entry)| entry.nb()).map(|(b,f)| (*b, f)) else { return None; };
+
+        Some((morphene, entry))
+    }
+
+    pub fn merge_morphene(&mut self, morphene : &Morphene) -> Result<usize, ()>
+    {
+        let Some(entry) = self.glued_morphenes.remove(morphene) else { return Err(()); };
+
+        let mut nb_merged = 0;
+
+        for span_id in entry.spans_id
+        {
+            let span = self.spans[span_id];
+
+            let have_prev = span_id >= 1;
+            let have_next = span_id + 1 < self.spans.len();
+
+            if have_prev || have_next
+            {
+                // Dead, no longer used
+                self.spans[span_id].len = 0;
+            }
+
+            if !have_prev && !have_next
+            {
+                // Don't have any neighbor
+                let entry = self.glued_morphenes.entry(span.get(self.input)).or_insert_with(|| MorpheneEntry::default());
+                entry.spans_id.insert(span_id);
+            }
+
+            if have_prev
+            {
+                // Not first, can merge with prev morphene
+                let prev_id = span_id-1;
+                let mut prev = self.spans[prev_id];
+                self.glued_morphenes.get_mut(prev.get(self.input)).ok_or(())?.spans_id.remove(&prev_id);
+
+                prev.len += span.len;
+                self.spans[prev_id] = prev;
+                
+                let entry = self.glued_morphenes.entry(prev.get(self.input)).or_insert_with(|| MorpheneEntry::default());
+                entry.spans_id.insert(prev_id);
+
+                nb_merged += 1;
+            }
+
+            if have_next
+            {
+                // Not last, can merge with next morphene
+                let next_id = span_id+1;
+                let mut next = self.spans[next_id];
+                self.glued_morphenes.get_mut(next.get(self.input)).ok_or(())?.spans_id.remove(&next_id);
+
+                next.begin = span.begin;
+                next.len += span.len;
+                self.spans[next_id] = next;
+                
+                let entry = self.glued_morphenes.entry(next.get(self.input)).or_insert_with(|| MorpheneEntry::default());
+                entry.spans_id.insert(next_id);
+
+                nb_merged += 1;
+            }
+        }
+
+        Ok(nb_merged)
+    }
+}
 
 impl<'a> Iterator for SpanMerger<'a>
 {
-    type Item = MorpheneFrequency<'a>;
+    type Item = &'a Morphene;
     fn next(&mut self) -> Option<Self::Item> 
     {
+        let (morphene, _entry) = self.most_frequent_morphene()?;
+        let _ = self.merge_morphene(morphene);
+        Some(morphene)
+
+        /*
         let new_spans = &mut self.span.next;
         let spans = self.span.current.deref();
         let input = self.input;
 
-        let morphene = &mut self.morphene;
+        let morphene = &mut self.morphenes;
 
         morphene.clear();
         new_spans.clear();
@@ -197,35 +304,39 @@ impl<'a> Iterator for SpanMerger<'a>
 
         self.span.swap();
         Some((bytes, frequency))
+        */
     }
 }
 
 
 fn main() {
     //let input = include_str!("./input/13704.txt");
-    let input = include_str!("./input/18812.txt");
+    //let input = include_str!("./input/18812.txt");
     //let input = "bonjour le bonbon";
     //let input = "aabaa";
+    //let input = "aabaa";
+    let input = "a";
     let mut it = SpanMerger::from_text(input);
     let mut nb = 0;
-    let mut display_counter = 0;
-    let display_after = 1;
-    while let Some((morphene, frequency)) = it.next()
+
+    dbg!(&it);
+
+    while let Some(morphene) = it.next()
     {
-        display_counter += 1;
-        if display_counter >= display_after 
-        {
-            display_counter = 0;
-            continue;
-        }
         nb += 1;
+
+
+        dbg!(&morphene);
+        dbg!(&it);
+
+        let entry = &it.glued_morphenes[morphene];
         println!();
-        println!("{nb} : \"{morphene:?}\" {frequency}");
+        println!("{nb} : \"{morphene:?}\" {:?}", entry);
         println!("{:?}", it.colored().limit(100));
 
         //let wait = std::io::stdin().read_line(&mut String::new());
         
-        if frequency <= 1 || morphene.len() >= 32 { break; }
+        //if entry.nb() <= 1 || morphene.len() >= 32 { break; }
         //if it.morphene.len() <= 200 { break;}
         /*
         if let Some(m) = morphene.as_ref()
@@ -243,6 +354,6 @@ fn main() {
         //if morphene.len() <= 30 { break; }
     }
 
-    println!("{:?}", it.morphene);
-    println!("{:?}", it.colored());
+    //println!("{:?}", it.glued_morphenes);
+    //println!("{:?}", it.colored());
 }

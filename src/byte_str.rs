@@ -6,6 +6,18 @@ use std::{fmt::Display, ops::{Index, IndexMut, Range, RangeFrom, RangeFull, Rang
 #[repr(transparent)]
 pub struct ByteStr(pub [u8]);
 
+impl Default for &ByteStr
+{
+    fn default() -> Self {
+        ByteStr::from_ref(&[])
+    }
+}
+impl Default for &mut ByteStr
+{
+    fn default() -> Self {
+        ByteStr::from_mut(&mut [])
+    }
+}
 
 
 impl ByteStr 
@@ -40,6 +52,7 @@ impl Debug for &ByteStr
 {
     fn fmt(&self, f: &mut Formatter<'_>) -> FmtResult 
     {
+        if self.len() == 0 { return Ok(()); }
         match str::from_utf8(&self.0)
         {
             //Ok(str) => Display::fmt(&str.escape_default(), f),
