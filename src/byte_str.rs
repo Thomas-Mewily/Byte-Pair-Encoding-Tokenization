@@ -42,7 +42,8 @@ impl Debug for &ByteStr
     {
         match str::from_utf8(&self.0)
         {
-            Ok(str) => Display::fmt(&str.escape_default(), f),
+            //Ok(str) => Display::fmt(&str.escape_default(), f),
+            Ok(str) => Display::fmt(str, f),
             Err(_byte) => Debug::fmt(&self.0, f),
         }
     }

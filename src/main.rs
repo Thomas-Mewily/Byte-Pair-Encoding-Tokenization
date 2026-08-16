@@ -20,6 +20,8 @@ pub struct Span
 }
 impl Span
 {
+    pub fn end(&self) -> usize { self.begin + self.len }
+
     pub fn get<'a>(&self, input : &'a ByteStr) -> &'a ByteStr
     {
         ByteStr::from_ref(&input[self.begin..self.begin+self.len])
@@ -45,6 +47,8 @@ pub struct SpanMerger<'a>
 {
     pub input : &'a ByteStr,
     pub span: OldNextSpans,
+    /// Morphene encoder
+    pub morphene : HashMap<&'a ByteStr, Frequency>,
 }
 impl<'a> SpanMerger<'a>
 {
@@ -59,6 +63,14 @@ pub struct SpanColored<'a>
 {
     pub input : &'a ByteStr,
     pub span : &'a [Span],
+}
+impl<'a> SpanColored<'a>
+{
+    pub fn limit(self, max_byte: usize) -> Self 
+    {
+        let end_slice_idx = self.span.partition_point(|s| s.end() <= max_byte);
+        Self { input: &self.input[0.. max_byte], span: &self.span[0..end_slice_idx] }
+    }
 }
 impl Debug for SpanColored<'_>
 {
@@ -90,36 +102,68 @@ impl<T> OldNext<T>
     }
 }
 
-impl<'a,T> From<T> for SpanMerger<'a> where T: Into<&'a ByteStr>
+impl<'a> SpanMerger<'a> 
 {
-    fn from(value: T) -> Self {
+    pub fn from_bytes<T>(value: T) -> Self 
+        where T: Into<&'a ByteStr>
+    {
         let value = value.into();
-        Self { input: value, span: OldNext { current: value.iter().enumerate().map(|(idx, _)| Span { begin: idx, len: 1 }).collect(), next: Vec::new() } }
+        Self { input: value, span: OldNext { current: value.iter().enumerate().map(|(idx, _)| Span { begin: idx, len: 1 }).collect(), next: Vec::new() }, morphene: HashMap::new() }
+    }
+
+    pub fn from_text<T>(value: T) -> Self 
+        where T: Into<&'a ByteStr>
+    {
+        let value = value.into();
+        let s = str::from_utf8(value).expect("valid utf8");
+        
+        // Create spans for each Unicode character (not each byte)
+        let spans: Vec<Span> = s.char_indices()
+            .map(|(idx, ch)| Span {
+                begin: idx,
+                len: ch.len_utf8(),  // 1 for ASCII, 2 for ô, 3 for é, etc.
+            })
+            .collect();
+        
+        Self {
+            input: value,
+            span: OldNext {
+                current: spans,
+                next: Vec::new(),
+            },
+            morphene: HashMap::new(),
+        }
     }
 }
 
+
+pub type MorpheneFrequency<'a> = (&'a ByteStr, Frequency);
+
 impl<'a> Iterator for SpanMerger<'a>
 {
-    type Item = HashMap<&'a ByteStr, Frequency>;
-    fn next(&mut self) -> Option<Self::Item> {
+    type Item = MorpheneFrequency<'a>;
+    fn next(&mut self) -> Option<Self::Item> 
+    {
         let new_spans = &mut self.span.next;
         let spans = self.span.current.deref();
         let input = self.input;
 
+        let morphene = &mut self.morphene;
+
+        morphene.clear();
         new_spans.clear();
 
-        let mut frequency : HashMap<&ByteStr, Frequency> = HashMap::new();
         for i in 0..spans.len()-1
         {
             let (prev, next) = (spans[i], spans[i+1]);
-            debug_assert_eq!(prev.begin + prev.len, next.begin);
+            debug_assert_eq!(prev.end(), next.begin);
             let merged = Span { begin: prev.begin, len: prev.len + next.len };
 
             let key = merged.get(input);
-            frequency.entry(key).and_modify(|frequency| { *frequency += 1 }).or_insert(1);
+            morphene.entry(key).and_modify(|frequency| { *frequency += 1 }).or_insert(1);
         }
 
-        let Some((bytes, _frequency)) = frequency.iter().max_by_key(|(_bytes, frequency)| **frequency).map(|(b,f)| (*b, *f)) else { return None; };
+        let Some((bytes, frequency)) = morphene.iter().max_by_key(|(_bytes, frequency)| **frequency).map(|(b,f)| (*b, *f)) else { return None; };
 
         assert!(spans.len() >= 1);
         
@@ -152,23 +196,32 @@ impl<'a> Iterator for SpanMerger<'a>
         // dbg!(frequency);
 
         self.span.swap();
-        Some(frequency)
+        Some((bytes, frequency))
     }
 }
 
 
 fn main() {
-    let input = include_str!("./input/13704.txt");
+    //let input = include_str!("./input/13704.txt");
+    let input = include_str!("./input/18812.txt");
     //let input = "bonjour le bonbon";
     //let input = "aabaa";
-    let mut it = SpanMerger::from(input);
-
-    loop
+    let mut it = SpanMerger::from_text(input);
+    let mut nb = 0;
+    while let Some((morphene, frequency)) = it.next()
     {
-        let Some(best) = it.next() else { break; };
+        nb += 1;
+        println!("{nb} : \"{morphene:?}\" {frequency}");
+        println!("{:?}", it.colored().limit(100));
 
+        //let wait = std::io::stdin().read_line(&mut String::new());
+        
+        if frequency <= 1 || morphene.len() >= 32 { break; }
+        //if it.morphene.len() <= 200 { break;}
+        /*
+        if let Some(m) = morphene.as_ref()
         {
-            let mut morphene_frequency : Vec<_> = best.iter().collect();
+            let mut morphene_frequency : Vec<_> = m.iter().collect();
             morphene_frequency.sort_by_key(|(_b,f)| u64::MAX - **f);
             let top : Vec<_> = morphene_frequency.iter().take(10).collect();
             println!("{:?}", top);
@@ -176,7 +229,11 @@ fn main() {
 
         println!("{:?}", it.colored());
         println!();
+        */
 
-        if best.len() <= 30 { break; }
+        //if morphene.len() <= 30 { break; }
     }
+
+    println!("{:?}", it.morphene);
+    println!("{:?}", it.colored());
 }
