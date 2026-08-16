@@ -1,5 +1,5 @@
 use super::*;
-use std::ops::{Index, IndexMut, Range, RangeFrom, RangeTo, RangeFull, RangeInclusive, RangeToInclusive};
+use std::{fmt::Display, ops::{Index, IndexMut, Range, RangeFrom, RangeFull, RangeInclusive, RangeTo, RangeToInclusive}};
 
 
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash)]
@@ -12,6 +12,12 @@ impl ByteStr
 {
     pub fn from_ref(slice : &[u8]) -> &Self { <&ByteStr>::from(slice) }
     pub fn from_mut(slice : &mut [u8]) -> &mut Self { <&mut ByteStr>::from(slice) }
+}
+impl From<&str> for &ByteStr
+{
+    fn from(value: &str) -> Self {
+        Self::from(value.as_bytes())
+    }
 }
 impl From<&[u8]> for &ByteStr
 {
@@ -36,7 +42,7 @@ impl Debug for &ByteStr
     {
         match str::from_utf8(&self.0)
         {
-            Ok(v) => f.write_str(v),
+            Ok(str) => Display::fmt(&str.escape_default(), f),
             Err(_byte) => Debug::fmt(&self.0, f),
         }
     }
@@ -172,14 +178,6 @@ impl PartialEq<ByteStr> for [u8] {
 impl PartialEq<[u8]> for ByteStr {
     fn eq(&self, other: &[u8]) -> bool {
         &self.0 == other
-    }
-}
-
-// Allow comparing &ByteStr with &ByteStr (already works via PartialEq<[u8]>)
-// But add explicit impl for clarity:
-impl PartialEq for ByteStr {
-    fn eq(&self, other: &Self) -> bool {
-        self.0 == other.0
     }
 }
 

@@ -1,17 +1,19 @@
 {
-    "idleHeartbeats": 1129,
-    "navigatingHeartbeats": 252,
-    "totalCodingHeartbeats": 3671,
+    "idleHeartbeats": 1499,
+    "navigatingHeartbeats": 548,
+    "totalCodingHeartbeats": 6089,
     "languageHeartbeats": {
         "markdown": 83,
         "plaintext": 142,
-        "rust": 3446
+        "rust": 5676,
+        "toml": 188
     },
     "fileHeartbeats": {
         "src/input/credit.md": 83,
         "src/input/69794.txt": 89,
         "src/input/13704.txt": 53,
-        "src/main.rs": 3125,
-        "src/byte_str.rs": 321
+        "src/main.rs": 5355,
+        "src/byte_str.rs": 321,
+        "Cargo.toml": 188
     }
 }

@@ -3,5 +3,14 @@
 version = 4
 
 [[package]]
+name = "hexga_ansi_color"
+version = "0.0.11-beta.56"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3ce7ffe3bacd1be8229fd096aaab29ac3d33a83bbab61e75a603d24d1e8d305a"
+
+[[package]]
 name = "morphenisation"
 version = "0.1.0"
+dependencies = [
+ "hexga_ansi_color",
+]
