@@ -9,7 +9,6 @@ use std::{collections::HashMap, fmt::{Debug, Formatter, Result as FmtResult}, ha
 
 mod byte_str;
 pub use byte_str::*;
-use hexga_ansi_color::AnsiColor;
 
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash, Default)]
@@ -48,7 +47,7 @@ pub struct SpanMerger<'a>
     pub input : &'a ByteStr,
     pub span: OldNextSpans,
     /// Morphene encoder
-    pub morphene : HashMap<&'a ByteStr, Frequency>,
+    pub morphene : HashMap<&'a Morphene, Frequency>,
 }
 impl<'a> SpanMerger<'a>
 {
@@ -137,7 +136,8 @@ impl<'a> SpanMerger<'a>
 }
 
 
-pub type MorpheneFrequency<'a> = (&'a ByteStr, Frequency);
+pub type Morphene = ByteStr;
+pub type MorpheneFrequency<'a> = (&'a Morphene, Frequency);
 
 impl<'a> Iterator for SpanMerger<'a>
 {

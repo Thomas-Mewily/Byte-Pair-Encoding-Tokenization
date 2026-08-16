@@ -1,18 +1,18 @@
 {
-    "idleHeartbeats": 2298,
-    "navigatingHeartbeats": 788,
-    "totalCodingHeartbeats": 8379,
+    "idleHeartbeats": 2358,
+    "navigatingHeartbeats": 796,
+    "totalCodingHeartbeats": 8500,
     "languageHeartbeats": {
         "markdown": 83,
         "plaintext": 188,
-        "rust": 7920,
+        "rust": 8041,
         "toml": 188
     },
     "fileHeartbeats": {
         "src/input/credit.md": 83,
         "src/input/69794.txt": 89,
         "src/input/13704.txt": 53,
-        "src/main.rs": 6875,
+        "src/main.rs": 6996,
         "src/byte_str.rs": 1045,
         "Cargo.toml": 188,
         "d:\\Me\\Dev\\Progra\\Rust\\Console\\Morphenisation\\src\\main.rs.git": 46
