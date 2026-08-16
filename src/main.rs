@@ -83,7 +83,7 @@ impl Debug for SpanColored<'_>
         {
             write!(f, "{}{:?}", rainbow[idx % rainbow.len()].background(), s.get(self.input))?;
         }
-        write!(f, "{}", AnsiColorKind::Black.background())
+        writeln!(f, "{} ", AnsiColorKind::Black.background())
     }
 }
 
@@ -208,9 +208,18 @@ fn main() {
     //let input = "aabaa";
     let mut it = SpanMerger::from_text(input);
     let mut nb = 0;
+    let mut display_counter = 0;
+    let display_after = 1;
     while let Some((morphene, frequency)) = it.next()
     {
+        display_counter += 1;
+        if display_counter >= display_after 
+        {
+            display_counter = 0;
+            continue;
+        }
         nb += 1;
+        println!();
         println!("{nb} : \"{morphene:?}\" {frequency}");
         println!("{:?}", it.colored().limit(100));
 
