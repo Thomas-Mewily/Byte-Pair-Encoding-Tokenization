@@ -1,0 +1,17 @@
+{
+    "idleHeartbeats": 1129,
+    "navigatingHeartbeats": 252,
+    "totalCodingHeartbeats": 3671,
+    "languageHeartbeats": {
+        "markdown": 83,
+        "plaintext": 142,
+        "rust": 3446
+    },
+    "fileHeartbeats": {
+        "src/input/credit.md": 83,
+        "src/input/69794.txt": 89,
+        "src/input/13704.txt": 53,
+        "src/main.rs": 3125,
+        "src/byte_str.rs": 321
+    }
+}
