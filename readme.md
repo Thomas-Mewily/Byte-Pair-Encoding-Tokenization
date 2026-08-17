@@ -33,4 +33,4 @@ Sometime I use the term Tokenization, sometime the term [Morphemization](https:/
 
 Exemple on ["Douze ans de séjour dans la Haute-Éthiopie"](input/18812.txt) bt Arnauld d' Abbadie, provided by the [Project Gutenberg](input/credit.md).
 
-![Tokenized/Morphemized](exemple_morphemized_text.png)
+![Tokenized/Morphemized](./exemple_morphemized_text.png)
