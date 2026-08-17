@@ -38,21 +38,6 @@ impl Span
     pub fn is_empty(&self) -> bool { self.len == 0 }
 }
 
-pub type Count = u64;
-
-
-// Can generalize over dimension (1D, 2D), shape dection, how the testing new shape work (here adjacency only)
-pub trait IndividualShapeSpan
-{
-    fn individual_shape_span(self) -> Vec<Span>;
-}
-impl<T> IndividualShapeSpan for T where T: Iterator<Item=u8>
-{
-    fn individual_shape_span(self) -> Vec<Span> {
-        self.into_iter().enumerate().map(|(idx, _)| Span { begin: idx, len: 1 }).collect()
-    }
-} 
-
 pub type SpanID = usize;
 
 #[derive(Clone, Default, PartialEq, Eq, Debug)]
@@ -77,6 +62,7 @@ pub struct SpanMerger<'a>
     pub spans: Vec<Span>, //OldNextSpans,
     /// Morphene encoder
     pub pair_frequency : HashMap<&'a Morphene, MorpheneEntry>,
+    tmp_span_id : Vec<SpanID>,
 }
 
 impl<'a> SpanMerger<'a>
@@ -169,7 +155,7 @@ impl<'a> SpanMerger<'a>
         where T: Into<&'a ByteStr>
     {
         let value = value.into();
-        Self { input: value, spans: value.iter().enumerate().map(|(idx, _)| Span { begin: idx, len: 1 }).collect(), pair_frequency: HashMap::new() }.generate_morphene()
+        Self { input: value, spans: value.iter().enumerate().map(|(idx, _)| Span { begin: idx, len: 1 }).collect(), pair_frequency: HashMap::new(), tmp_span_id: Vec::new() }.generate_morphene()
     }
 
     pub fn from_text<T>(value: T) -> Self
@@ -190,6 +176,7 @@ impl<'a> SpanMerger<'a>
             input: value,
             spans,
             pair_frequency: HashMap::new(),
+            tmp_span_id: Vec::new(),
         }.generate_morphene()
     }
 }
@@ -215,7 +202,8 @@ impl<'a> SpanMerger<'a>
     /// ```
     pub fn merge_morphene(&mut self, morphene_pair : &MorphenePair) -> Result<NbMerged, ()>
     {
-        //dbg!(&morphene_pair);
+        // println!("{}", morphene_pair.escape_ascii());
+        //dbg!(&morphene_pair.escape_ascii());
         //dbg!(&self.pair_frequency);
 
         let Some(entry) = self.pair_frequency.remove(morphene_pair) else { return Err(()); };
@@ -224,9 +212,12 @@ impl<'a> SpanMerger<'a>
 
         let mut nb_merged = 0;
 
-        let mut spans_id : Vec<SpanID> = entry.spans_id.into_iter().collect();
+        let spans_id = &mut self.tmp_span_id;
+        spans_id.clear();
+        spans_id.extend(entry.spans_id.into_iter());
         spans_id.sort(); // Force to merge in a determinist way, left to right
-        for prefix_id in spans_id
+
+        for prefix_id in spans_id.iter().copied()
         {
             let prefix_span = self.spans[prefix_id];
 
@@ -286,7 +277,12 @@ impl<'a> SpanMerger<'a>
                 let prev = self.spans[prev_id];
                 let prev_pair = prev.with_added_len(prefix_len);
                 debug_assert_eq!(prev.end(), prefix_span.begin);
-                self.pair_frequency.get_mut(prev_pair.get(self.input)).expect("no prev pair").spans_id.remove(&prev_id);
+
+                match self.pair_frequency.get_mut(prev_pair.get(self.input))
+                {
+                    Some(entry) => { entry.spans_id.remove(&prev_id); },
+                    None => { assert_eq!(prev_pair.get(self.input), morphene_pair); /* maybe unreachable() */ },
+                }
 
                 let new_prev_pair = prev.with_added_len(merged_len);
                 self.pair_frequency.entry(new_prev_pair.get(self.input)).or_insert_with(|| MorpheneEntry::default()).spans_id.insert(prev_id);
@@ -297,8 +293,18 @@ impl<'a> SpanMerger<'a>
                 // Not last, can merge with next morphene
                 let next = self.spans[next_id];
                 debug_assert_eq!(next.begin, suffix_span.end());
-                let next_pair = suffix_span.with_added_len(next.len);
-                self.pair_frequency.get_mut(next_pair.get(self.input)).expect("no next pair").spans_id.remove(&suffix_id);
+                let suffix_pair = suffix_span.with_added_len(next.len);
+
+                // if next_pair.len >= 4
+                // {
+                //     dbg!(&next.get(self.input));
+                //     dbg!(&next_pair.get(self.input));
+                // }
+                match self.pair_frequency.get_mut(suffix_pair.get(self.input))
+                {
+                    Some(entry) => { entry.spans_id.remove(&suffix_id); },
+                    None => { assert_eq!(suffix_pair.get(self.input), morphene_pair); },
+                }
 
                 let new_next_pair = merged_span.with_added_len(next.len);
                 self.pair_frequency.entry(new_next_pair.get(self.input)).or_insert_with(|| MorpheneEntry::default()).spans_id.insert(prefix_id);
@@ -399,20 +405,38 @@ fn test_morphemization() {
     //let input = "bonjour le bonbon";
     //let input = "abcabcxbc";
     //let input = "aabaa";
-    //let input = "aaabaab";
+    //let input = "aaa";
     //let input = "ab_ab-ab";
     let mut it = SpanMerger::from_text(input);
     let mut nb = 0;
+
+    let mut output = String::new();
 
     //dbg!(&it);
 
     while let Some((morphene, nb_merged)) = it.next()
     {
+        if nb_merged <= 10 { break; }
         nb += 1;
-        println!();
-        println!("{nb} : \"{morphene:?}\" merged x{}", nb_merged);
-        println!("{:?}", it.colored().limit(100));
+        //println!();
+        //output.push_str(&format!("{nb} : \"{morphene:?}\" merged x{}", nb_merged));
+        output.push_str(&format!("\"{morphene:?}\" x{}\n", nb_merged));
+        //println!("{nb} : \"{morphene:?}\" merged x{}", nb_merged);
+        //println!("{:?}", it.colored().limit(100));
+        //dbg!(&it);
     }
+
+    output.push_str("\n\n");
+    output.push_str("Exemple of tokenization:");
+    output.push_str("\n\n");
+    output.push_str(&format!("{:?}", it.colored().limit(4096)));
+
+    let path = "./exemple.txt";
+    let full_path = std::path::absolute(path).expect("can't absolute path");
+    std::fs::write(&full_path, output).expect("failed to save");
+    println!("Done at {:?}", full_path);
+    
+    //dbg!(&it);
 
     /*
     while let Some((morphene, nb_merged)) = it.next()
@@ -449,7 +473,7 @@ fn test_morphemization() {
     */
 
     //println!("{:?}", it.glued_morphenes);
-    println!("{:?}", it.colored().limit(512));
+    println!("{:?}", it.colored().limit(1024));
 }
 
 

@@ -1,11 +1,11 @@
 {
-    "idleHeartbeats": 6732,
-    "navigatingHeartbeats": 4443,
-    "totalCodingHeartbeats": 19811,
+    "idleHeartbeats": 6859,
+    "navigatingHeartbeats": 4702,
+    "totalCodingHeartbeats": 21322,
     "languageHeartbeats": {
         "markdown": 83,
-        "plaintext": 188,
-        "rust": 18109,
+        "plaintext": 233,
+        "rust": 19575,
         "toml": 339,
         "jsonc": 964,
         "Log": 50,
@@ -15,7 +15,7 @@
         "src/input/credit.md": 83,
         "src/input/69794.txt": 89,
         "src/input/13704.txt": 53,
-        "src/main.rs": 17064,
+        "src/main.rs": 18530,
         "src/byte_str.rs": 1045,
         "Cargo.toml": 339,
         "d:\\Me\\Dev\\Progra\\Rust\\Console\\Morphenisation\\src\\main.rs.git": 46,
@@ -23,6 +23,7 @@
         "extension-output-ms-vscode.cpptools-#4-C\\C++": 50,
         "rust-lang.rust-analyzer.rust-analyzer Extension.log": 78,
         ".vscode/launch.json": 285,
-        "c:\\Users\\TTD\\AppData\\Roaming\\Code\\User\\settings.json": 45
+        "c:\\Users\\TTD\\AppData\\Roaming\\Code\\User\\settings.json": 45,
+        "src/input/18812.txt": 45
     }
 }
