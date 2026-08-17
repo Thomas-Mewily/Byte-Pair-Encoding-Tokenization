@@ -152,12 +152,20 @@ impl<T> OldNext<T>
 */
 
 impl<'a> SpanMerger<'a> {
+
+
     pub fn recompute_merge_pair(&mut self) {
         self.pairs.clear();
 
-        for i in 0..self.spans.len() - 1 {
+        for i in 0..self.spans.len() - 1 
+        {
+
             let suffix = self.spans[i];
             let preffix = self.spans[i + 1];
+
+            if self.single_morphene.contains(&**suffix.get(self.input)) { continue; }
+            if self.single_morphene.contains(&**preffix.get(self.input)) { continue; }
+
             let merged = Span {
                 begin: suffix.begin,
                 len: suffix.len + preffix.len,
@@ -334,21 +342,31 @@ impl<'a> SpanMerger<'a> {
                 let prev_pair = prev.with_added_len(prefix_len);
                 debug_assert_eq!(prev.end(), prefix_span.begin);
 
+                let prev_is_single_morphene = self.single_morphene.contains(&**prev.get(self.input));
+
                 match self.pairs.get_mut(prev_pair.get(self.input)) {
                     Some(entry) => {
                         entry.suffix_spans_id.remove(&prev_id);
                     }
                     None => {
-                        assert_eq!(prev_pair.get(self.input), morphene_pair); /* maybe unreachable() */
+                        // maybe unreachable() I'm not sure
+                        if !prev_is_single_morphene 
+                        {
+                            assert_eq!(prev_pair.get(self.input), morphene_pair);
+                        }
                     }
                 }
 
-                let new_prev_pair = prev.with_added_len(merged_len);
-                self.pairs
-                    .entry(new_prev_pair.get(self.input))
-                    .or_insert_with(|| MorphenePairEntry::default())
-                    .suffix_spans_id
-                    .insert(prev_id);
+                if !prev_is_single_morphene
+                {
+                    let new_prev_pair = prev.with_added_len(merged_len);
+                    self.pairs
+                        .entry(new_prev_pair.get(self.input))
+                        .or_insert_with(|| MorphenePairEntry::default())
+                        .suffix_spans_id
+                        .insert(prev_id);
+                }
+
             }
 
             if let Some(next_id) = next_id {
@@ -357,26 +375,30 @@ impl<'a> SpanMerger<'a> {
                 debug_assert_eq!(next.begin, suffix_span.end());
                 let suffix_pair = suffix_span.with_added_len(next.len);
 
-                // if next_pair.len >= 4
-                // {
-                //     dbg!(&next.get(self.input));
-                //     dbg!(&next_pair.get(self.input));
-                // }
+                let next_is_single_morphene = self.single_morphene.contains(&**next.get(self.input));
+
                 match self.pairs.get_mut(suffix_pair.get(self.input)) {
                     Some(entry) => {
                         entry.suffix_spans_id.remove(&suffix_id);
                     }
-                    None => {
-                        assert_eq!(suffix_pair.get(self.input), morphene_pair);
+                    None => 
+                    {
+                        if !next_is_single_morphene 
+                        {
+                            assert_eq!(suffix_pair.get(self.input), morphene_pair);
+                        }
                     }
                 }
 
-                let new_next_pair = merged_span.with_added_len(next.len);
-                self.pairs
-                    .entry(new_next_pair.get(self.input))
-                    .or_insert_with(|| MorphenePairEntry::default())
-                    .suffix_spans_id
-                    .insert(prefix_id);
+                if !next_is_single_morphene
+                {
+                    let new_next_pair = merged_span.with_added_len(next.len);
+                    self.pairs
+                        .entry(new_next_pair.get(self.input))
+                        .or_insert_with(|| MorphenePairEntry::default())
+                        .suffix_spans_id
+                        .insert(prefix_id);
+                }
             }
 
             // Merge inside the code source
@@ -412,8 +434,9 @@ impl<'a> Iterator for SpanMerger<'a> {
 }
 
 fn test_tokenization_morphemization() {
-    //let input = include_str!("./input/13704.txt");
-    let input = include_str!("./input/18812.txt");
+    //let input = include_str!("./input/100.txt"); // English
+    let input = include_str!("./input/18812.txt"); // French
+    //let input = include_str!("./input/14741.txt"); // Russian
     //let input = "bonjour le bonbon";
     //let input = "abcabcxbc";
     //let input = "aabaa";
@@ -421,10 +444,12 @@ fn test_tokenization_morphemization() {
     //let input = "ab_ab-ab";
     let mut it = SpanMerger::from_text(input);
 
+    /*
     // Force space to be a morphene on it's own
     it.single_morphene
         .insert(" ".as_bytes().iter().copied().collect());
     it.recompute_merge_pair(); // since we added the space
+    */
 
     let mut _nb = 0;
 
@@ -440,7 +465,7 @@ fn test_tokenization_morphemization() {
         output.push_str(&format!("\"{morphene:?}\" x{}\n", nb_merged));
 
         //println!();
-        //println!("{nb} : \"{morphene:?}\" merged x{}", nb_merged);
+        println!("{_nb} : \"{morphene:?}\" merged x{}", nb_merged);
         //println!("{:?}", it.colored().limit(100));
         //dbg!(&it);
     }

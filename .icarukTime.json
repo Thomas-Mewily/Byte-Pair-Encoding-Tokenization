@@ -1,11 +1,11 @@
 {
-    "idleHeartbeats": 7259,
-    "navigatingHeartbeats": 5072,
-    "totalCodingHeartbeats": 23802,
+    "idleHeartbeats": 7591,
+    "navigatingHeartbeats": 5330,
+    "totalCodingHeartbeats": 25318,
     "languageHeartbeats": {
         "markdown": 654,
-        "plaintext": 278,
-        "rust": 21271,
+        "plaintext": 1034,
+        "rust": 22031,
         "toml": 339,
         "jsonc": 1010,
         "Log": 50,
@@ -16,7 +16,7 @@
         "src/input/credit.md": 83,
         "src/input/69794.txt": 89,
         "src/input/13704.txt": 53,
-        "src/main.rs": 20226,
+        "src/main.rs": 20986,
         "src/byte_str.rs": 1045,
         "Cargo.toml": 339,
         "d:\\Me\\Dev\\Progra\\Rust\\Console\\Morphenisation\\src\\main.rs.git": 46,
@@ -28,6 +28,10 @@
         "src/input/18812.txt": 45,
         "git\\scm0\\input": 122,
         "readme.md": 571,
-        "input-0": 45
+        "input-0": 45,
+        "src/input/19681.txt": 238,
+        "src/input/16527.txt": 218,
+        "src/input/100.txt": 210,
+        "exemple.txt": 90
     }
 }
