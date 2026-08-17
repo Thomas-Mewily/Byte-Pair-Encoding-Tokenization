@@ -1,16 +1,16 @@
 {
-    "idleHeartbeats": 7112,
-    "navigatingHeartbeats": 4946,
-    "totalCodingHeartbeats": 22653,
+    "idleHeartbeats": 7159,
+    "navigatingHeartbeats": 4967,
+    "totalCodingHeartbeats": 22719,
     "languageHeartbeats": {
-        "markdown": 550,
+        "markdown": 609,
         "plaintext": 278,
         "rust": 20299,
         "toml": 339,
         "jsonc": 1010,
         "Log": 50,
         "log": 78,
-        "scminput": 49
+        "scminput": 56
     },
     "fileHeartbeats": {
         "src/input/credit.md": 83,
@@ -26,8 +26,8 @@
         ".vscode/launch.json": 285,
         "c:\\Users\\TTD\\AppData\\Roaming\\Code\\User\\settings.json": 45,
         "src/input/18812.txt": 45,
-        "git\\scm0\\input": 49,
-        "readme.md": 467,
+        "git\\scm0\\input": 56,
+        "readme.md": 526,
         "input-0": 45
     }
 }
