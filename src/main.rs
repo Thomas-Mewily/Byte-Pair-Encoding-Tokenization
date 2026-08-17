@@ -80,8 +80,8 @@ fn find_best_separator<'a>(s : SpanMerger<'a>)
 */
 
 fn test_tokenization_morphemization() {
-    //let input = include_str!("./input/100.txt"); // English
-    let input = include_str!("./input/18812.txt"); // French
+    let input = include_str!("./input/100.txt"); // English super long
+    //let input = include_str!("./input/18812.txt"); // French
     //let input = include_str!("./input/14741.txt"); // Russian
     //let input = "bonjour le bonbon";
     //let input = "abcabcxbc";
@@ -95,8 +95,8 @@ fn test_tokenization_morphemization() {
     // In the most used morphene, split in in different group to isolate separator
     //let separator = [" ", ",", ".", "!", "?", ";", "-"];
     //let separator = ["e"]; // 2910 tokens
-    //let separator = [" "]; // 2865 tokens
-    let separator : &[&'static str] = &[]; // 3340 tokens
+    let separator = [" "]; // 2865 tokens
+    //let separator : &[&'static str] = &[]; // 3340 tokens
     for sep in separator
     {
         it.single_morphene
