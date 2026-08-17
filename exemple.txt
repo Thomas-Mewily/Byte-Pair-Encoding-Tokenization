@@ -114,8 +114,8 @@
 "ac" x1203
 "s de " x1190
 "dé" x1182
-"ouv" x1175
 "plu" x1175
+"ouv" x1175
 " la " x1161
 "leur" x1160
 "aient " x1151
@@ -124,9 +124,9 @@
 "ont " x1073
 "ement " x1065
 "fi" x1059
+"ci" x1058
 ",
 " x1058
-"ci" x1058
 "ec" x1057
 "us" x1047
 "me " x1041
@@ -139,8 +139,8 @@
 "èr" x993
 "dj" x988
 "e. " x978
-"ev" x971
 "op" x971
+"ev" x971
 "gn" x968
 " l'" x943
 "comm" x934
@@ -185,12 +185,12 @@
 "im" x657
 "  " x409
 "eux" x643
-"ces " x642
 "sur" x642
+"ces " x642
 "aux " x629
 "té" x625
-"fr" x623
 "bi" x623
+"fr" x623
 "and" x620
 "t
 " x607
@@ -211,15 +211,15 @@
 "dja" x564
 "port" x559
 "homm" x559
-"Il" x556
 "s'" x556
+"Il" x556
 "air" x554
 "Dedja" x552
 ", et " x548
 "br" x533
 "n'" x527
-"ser" x516
 "st" x516
+"ser" x516
 "ér" x515
 "enc" x512
 "eurs " x506
@@ -244,15 +244,15 @@
 "e d'" x468
 "for" x467
 "ère " x466
-"ell" x463
 "ég" x463
+"ell" x463
 "ation" x459
-"s et " x453
 "lui" x453
+"s et " x453
 "leur " x448
 "bl" x447
-"ssi" x446
 "de l'" x446
+"ssi" x446
 "tu" x445
 "de
 " x443
@@ -266,83 +266,80 @@
 "son " x429
 "aî" x419
 "ond" x416
-"cr" x414
 "pay" x414
+"éc" x414
 "ord" x413
-"e, et " x412
 "aux" x412
-"cl" x411
-"su" x410
+"e, et " x412
+"ro" x412
 "mar" x410
+"su" x410
 "e; " x408
 " et " x400
-"pé" x399
 "res" x397
+"pé" x395
 "avait " x393
 "leurs " x393
 "ois " x392
 "oit " x391
-"aï" x389
 "opi" x389
+"aï" x389
 "pi" x388
 "à
 " x384
 "gar" x378
 "ons " x377
 "ez" x376
-"cou" x374
 "mon " x373
 "hiopi" x373
 "pe" x371
 "enn" x371
-"ten" x370
-"ait" x370
 "mat" x370
+"ten" x370
+"t, " x370
 "a
 " x369
 "m'" x368
 "e des " x368
-"sé" x367
 "ven" x367
+"as" x366
 "tout " x364
 "pri" x363
-"as" x362
-" du " x360
 ".
 
 L" x360
+" du " x360
+"jus" x358
 "du" x358
 ".--" x358
-"jus" x358
-"né" x357
 "sa " x356
 "à l'" x355
 "à s" x354
-"car" x353
-"cour" x351
+"ern" x351
 "pui" x349
-"nom" x346
+"inc" x346
 "s. " x346
+"nom" x346
 "ette " x346
-"mon" x344
+"cour" x345
 "chev" x344
+"mon" x344
 "aiss" x344
-"aut" x343
-"ern" x343
+"sé" x343
 "parti" x340
-"ro" x340
-"où" x339
+"emp" x339
+"cou" x339
 "ent
 " x339
-"emp" x339
+"où" x339
 "qu'il " x337
-"cu" x334
-"ail" x333
-"par " x332
-"all" x332
-"es. " x331
 "les
-" x331
+" x333
+"ail" x333
+"all" x332
+"par " x332
+"es. " x331
+"aut" x330
 "son" x328
 "att" x328
 "ité " x325
@@ -350,129 +347,134 @@ L" x360
 "a, " x322
 "ign" x322
 "tri" x320
-"sol" x319
 "bou" x319
-"inc" x318
+"sol" x319
+"cl" x318
 "man" x317
 "Ét" x317
 "se" x316
 "èrent " x315
+"cr" x315
 "ff" x314
 "emi" x314
 "près " x312
+"car" x311
 "cam" x310
-" dé" x310
 "moi" x310
+"ée " x309
 "Il " x308
 " s'" x307
 "pas " x305
+"voy" x304
 "la
 " x304
 "fu" x304
-"voy" x304
 "autr" x299
-" lui" x298
 "fin" x298
-"e du " x297
+" lui" x298
 "ad" x297
+"e du " x297
+"én" x294
 "avec " x292
-"moin" x291
 "en
 " x291
+"moin" x291
 " se " x291
-"gé" x290
 "as " x288
 "match" x287
-"e et " x285
 "dj " x284
 "n " x283
 "zmatch" x283
-"notre " x281
 "pass" x281
+"notre " x281
 "Éthiopi" x280
 "même " x280
 "j'" x279
+" dé" x278
+"og" x278
+"és " x277
 "hab" x276
 "Dedjazmatch" x276
 "e-" x275
 "os" x274
 "es et " x274
-"og" x273
 "ens " x272
-"cette " x271
 "quelques " x271
+"cette " x271
 "ance " x269
+" dans " x268
 "le
 " x268
-" dans " x268
+"e et " x267
 "oir " x266
-"êt" x266
-"él" x265
+"él" x266
+"ut" x265
 "es de " x265
+"êt" x260
+"t-" x259
 "oin" x257
+"ieu" x256
 ".
 " x256
-"ut" x256
-"ieu" x256
-"ée " x255
 "ein" x254
-"mai" x252
-"e dé" x252
+"mai" x253
+"cu" x251
 "faire " x251
-"és " x251
+"arg" x249
 "ob" x248
 "prés" x248
 "dat" x247
 "ati" x246
 "y " x246
+"ann" x246
 "ent, " x244
 "mal" x243
 "sans " x241
 "être " x241
 "rel" x241
 "Dedjadj " x240
-"trouv" x238
 "ors" x238
-"si " x237
+"trouv" x238
 ": " x237
+"si " x237
 "pend" x236
-"e. L" x236
 "habit" x236
+"e. L" x236
 "eau" x235
 "e,
 " x235
+"é, " x235
 " de
 " x234
-"riv" x234
 "app" x234
+"riv" x234
 "er, " x233
 "eil" x233
 "et, " x231
 "e.
 
 " x229
-"t, " x229
 "ah" x228
-" leur " x227
 "ation " x227
-"Pr" x226
+" leur " x227
 "temp" x226
-"tour" x225
+"Pr" x226
 "main" x225
+"tour" x225
 "tous " x224
 "ett" x224
 "iers " x223
 "nos " x222
-"bat" x221
 "aussi" x221
-"ni" x221
-"nou" x220
-" sur" x220
+"bat" x221
 "abl" x220
+" sur" x220
+"nou" x220
 "lui " x219
-"jusqu'" x219
-"cav" x219
 "vin" x219
+"cav" x219
+"jusqu'" x219
+"e dé" x219
 "e;" x218
 "peti" x218
 "ait
@@ -480,3596 +482,3521 @@ L" x360
 "endre " x216
 "ach" x216
 "mil" x215
-"cor" x215
 "sont " x214
-"tur" x213
 "elles " x213
+"tur" x213
 "s; " x212
 "s-" x212
 "guer" x211
 "caval" x211
-"é, " x210
 "chez" x210
-"nu" x210
-"dont " x209
 "tim" x209
+"dont " x209
 "dev" x209
 "camp" x209
+"cor" x208
 "grand" x208
+"te, " x208
 "cho" x208
 "age " x207
-"cher" x205
-"oc" x205
-"Je " x205
 "ma " x205
-"arg" x204
-" à " x203
+"Je " x205
+"cher" x205
 "rec" x203
+" à " x203
+"s, et " x202
+"ffi" x202
+"encor" x202
 "on
 " x202
-"te, " x202
 "chef" x202
-"encor" x202
-"ffi" x202
-"armé" x202
-"s, et " x202
 "terr" x202
+"armé" x202
 ". Les " x201
 "Qu" x200
-"tions " x199
+"oul" x199
 "fem" x199
+"tions " x199
 "t de " x199
 "ig" x198
 "d'une " x198
-"eul" x197
-"ay" x197
 "tiqu" x197
+"ay" x197
+"eul" x197
+"oc" x197
+"ées " x197
 "compa" x196
 "que le " x194
 "contre " x194
-"pouv" x193
 "ants " x193
-"tog" x193
 "tir" x193
+"pouv" x193
 "Bir" x193
+"tog" x193
 "rem" x192
 "un
 " x192
 " son " x191
 "fait " x191
-"Birro" x190
-"alla" x190
 "e dans " x190
+"alla" x190
+"Birro" x190
 "vir" x188
-"oul" x188
 "serv" x187
+"pu" x186
 "heur" x186
 "eus" x186
 " di" x185
-"pu" x185
-"t-" x184
 "pres" x184
+"me d" x184
 "march" x183
-"me d" x182
-"    " x163
 "ard" x182
+"    " x163
+"contr" x181
 "uni" x181
 "une
 " x181
-"contr" x181
-"ence " x179
-"tent" x179
+"nu" x180
+"tent" x180
 "er
 " x179
-"arriv" x178
+"ence " x179
 "après " x178
 "eill" x178
 "voi" x178
 "ant, " x178
+"arriv" x178
+"ts " x177
 "gard" x176
 "ment " x176
-"où " x175
 "péri" x175
-"fl" x175
+"où " x175
 "Gu" x175
-"bien " x174
+"fl" x175
 " su" x174
+"bien " x174
 "à c" x174
 "présent" x173
-"ai " x173
 "aw" x173
+"ai " x173
+"bu" x172
+"ni" x171
+"out" x171
 "e de
 " x171
-"ce" x171
-"lors" x170
-"gran" x170
 "étaient " x170
-"bu" x170
+"gran" x170
+"lors" x170
 "fit " x169
 "sui" x169
+"ce" x169
 "fais" x168
-"ts " x167
+"poin" x167
+"que
+" x167
 "vr" x167
 "de" x167
 "fa" x167
-"que
-" x167
-"poin" x167
-"ren" x166
-"es; " x166
 "ère" x166
-" ses " x165
-"pli" x165
+"es; " x166
+"ren" x166
 "des
 " x165
+"pli" x165
+" ses " x165
 ". C" x164
 "onc" x164
+"ait" x164
 "jours " x163
+"autres " x163
 "ouss" x163
 "é de " x163
-"out" x163
 "able " x163
-"autres " x163
-"ed" x161
-"entre " x161
-"jam" x161
 "soldat" x161
+"jam" x161
+"entre " x161
+"ed" x161
+"prin" x160
 "que, " x160
 "fil" x160
-"oy" x160
-"ées " x160
-"prin" x160
-"cheval" x160
 "fam" x160
-"lon" x159
-"maî" x159
-"puis " x159
+"cheval" x160
 ":
 
 " x159
-"d'un " x158
-"indi" x158
-" sa " x158
+"maî" x159
+"puis " x159
+"lon" x159
 "que les " x158
-"tin" x157
+"indi" x158
+"d'un " x158
+" sa " x158
+". Le " x157
+"éch" x157
 " les
 " x157
-". Le " x157
+"tin" x157
 "deux " x156
-", le " x155
+"cons" x156
+"étr" x155
 "moins " x155
-"ôt " x154
-"cons" x154
 "hommes " x154
+"ôt " x154
 "aire " x153
-"fus" x152
+"sou" x152
+"Ou" x152
 ".
 
 Le " x152
-"Ou" x152
-"sou" x152
-"cri" x151
-"il
-" x151
+"fus" x152
+"ouvern" x152
 "trou" x151
 "c'" x151
+"il
+" x151
 "ot" x150
-"de son " x149
-"elui" x149
 "pos" x149
-"Li" x149
+"at " x149
+"elui" x149
+", le " x149
 "s.
 
 " x149
-"at " x149
+"de son " x149
+"Li" x149
 "à l" x148
 "quelque " x148
-"Guos" x147
-"min" x147
-"tu " x147
-" ser" x147
 "ari" x147
+"ine " x147
+" ser" x147
 "rép" x147
+"Guos" x147
+"tu " x147
+"pers" x146
+"Guoscho" x146
+"donn" x146
 "Em" x146
 "dui" x146
-"donn" x146
-"Guoscho" x146
+"de ses " x145
 "s,
 " x145
-"de ses " x145
+"min" x144
 "es, et " x144
-"ouvern" x144
-"ine " x144
 "ert" x143
-"on, " x142
 "ant
 " x142
+"on, " x142
+"charg" x142
 "qu'ils " x142
-"af" x141
 "ir " x141
-"pers" x141
 "ents " x141
-"coup" x141
+"af" x141
 "encore " x141
-"plusi" x140
 "év" x140
+"coup" x140
+"plusi" x140
 "tra" x139
 "sur " x139
 "ère, " x139
 "pris" x138
 "Gond" x138
+"bien" x137
 "ouvent " x137
 "dit" x137
-"bien" x137
 "ist" x136
 "avoir " x136
 "eux, " x136
 "bli" x135
-"arr" x134
+"viv" x134
 "Gondar" x134
 "s de la " x134
-"viv" x134
-"faç" x133
-"étr" x133
+"arr" x134
+"éri" x134
 "hui" x133
 "inv" x133
+"faç" x133
 " lui " x133
 "ement, " x133
 "_ " x132
 "èn" x132
 "gag" x131
-"compagn" x131
-"form" x131
+"que je " x131
+"hy" x131
 ":
 
 --" x131
-"que je " x131
-"hy" x131
-"ban" x131
-"cul" x131
+"form" x131
+"compagn" x131
 "mor" x130
-"avaient " x129
+"Eur" x129
+"ations " x129
+"embl" x129
 "ennemi" x129
-"éch" x129
 "jeu" x129
 "laiss" x129
-"urop" x129
-"embl" x129
-"ations " x129
-"Europ" x129
 "! " x129
+"Europ" x129
+"avaient " x129
 "ép" x128
 "nombr" x128
 "conn" x127
-"vil" x127
-"rap" x127
+"cul" x127
 "Oubi" x127
-"sous " x126
+"vil" x127
+"ins" x127
+"rap" x127
 "seign" x126
-"ca" x126
-"pied" x126
+"ut " x126
 "envir" x126
+"pied" x126
+"gouvern" x126
+"ca" x126
+"sous " x126
+"00" x83
+"par les " x125
 "sion" x125
 "anch" x125
-"Ch" x125
-"par les " x125
-"sin" x125
-"At" x125
-"00" x83
-"cep" x125
 "fort" x125
-"es,
-" x124
-"En " x124
-"ann" x124
+"At" x125
+"Ch" x125
 "âmes " x124
 "esti" x124
 "endr" x124
-"éri" x124
+"es,
+" x124
+"cri" x124
 "ques " x124
+"En " x124
 "sor" x123
-"-il" x123
-" du" x123
+"ban" x123
+"cep" x123
+"oy" x123
 "cô" x123
-"er de " x122
-"us " x122
-"cur" x122
-"kou" x122
+"us " x123
+"pag" x122
 "gi" x122
+"kou" x122
 "trè" x122
-"pag" x121
-"aill" x121
-"tant " x121
+"er de " x122
 "été " x121
-"nous
-" x120
-"ins" x120
-"consi" x120
+"co" x121
+"sin" x121
+"um" x121
+"aill" x121
+"sion " x120
+"Dam" x120
 "toi" x120
 "pays " x120
-"Dam" x120
-"sion " x120
-"er à " x119
+"nous
+" x120
+"ure " x120
+"consi" x120
 "envoy" x119
-"rent " x119
-"mêm" x119
-"co" x119
-"s, les " x119
 "ers " x119
-"sit" x118
-"vers " x118
-"pour
-" x118
+"rent " x119
+"u
+" x119
+"s, les " x119
+"er à " x119
 "oign" x118
-"gouvern" x118
-"mon fr" x118
+"tant " x118
+"vers " x118
 "aient
 " x118
+"mêm" x118
+"sit" x118
 "ordin" x118
-"Nous " x117
+"mon fr" x118
+"pour
+" x118
 "maîtr" x117
 "comp" x117
-"ure " x116
+"Nous " x117
 "premi" x116
-"ut " x116
-"toute " x115
-"confi" x115
-"pendant " x115
-"vic" x115
-"nat" x115
+"ée, " x115
 "titu" x115
-"très-" x114
-"ères " x114
-"qui, " x114
+"confi" x115
+"vic" x115
+"toute " x115
+"pendant " x115
 "enf" x114
 "et de " x114
-", il " x113
+"qui, " x114
+"très-" x114
+"ères " x114
 "ress" x113
+"ait, " x113
 "aires " x113
-"um" x113
-"au
-" x112
-"ble " x112
-"inté" x112
+"eur, " x113
+"nat" x112
 "gen" x112
 "Ad" x112
 "; les " x112
-"el " x111
-"plusieurs " x111
-"emand" x111
+"au
+" x112
+"ble " x112
+"hau" x112
+"inté" x112
+"acc" x112
 "jet" x111
-"olé" x111
-"eur, " x111
-"s sont " x110
+"plusieurs " x111
+"à d" x111
+"emand" x111
+"el " x111
 "habitu" x110
 "pec" x110
-"met" x109
+"iss" x110
+"s sont " x110
+"olé" x109
 " d'un " x109
-"ait, " x109
+". Il " x109
 "ans
 " x109
-"ojam" x109
-"dit " x109
-"col" x109
-". Il " x109
-"part " x109
 "fut " x109
-"celui" x108
+"part " x109
+"dit " x109
+"met" x109
+"ojam" x109
 "toutes " x108
 "tribu" x108
+"_, " x108
+"celui" x108
+"inter" x107
 "qui
 " x107
-"_, " x107
-"trois " x107
-"iss" x107
-"inter" x107
 "esp" x107
-"sign" x106
-"vill" x106
-"qu'on " x106
-"personn" x106
-"en s" x106
-"vous " x106
-"e. C" x106
+"trois " x107
 "peu " x106
-"off" x106
+"vill" x106
 "er les " x106
-"Gojam" x105
-"voul" x105
-"à d" x105
+"en s" x106
+"personn" x106
+"qu'on " x106
+"sign" x106
+"e. C" x106
+"off" x106
+"vous " x106
 "ceux " x105
-"ju" x105
-"ori" x105
-"Princ" x105
-"s d'" x105
-"Prin" x105
+"Gojam" x105
 "homme " x105
-"Prince " x104
-"l'A" x104
+"ori" x105
+", il " x105
+"Princ" x105
+"Prin" x105
+"ju" x105
+"voul" x105
 "eau " x104
-"Waï" x104
-"famil" x104
 "eug" x104
-"o " x104
-"veill" x104
+"l'A" x104
+"Waï" x104
 "dou" x104
-"e, il " x104
+"famil" x104
+"veill" x104
+"Prince " x104
+"o " x104
+"Ras " x103
+"import" x103
+"chré" x103
+"chréti" x103
 " le
 " x103
-"Ras " x103
-"réti" x103
-"chréti" x103
-"import" x103
-"ale " x102
-"én" x102
-"men" x102
-"ouver" x102
-"bre " x102
-"e, les " x102
 "abr" x102
-"hau" x102
-"es, les " x101
-"cip" x101
+"men" x102
+"bre " x102
+"col" x102
+"ale " x102
+"lig" x102
 "bar" x101
+"es, les " x101
+"quelquef" x101
+"temps " x101
+"cli" x101
 "troup" x101
 "qu'il" x101
-"cli" x101
+"gén" x101
 "cha" x101
-"quelquef" x101
-"jou" x100
-"grande " x100
-"Mais " x100
 "toujours " x100
-"cé" x100
+"grande " x100
+"jou" x100
 "prendre " x100
+"cip" x100
 "alité" x100
+"il, " x100
+"Mais " x100
+"tourn" x99
 "êtr" x99
 "gré" x99
+"cé" x99
+"ens" x99
 "angu" x99
 " de la " x99
 "aux
 " x99
-"ens" x99
-"cess" x99
-"parl" x98
-"vu" x98
-"te de " x98
 "voyag" x98
-"retour" x98
-"cit" x98
 "qua" x98
+"cit" x98
+"parl" x98
 "ier " x98
 "prof" x98
+"e, il " x98
+"te de " x98
 "fois " x98
-"un s" x97
-"charg" x97
+"rend" x97
 "Galla" x97
 "s sur" x97
+"ent de " x97
+"arm" x97
 "ayant " x97
 "nomm" x97
-"rend" x97
-"arm" x97
-"ent de " x97
-"it " x96
+"un s" x97
 "nouv" x96
-"posi" x96
-". S" x96
-"onne " x96
-". D" x96
+"it " x96
+"e, les " x96
 "ordinair" x96
 "rest" x96
-"de sa " x95
-" dev" x95
-"anç" x95
-"er le " x95
+"onne " x96
+". S" x96
+"posi" x96
+". D" x96
+"et les " x95
 ";
 " x95
-"ant de " x95
-"ainsi " x95
-"maison" x95
-"temps " x95
-"eri" x95
+"er le " x95
 "ût " x95
 "celle " x95
-"Waïz" x94
+"ant de " x95
+"eri" x95
+" dev" x95
+"anç" x95
+"ainsi " x95
+"vu" x95
+"de sa " x95
+"maison" x95
+"ouver" x94
 "sir" x94
-"aur" x94
-"du
-" x94
-"droit " x94
-"et les " x94
-"ite " x94
 "seul" x94
 "parmi" x94
-"lig" x94
+"droit " x94
+"ite " x94
+"Waïz" x94
 "prit " x94
 "mus" x94
+"cur" x94
+"aur" x94
 "olémar" x94
-"dans le " x93
-"emain" x93
-"beau" x93
-"quoi" x93
-"enti" x93
-"Waïzor" x93
+"du
+" x94
 "por" x93
-"as, " x93
+"emain" x93
+"dans le " x93
 "dir" x93
-"ais" x92
-"autre " x92
+"as, " x93
+"enti" x93
+"quoi" x93
+"beau" x93
+"Waïzor" x93
 "aussi " x92
+"foi" x92
+"s d'" x92
+"ais" x92
 "eurs, " x92
 "tous les " x92
-"foi" x92
-"eff" x91
-"Polémar" x91
+"autre " x92
+" leur" x91
 "Con" x91
+"eff" x91
+". La " x91
+"combat" x91
+"cau" x91
+"éthiopi" x91
+"s s'" x91
 "J'" x91
+"a-" x91
+"Polémar" x91
+"des" x91
 "plus
 " x91
-"s s'" x91
-". La " x91
-"cau" x91
-"combat" x91
-"a-" x91
-"des" x91
-" leur" x91
-"éthiopi" x91
 "quit" x90
-" dis" x90
-"tiv" x90
-"étrang" x90
-"souvent " x90
 "dans les " x90
+"tiv" x90
+" dis" x90
+"souvent " x90
+"étrang" x90
 " leurs " x90
-"milieu" x89
-"fusil" x89
-"fair" x89
-"dér" x89
 "ements " x89
-"ès " x89
-"ement
-" x89
+"gé" x89
 "ber" x89
+"milieu" x89
 " des
 " x89
+"fusil" x89
+"ement
+" x89
+"fair" x89
+"dér" x89
+"ès " x89
+"On " x88
 "été" x88
+"En" x88
 "me
 " x88
-"acc" x88
-"En" x88
-"On " x88
 "avi" x87
 "que la " x87
-"e à " x87
-"soit " x87
-"amp" x87
-"femmes " x87
-"îmes " x87
 "devant " x87
+"soit " x87
+"îmes " x87
+"amp" x87
 "presque " x87
-"comb" x86
-"Dedjadj Guoscho" x86
-"Dedjazmatch " x86
-"corp" x86
-"tement " x86
+"femmes " x87
 ".
 
 Les " x86
 "chez " x86
+"Dedjadj Guoscho" x86
+"comb" x86
 "ait de " x86
+"Dedjazmatch " x86
 "o, " x86
-"ne
-" x85
-" d'une " x85
-"c'est " x85
+"corp" x86
+"tement " x86
 "guerr" x85
-"e du" x85
-"cavalier" x85
+" d'une " x85
+"e à " x85
 "moy" x85
-"es.
-
-" x84
+"cavalier" x85
+"c'est " x85
 "fac" x84
-"avant" x84
-"plac" x84
 "fav" x84
-"gén" x84
-"vêt" x84
+"avant" x84
 "eign" x84
-"erc" x84
-"es-" x83
-"fer" x83
-"usag" x83
-"puiss" x83
-"ants, " x83
-"anci" x83
-"hé" x83
-"pir" x83
-"abli" x83
-"Ils " x82
-"appel" x82
-"enfin" x82
-"compl" x82
-" la
-" x82
-"cid" x82
-"musul" x82
-"tel" x82
-"vent " x82
-"anné" x81
-"établi" x81
-"point " x81
-"que l'" x81
-"femm" x81
-"fief" x81
-"mani" x81
-"rang" x81
-"justi" x81
-"er la " x81
-"ables " x80
-"pour le " x80
-"lev" x80
-"indig" x80
-"étend" x80
-"ult" x80
-"droi" x80
-"pren" x80
-"bal" x80
-".--L" x80
-"ances " x80
-"que nous " x80
-"publi" x80
-"pris " x80
-"adi" x79
-"e en " x79
-"long" x79
-"à son " x79
-"offi" x79
-"ée, " x79
-"Emper" x79
-"sel" x79
-"cap" x79
-"rou" x79
-"trav" x79
-"Lik" x79
+"plac" x84
 ".
 
---" x79
-"vol" x79
-"ais, " x78
-"Te" x78
-"appar" x78
-"cet " x78
-"avant " x78
-"génér" x78
-"oussaw" x78
-"Moussaw" x78
+--" x84
+"vêt" x84
+"erc" x84
+"ants, " x83
+"mes" x83
+"abli" x83
+"puiss" x83
+"pir" x83
+"usag" x83
+"anci" x83
+"ne
+" x83
+"fer" x83
+"compl" x82
+"Ils " x82
+"cid" x82
+"es-" x82
+" la
+" x82
+"enfin" x82
+"tel" x82
+"vent " x82
+"musul" x82
+"appel" x82
+"fief" x81
+"né" x81
+"que l'" x81
+"point " x81
+"justi" x81
+"mani" x81
+"rang" x81
+"er la " x81
+"établi" x81
+"publi" x80
+"ables " x80
+".--L" x80
+"bal" x80
+"lat" x80
+"indig" x80
+"ult" x80
+"pren" x80
+"pris " x80
+"ances " x80
+"lev" x80
+"vol" x80
+"pour le " x80
+"que nous " x80
+"rou" x80
+"droi" x80
+"étend" x80
+"vers" x79
+"trav" x79
+"Emper" x79
+"long" x79
+"à son " x79
+"adi" x79
+"Lik" x79
+"offi" x79
 "conse" x78
 "assur" x78
-"chaque " x78
+"cet " x78
+"appar" x78
+"génér" x78
 "ak" x78
-"armes " x78
-"À " x78
+"chaque " x78
+"Mouss" x78
+"sel" x78
+"Te" x78
+"Moussaw" x78
+"cap" x78
+"ais, " x78
 "regard" x78
-"vers" x78
-" de" x77
-"fron" x77
-"e d'un " x77
-"eux
-" x77
+"À " x78
+"armes " x78
+"avant " x78
 "boucli" x77
+"investi" x77
+"e d'un " x77
+"fron" x77
+"hé" x77
+" de" x77
 "Ats" x77
 "ami" x77
-"investi" x77
-"en, " x76
-"suiv" x76
-"occu" x76
+"eux
+" x77
 "ssent " x76
+"par la " x76
+"er en " x76
+"en, " x76
+"s de l'" x76
+"suiv" x76
+"auv" x76
+" si" x76
+"cir" x76
 "égal" x76
+"autor" x76
+"mom" x76
+"ertain" x76
+"avais " x76
 "ellement " x76
 "et le " x76
-"mom" x76
-"trait" x76
-"cir" x76
-"e, le " x76
-"avais " x76
-" si" x76
-"autor" x76
-"urent " x76
-"ertain" x76
-"par la " x76
-"s de l'" x76
+"occu" x76
 "ini" x76
-"auv" x76
-"er en " x76
-"trop" x75
-"mett" x75
-"inst" x75
-"s à " x75
-"indigèn" x75
+"urent " x76
 "ètr" x75
-"auc" x75
+"e en " x75
+"indigèn" x75
 "bb" x75
+"ors " x75
+"inst" x75
 "missi" x75
-"alor" x74
-"natur" x74
-"mes" x74
-"vou" x74
+"ait-" x75
+"mett" x75
+"femm" x75
+"auc" x75
+"es.
+
+" x75
+"trop" x75
+"e, le " x75
+"quelquefois " x74
 "rar" x74
-"ra" x74
+"cherch" x74
 "pays, " x74
 "Sah" x74
-"rich" x74
-"quelquefois " x74
+"s à " x74
 "reç" x74
+"rich" x74
 "fort " x74
-"cherch" x74
-"aprè" x73
-"cavaliers " x73
-"ez " x73
-"vass" x73
+"vou" x74
+"aux, " x73
+"prisonn" x73
+"loin" x73
+"ra" x73
+"drom" x73
+"ru" x73
 "est
 " x73
-"poli" x73
-"loin" x73
-"drom" x73
-"relig" x73
-"aux, " x73
+"cavaliers " x73
 "ce
 " x73
-"ta " x73
-"prisonn" x73
+"aprè" x73
+"vass" x73
 "e de la " x73
+"relig" x73
 "que j'" x73
+"ez " x73
+"poli" x73
 "côté" x73
-"Ali" x72
+"Europé" x72
+"val" x72
 "par
 " x72
-"fiqu" x72
+"il est " x72
 "not" x72
-"ru" x72
-"val" x72
+"natur" x72
 "commun" x72
-"té " x72
 "leurs
 " x72
-"Europé" x72
-"engag" x71
-"gl" x71
-"dern" x71
-"longu" x71
-"feu" x71
-"princip" x71
-"dans la " x71
-"mer " x71
-"grand " x71
-"afin" x71
-"ant à " x71
-"qui s" x71
-"égli" x71
-"avoir" x71
-"ête " x71
-"mer" x71
-" en " x71
-"par le " x71
+"Ali" x72
+"fiqu" x72
 "bless" x71
 "; le " x71
-"ourr" x70
-"No" x70
-"part" x70
+"longu" x71
+"dern" x71
+"engag" x71
+"ête " x71
+"par le " x71
+"avoir" x71
+" en " x71
+"ant à " x71
+"gl" x71
+"dans la " x71
+"grand " x71
+"feu" x71
+"tionn" x71
+"mer" x71
+"afin" x71
+"princip" x71
+"mer " x71
+"qui s" x71
+"ta " x71
+"aîn" x70
 "Tou" x70
+"proch" x70
+"roi" x70
+"e d'une " x70
+"Dieu" x70
+"it-" x70
+"oli" x70
+"ong" x70
+"part" x70
+"considér" x70
+"ourr" x70
+"er l'" x70
+"moi, " x70
 "fré" x70
+"No" x70
+"égli" x70
 "graï" x70
 "and " x70
-"considér" x70
-"roi" x70
-"moi, " x70
-"proch" x70
 "quatre " x70
-"er l'" x70
-"oli" x70
-"haut" x70
-"Dieu" x70
-"e d'une " x70
-"; et " x69
-"avel" x69
-"javel" x69
-". A" x69
-"font " x69
+"té " x70
 "gens " x69
-"endemain" x69
+"ula" x69
 "chac" x69
-"? " x69
-"il est " x69
+"; et " x69
+". A" x69
+"jav" x69
 "le s" x69
-"hydrom" x69
-"toge " x69
-"autour" x69
+"endemain" x69
+"on d" x69
 "ennent " x69
-"mu" x69
-"pour les " x69
+"hydrom" x69
+"javel" x69
+"font " x69
 "fér" x69
-"pop" x68
-"mul" x68
-"cin" x68
-"
-de " x68
-"propr" x68
-"qui s'" x68
-"e. Il " x68
-"oldat" x68
-"dre " x68
-"er un " x68
-" de l'" x68
-"ordinairement " x68
-"milit" x68
+"autour" x69
+"? " x69
+"pour les " x69
+"toge " x69
 "lieu" x68
+"cin" x68
+"pop" x68
+"e. Il " x68
+"er un " x68
+"ordinairement " x68
+"propr" x68
+"milit" x68
+" de l'" x68
+"oldat" x68
+"mul" x68
 "omme " x68
-"dur" x67
+"qui s'" x68
+"dre " x68
 "eusement " x67
-"uit " x67
+"esse " x67
 "ages " x67
 "duit" x67
-"Éthiopiens " x67
-" sur " x67
-"soldats " x67
-"écu" x67
-"au milieu" x67
-"ans" x67
 "façon " x67
-"esse " x67
-"dess" x66
-"certain" x66
-"faisait " x66
-"musulman" x66
-" donn" x66
-"armée " x66
-"ong" x66
-"condui" x66
-"sur le " x66
-"étais " x66
-"tionn" x66
-"Dedjadj Oubi" x66
-"act" x66
-"cil" x66
+"
+de " x67
+"ans" x67
+"Éthiopiens " x67
+"fau" x67
+"soldats " x67
+"uit " x67
+"dur" x67
+" sur " x67
+"au milieu" x67
 "quar" x66
-"Quel" x66
-"ont
-" x66
-"abord" x66
-"ainsi" x66
-"; il " x66
-"ons, " x66
-"der" x66
+"condui" x66
+"musulman" x66
+"étais " x66
 "ère
 " x66
+"faisait " x66
+"Quel" x66
+"Dedjadj Oubi" x66
+"ainsi" x66
+"sur le " x66
+"abord" x66
+"dess" x66
+"armée " x66
+"act" x66
+"ons, " x66
+"certain" x66
+"org" x66
 "euse " x66
-"char" x65
-"cal" x65
-"fau" x65
+"der" x66
+"jug" x66
+"ont
+" x66
+"ém" x66
+"; il " x66
 "Birro " x65
-"connaiss" x65
+"mess" x65
 "provin" x65
+"fes" x65
+"connaiss" x65
+"cal" x65
 "leur
 " x65
-"jug" x65
-"mess" x65
-", les " x65
-"fes" x65
-"In" x64
-"har" x64
-"ait à " x64
-"; mais " x64
-"fond" x64
-"ses
-" x64
-"Conef" x64
-"ment" x64
-"surtout " x64
-"avan" x64
-"choi" x64
+"cil" x65
 "tre
 " x64
-"fant" x63
-"voir" x63
-"trafiqu" x63
-"es d'" x63
+"; mais " x64
+" du" x64
+"ses
+" x64
+"ait à " x64
+"choi" x64
+"Conef" x64
+"har" x64
+"fond" x64
+"avan" x64
+" donn" x64
+"surtout " x64
+"In" x64
 "Un " x63
-"e. Le " x63
-"de leur " x63
-"e.
-" x63
-"org" x63
 "petit " x63
 "jeun" x63
-"les plus " x63
+"fant" x63
+"de leur " x63
+"voir" x63
+"e.
+" x63
+"et la " x63
+"trafiqu" x63
 "   " x63
-"peup" x63
+"les plus " x63
+"e. Le " x63
 "voisin" x63
-"koualla" x62
+"peup" x63
+"lendemain" x62
+"ens, " x62
+"nombre " x62
+"bord" x62
+"ante " x62
+"rir" x62
+"pen" x62
+"étant " x62
+"ce de " x62
+"mu" x62
+"re de " x62
 "se
 " x62
-"et la " x62
-"e, la " x62
-"ante " x62
-"étant " x62
-"nombre " x62
-"aîn" x62
-"bord" x62
-"pen" x62
-"ula" x62
-"ens, " x62
-"lendemain" x62
+"és, " x62
+"koualla" x62
 "pouvoir" x62
-"re de " x62
-"bé" x62
-"ce de " x62
-"-il, " x62
-"croi" x61
-"ou
-" x61
 "impéri" x61
-"sur les " x61
-"e. Les " x61
-"je
-" x61
-"nuit" x61
 ".
 
 La " x61
-"médi" x61
-"pour la " x61
-"couv" x61
-"E " x61
-"Ag" x61
-"od" x61
-"dans l'" x61
-"il s'" x61
-"const" x61
-"ent les " x61
 "religi" x61
-"mettre " x61
 "lég" x61
 "oci" x61
-"vain" x61
-"on d" x61
+"e, la " x61
+"ou
+" x61
+", les " x61
+"il s'" x61
+"je
+" x61
+"médi" x61
+"const" x61
+"pour la " x61
+"dans l'" x61
+"sur les " x61
+"Ag" x61
+"croi" x61
+"mettre " x61
 ". P" x61
+"e. Les " x61
+"E " x61
 "Waïzoro " x61
-"d'hui" x60
-"plain" x60
-"Sahal" x60
-"rir" x60
-"hut" x60
-"près de " x60
-"aff" x60
-"four" x60
-"par des " x60
+"vain" x61
+"ent les " x61
 "mon frère " x60
 "cent" x60
+"plain" x60
+"e: " x60
+"es d'" x60
+"on s" x60
+"Sahal" x60
+"omb" x60
+"haut" x60
+"ils
+" x60
+"hut" x60
+"aff" x60
+"d'hui" x60
 "oeu" x60
-"pou" x60
+"plai" x60
+"four" x60
+"près de " x60
+"it
+" x60
+"amen" x60
+"par des " x60
 "sist" x60
+"qu'un " x60
+"pou" x60
+"depuis " x60
+"iers, " x60
+"idé" x60
+"ant la " x60
+"représent" x60
 "fréqu" x60
 "empl" x60
-"e: " x60
-"ant la " x60
-"idé" x60
 "Gou" x60
-"amen" x60
-"plai" x60
-"représent" x60
-"iers, " x60
-"on s" x60
-"qu'un " x60
-"depuis " x60
-"ils
-" x59
-"e.--" x59
-"grands " x59
 "attend" x59
-"hè" x59
-"visit" x59
+"grands " x59
 "pays" x59
-"à
-l'" x59
 "aj" x59
 "press" x59
-"arrêt" x59
 "n'est " x59
+"hè" x59
 "jourd'hui" x59
-"és, " x59
-"caravan" x58
-"elle, " x58
-"peut-" x58
-"bâ" x58
-"ativ" x58
-"écl" x58
-"omain" x58
-"eurs
-" x58
-"terrain" x58
-"s du " x58
-"alité " x58
-"avec le " x58
-"de
-l'" x58
-"e dis" x58
-"malgré" x58
-"prom" x58
+"trait" x59
+"visit" x59
+"cc" x59
+"e.--" x59
+"à
+l'" x59
 "plus de " x58
-"posé" x58
+"prom" x58
+"malgré" x58
+"bâ" x58
+"que d" x58
 "pagn" x58
 "à sa " x58
+"caravan" x58
+"de
+l'" x58
 "chi" x58
+"posé" x58
+"dit-" x58
+"peut-" x58
+"alité " x58
+"avec le " x58
+"ativ" x58
+"elle, " x58
+"omain" x58
+"arrêt" x58
+"eurs
+" x58
 "quelle " x58
+"terrain" x58
 "by" x57
+"ance, " x57
 "lu" x57
+"une d" x57
 "en l" x57
-"es-un" x57
-"tré" x57
+"tion de " x57
+"journ" x57
 "avec
 " x57
-"Adw" x57
-"ance, " x57
 "alli" x57
+"Adw" x57
+"tif" x57
+"es-un" x57
+"nuit" x57
+"ement de " x57
 "il se " x57
 "er s" x57
-"ement de " x57
-"tif" x57
-"omb" x57
-"it
-" x57
-"tion de " x57
-"que des " x56
-"contre les " x56
-"par l'" x56
-"mort" x56
-"environ " x56
+"id" x56
+"répon" x56
+"fils " x56
+"langu" x56
 "meil" x56
-"entre" x56
+"mort" x56
+"aire" x56
 "al " x56
 "dis " x56
-"aille " x56
-"s et les " x56
+"sur la " x56
+"entre" x56
+"par l'" x56
+"pliqu" x56
 "que de " x56
+"s du " x56
+"pouvait " x56
 "ces
 " x56
-"aire" x56
+"contre les " x56
+"é
+" x56
+"que des " x56
 "a et " x56
-"pliqu" x56
-"répon" x56
-"sur la " x56
-"fils " x56
-"pouvait " x56
-"lat" x56
-"langu" x56
-"id" x56
 "command" x56
-"matin" x55
-"qu'elle " x55
-"aires, " x55
-"ères, " x55
-"attach" x55
-"e, en " x55
-"empê" x55
-"dition" x55
-"Al" x55
-"élev" x55
-"famille " x55
-"ton " x55
-"contin" x55
-"yp" x55
-"hor" x55
-". Je " x55
-"eaux " x55
-"entôt " x55
-"bass" x55
-"cui" x55
-"ffér" x55
-"zer" x55
-"mont" x55
-"er dans " x55
-"trans" x55
+"environ " x56
+"aille " x56
+"s et les " x56
 "!
 
 " x55
+"aire, " x55
+"Al" x55
+"qu'elle " x55
+"aires, " x55
+"dition" x55
+"bass" x55
+"trans" x55
+". Je " x55
+"famille " x55
+"yp" x55
+"âg" x55
+"ffér" x55
+"eaux " x55
 "compt" x55
+"matin" x55
+"ton " x55
+"écu" x55
+"cui" x55
+"er dans " x55
+"ères, " x55
+"attach" x55
+"mont" x55
+"empê" x55
+"entôt " x55
+"contin" x55
+"alors " x55
+"élev" x55
+"zer" x55
 "cett" x55
+"ud" x54
 "é à " x54
-"selon" x54
-"Lik " x54
+"join" x54
 "rè" x54
 "fic" x54
-"plat" x54
-"à leur " x54
-"fé" x54
-"alors " x54
-"join" x54
+"e, en " x54
+"ait le " x54
+"offici" x54
+"selon" x54
+"Lik " x54
 "èv" x54
-"aire, " x54
-"deug" x54
+"à leur " x54
+"timbal" x54
+"plat" x54
 "e
 d'" x54
-"offici" x54
-"ait le " x54
+"deug" x54
 "coutu" x54
-"ud" x54
+"fé" x54
+"ment" x54
+"cro" x54
 "ou de " x54
 "beaucoup" x54
-"timbal" x54
-"a à " x53
-"rapport" x53
 "ité, " x53
-"paraî" x53
-"tout" x53
-"fonc" x53
 "dés" x53
-"petite " x53
-"Ar" x53
-"bbaï" x53
+"a à " x53
 "prov" x53
-"provinc" x53
-"eux-" x53
-"e. D" x53
-"Bi" x53
-"suc" x53
-", mais " x53
-"s des " x53
 "ce qui " x53
 "et des " x53
+"rapport" x53
+"paraî" x53
+"eux-" x53
+"provinc" x53
+"tout" x53
+"fonc" x53
+"Bi" x53
+"Ar" x53
+"bbaï" x53
 "réuni" x53
-"é
-" x52
-"première " x52
-"Mon" x52
+"petite " x53
+"e. D" x53
 ". L'" x52
-"èl" x52
-"céd" x52
-"es;" x52
-"peut " x52
-"prem" x52
-"jour " x52
-"a de " x52
 "mis " x52
-"me de " x52
+"èl" x52
+"od" x52
+"a de " x52
 "érit" x52
-"plus s" x51
-"compatri" x51
-"dat " x51
-"refus" x51
-"roit " x51
-"rentr" x51
-"prop" x51
-"sour" x51
-"servi" x51
-"ant le " x51
-"entend" x51
-"prot" x51
-"mètr" x51
-"fronti" x51
-"qui se " x51
-" du
-" x51
-"eurs de " x51
-"dress" x51
-"aient" x51
+"me de " x52
+"première " x52
+"jour " x52
+"e dis" x52
+"Mon" x52
+"prem" x52
+"peut " x52
 "dom" x51
+"es;" x51
+"sour" x51
+"ant le " x51
+"qui se " x51
+"fronti" x51
+"dat " x51
+"céd" x51
+"compatri" x51
 "jusqu'à " x51
+"prop" x51
+"aient" x51
 "uit" x51
+"roit " x51
+"mètr" x51
+"prot" x51
+"rentr" x51
+"plus s" x51
+"entend" x51
+"eurs de " x51
+"servi" x51
+"dress" x51
 "ence, " x51
-"bon " x50
-"que d" x50
-"vint " x50
-"venir" x50
-"cler" x50
-"rai" x50
+"refus" x51
+"s des " x50
+", mais " x50
 "popula" x50
-"euses " x50
 "blanch" x50
+"aujourd'hui" x50
+"venir" x50
 "dign" x50
-"déj" x50
-"cents " x50
-"clav" x50
-"ordr" x50
-"entim" x50
-"jour, " x50
-"à des " x50
-"guerre " x50
 "anim" x50
+"à des " x50
+"en d" x50
+"provi" x50
+"déj" x50
+"ordr" x50
+"cents " x50
 "mes
 " x50
-"aujourd'hui" x50
 "auprès " x50
-"eur de " x50
-"provi" x50
-"champ" x50
+"rai" x50
+"jour, " x50
+"guerre " x50
+"bon " x50
+"vint " x50
+"clav" x50
 "arri" x50
-"un l" x49
-"capit" x49
-"vari" x49
-"éloign" x49
-"irent " x49
-"clam" x49
-"soi" x49
+"champ" x50
+"eur de " x50
+"retour" x50
+"euses " x50
+"cler" x50
+"entim" x50
+"eil " x49
+"bon" x49
 "toutes les " x49
-", en " x49
 "gro" x49
-"poss" x49
-"e. S" x49
-" deux " x49
+"quel " x49
+"irent " x49
 "son
 " x49
-"antes " x49
-"eille " x49
-"l'in" x49
-"âg" x49
-"bon" x49
 "Tegraï" x49
-"nation" x49
-" dit " x49
+"clam" x49
+"éloign" x49
 "'est " x49
-"accompagn" x49
-"boi" x49
-"seu" x49
-"quel " x49
-"eil " x49
-"antiqu" x49
+"un l" x49
 "Monseign" x49
-"une d" x48
-"à un " x48
-"civil" x48
-"emin" x48
-"rière " x48
-"er des " x48
-"auch" x48
-"chant" x48
-"tric" x48
+"seu" x49
+"eille " x49
+"accompagn" x49
+"poss" x49
+"vari" x49
+" dit " x49
+"antiqu" x49
+"e. S" x49
+"antes " x49
+", en " x49
+"boi" x49
+"soi" x49
+"capit" x48
+"investitur" x48
 "sions " x48
-"guerre" x48
-"ales " x48
-"loi" x48
+"quer" x48
+"imp" x48
 "bles " x48
+"(_" x48
+"centr" x48
+"chant" x48
+"siv" x48
 "rog" x48
-"s, le " x48
-"é et " x48
-"autant " x48
-"de leurs " x48
+"auch" x48
 "ka" x48
 "garde " x48
-"bri" x48
+"autant " x48
+"emin" x48
+"tric" x48
+"guerre" x48
 "profit" x48
-"imp" x48
-"centr" x48
-"esclav" x48
-"investitur" x48
-"(_" x48
-"siv" x48
+"rière " x48
 "te et " x48
-"hommes, " x47
-"terre " x47
-"espè" x47
-"ci " x47
-"bout " x47
-"fait" x47
-"étu" x47
-"respec" x47
-"princ" x47
-"_)" x47
-"Et " x47
-"er et " x47
-"cru" x47
-"tion, " x47
-"vie " x47
-"anti" x47
-"javelin" x47
-"relev" x47
-"esquel" x47
-"exc" x47
-"suit" x47
-"tard" x47
-"disait" x47
-"bil" x47
-"0 " x47
+"nation" x48
+"de leurs " x48
+"s, le " x48
+"bri" x48
+"loi" x48
+"é et " x48
+"à un " x48
+"e de l'" x48
+"esclav" x48
+"retourn" x48
+"intel" x48
+"intr" x48
+"civil" x48
+"ales " x48
 "cein" x47
+"0 " x47
+" du
+" x47
+"exc" x47
+"Et " x47
+"suit" x47
+"tion, " x47
+"princ" x47
+"és de " x47
+"ci " x47
+"fait" x47
+"respec" x47
+"tard" x47
+"anti" x47
+"bil" x47
+"étu" x47
+"vie " x47
+"er et " x47
+"_)" x47
+"disait-" x47
+"terre " x47
+"relev" x47
 "e;
 " x47
-"pal" x46
-" dont " x46
+"hommes, " x47
+"bout " x47
+"esquel" x47
+"javelin" x47
+"espè" x47
 "enne " x46
-"prim" x46
-"es. C" x46
-"Dedjazmatch, " x46
-"curi" x46
-"tôt " x46
 "t'" x46
-"hydromel" x46
-"à ses " x46
-"était
-" x46
-"aient à " x46
-"un des " x46
-"à la
-" x46
-"dét" x46
 "entour" x46
-"famill" x46
-"rond" x46
 "Damby" x46
 "pier" x46
-"ffr" x46
-"retourn" x46
-"e de l'" x46
-"connaî" x46
-"journé" x46
+"es. C" x46
+"cru" x46
 "quelques-un" x46
-"aient de " x45
-"campagn" x45
-"lass" x45
-"messag" x45
-"alak" x45
-"orig" x45
-"caract" x45
-"suffi" x45
-"her" x45
-"instr" x45
-"bouch" x45
-"moi " x45
-"comme
-" x45
-"tant" x45
-"ter " x45
-"On" x45
-"somm" x45
-"occa" x45
-"chargé" x45
-"honn" x45
+"famill" x46
+"prim" x46
+"connaî" x46
+"pal" x46
+"était
+" x46
+"dét" x46
+"tôt " x46
+"à ses " x46
+"un des " x46
+"hydromel" x46
+"aient à " x46
+"Dedjazmatch, " x46
+"rond" x46
+"à la
+" x46
+"ffr" x46
 "mon
 " x45
+"uri" x45
+"instr" x45
+"ant les " x45
 "es, des " x45
+"gagn" x45
+"comme
+" x45
+"bouch" x45
+"suffi" x45
+"ce d" x45
+"On" x45
+"orig" x45
+"moi " x45
+"alak" x45
+"caract" x45
+"her" x45
+"occa" x45
+"tant" x45
+"honn" x45
+"messag" x45
+"campagn" x45
+" dont " x45
+"couv" x45
+"aient de " x45
+"lass" x45
+"somm" x45
 "s;" x45
-"s, il " x44
-"porte " x44
-"manqu" x44
 "angl" x44
-"e, mais " x44
-"alg" x44
-"par un " x44
-"peine " x44
-"avions " x44
-"sembl" x44
-"emble " x44
-"amdir" x44
-"aient, " x44
-"grâ" x44
-"préci" x44
-"ast" x44
-"mari" x44
-"chevaux " x44
 "resp" x44
-"à, " x44
-"ze " x44
+"porte " x44
+"er une " x44
+"préci" x44
+"de ces " x44
+"s, il " x44
+"succ" x44
+"chevaux " x44
 "bag" x44
-"ceintur" x44
-"tellig" x44
+"sembl" x44
 "Lik Ats" x44
-"Lidj " x44
 "tac" x44
-"gagn" x44
-"eut " x44
+"ceintur" x44
+"amdir" x44
+"lin" x44
+"grâ" x44
+"aient, " x44
 ".
 
 L'" x44
-"de ces " x44
-"peupl" x43
-"prend" x43
-"demand" x43
-"assi" x43
+"Lidj " x44
+"ast" x44
+"alg" x44
+"à, " x44
+"hor" x44
+"ze " x44
+"er des " x44
+"emble " x44
+"peine " x44
+"avions " x44
+"eut " x44
+"par un " x44
+"mari" x44
 "fix" x43
-"nécess" x43
-"quand " x43
-"dist" x43
-"euv" x43
-"deven" x43
-"es à " x43
-"trop " x43
-"circonst" x43
-"pain" x43
-"cend" x43
-" sont " x43
+"ultan" x43
+"accu" x43
+"prend" x43
 "tion
 " x43
-"eût " x43
+"deven" x43
+"es à " x43
+"écess" x43
+"excep" x43
+"pla" x43
+"quand " x43
+"demand" x43
+"euv" x43
+"Le " x43
+"ph" x43
+" sont " x43
 "dépend" x43
-"ving" x43
 "bataill" x43
+". Il" x43
+"circonst" x43
+"pouss" x43
+"nécess" x43
+"je me " x43
+"e, mais " x43
+"aine de " x43
 "mais
 " x43
-". Il" x43
-"ph" x43
-"Le " x43
-"ans, " x43
-"venu" x43
-"aine de " x43
-"tourn" x43
-"
-d'" x43
-"accu" x43
-"pouss" x43
-"excep" x43
+"assi" x43
+"e, l'" x43
+"e du" x43
 "abor" x43
-"ultan" x43
 "zerain" x43
+"cend" x43
+"eût " x43
+"pain" x43
+"trop " x43
+"ving" x43
 "tenir" x43
-"je me " x43
-"Mé" x43
-"ant les " x43
-"mouv" x43
-"er une " x43
-"paraiss" x42
-"e. A" x42
-",00" x42
-"emeur" x42
+"écl" x43
+"ans, " x43
+"un d" x43
+"dist" x43
+"tomb" x43
+"maître " x42
+"gui" x42
 "Chalak" x42
-"omi" x42
-"larg" x42
-" lieu" x42
-"aqu" x42
-"continu" x42
 "cad" x42
-"car " x42
-"rendre " x42
-"sal" x42
+"hommes de " x42
+"ées, " x42
+"
+d'" x42
 "politiqu" x42
-"jur" x42
+"paraiss" x42
+"util" x42
+"continu" x42
+"sal" x42
+"rendre " x42
+" de
+l'" x42
+" deux " x42
+"intellig" x42
+"Mé" x42
 "»
 
 " x42
-"ait d'" x42
-"maître " x42
-"e; les " x42
-"e, l'" x42
-"plein" x42
 "attribu" x42
-"util" x42
-"gne " x42
-"entret" x42
-"recev" x42
-"e dev" x42
-"puis" x42
-"Ras, " x42
+",00" x42
+"ter " x42
 "er au " x42
-"esprit " x42
-"gui" x42
 "ville " x42
-"chau" x42
+"puis" x42
+"ait d'" x42
+" lieu" x42
+"esprit " x42
+"gne " x42
+"omi" x42
+"recev" x42
 "avec une " x42
-"hommes de " x42
-"têt" x41
-"ait la " x41
-"haut " x41
-"a le " x41
-"es. Les " x41
-"forme " x41
-"égamdir" x41
-"gauch" x41
-"accr" x41
-"Gondar, " x41
-"soci" x41
-"par une " x41
-"cel" x41
-"me dit" x41
-"chemin" x41
-"Bégamdir" x41
-". En " x41
-"peut-être " x41
-"vel" x41
-"intér" x41
-"aine " x41
-"portent " x41
-"cat" x41
-"jeune " x41
-"prendr" x41
+"entret" x42
+"e. A" x42
+"car " x42
+"Ras, " x42
+"emeur" x42
+"chau" x42
+"e; les " x42
+"larg" x42
+"plein" x42
 "et d'" x41
-"pagne " x41
-"facil" x41
-"e, et, " x41
-" un " x41
+"vel" x41
+"chemin" x41
 "vient " x41
-"Éthiopie, " x41
-" ou " x41
-"grandes " x41
-"ce d" x41
+"atta" x41
+"forme " x41
 "tout
 " x41
-"herb" x41
+". En " x41
+"aine " x41
+" un " x41
+"Éthiopie, " x41
+"intér" x41
+"prendr" x41
+"Bég" x41
+"Bégamdir" x41
+"Gondar, " x41
 "rac" x41
+"e dev" x41
+"ait la " x41
+"haut " x41
 "habitants " x41
+"têt" x41
+"facil" x41
+"soci" x41
+"a le " x41
+"portent " x41
+"conven" x41
+"gauch" x41
+"cel" x41
+"par une " x41
+"grandes " x41
+"jeune " x41
+"à une " x41
+"ques, " x41
+"e, et, " x41
+"cat" x41
+"pagne " x41
+"herb" x41
+" ou " x41
+"es. Les " x41
+"peut-être " x41
+"tes, " x40
+"brav" x40
+"assin" x40
+"Empi" x40
+"position " x40
+"formé" x40
+" sol" x40
+"moment " x40
+"êtes " x40
+"sub" x40
+"str" x40
+"ajout" x40
+"atif" x40
+"auprès de " x40
 "quarti" x40
-"ers, " x40
-"faisaient " x40
-"cré" x40
-"un d" x40
+"et l'" x40
+"bes" x40
+"astiqu" x40
+"propri" x40
+"écar" x40
+"cess" x40
+"pourr" x40
 ".
 
 C" x40
-"astiqu" x40
-"Empi" x40
-"str" x40
-"propri" x40
-"aign" x40
-"brav" x40
-"écar" x40
-" de
-l'" x40
-"formé" x40
-"tes, " x40
-"position " x40
-"tomb" x40
-"mêl" x40
-"moment " x40
-"auprès de " x40
-"atif" x40
-"arab" x40
-"à une " x40
-" sol" x40
-"sub" x40
-"pourr" x40
 "dans
 " x40
-"ajout" x40
-"bes" x40
-"e, de " x40
+"mêl" x40
+"aign" x40
+"cré" x40
+"faisaient " x40
+"arab" x40
 "avait
 " x40
-"assin" x40
+"ers, " x40
 "hu" x40
-"êtes " x40
-"Polémarqu" x40
-"sa
-" x39
-"provinces " x39
-"ation, " x39
-"emb" x39
-"ais
-" x39
-"situ" x39
-"Éthiopie " x39
-"connu" x39
-"Toudj" x39
-"tout le " x39
-"bientôt " x39
-"pan" x39
-"en d" x39
+"emb" x40
+"se trouv" x39
+"ures " x39
+"n'avait " x39
 "observ" x39
+"pan" x39
+"djourr" x39
+"Gr" x39
+"Éthiopie " x39
+"e, de " x39
+"assez " x39
+"ée de " x39
+"tout le " x39
+"qu'une " x39
+", l'" x39
+"provinces " x39
+"dire " x39
+"constitu" x39
 "e.
 
 Le " x39
 "ordonn" x39
-"n'avait " x39
+"bientôt " x39
 "droit" x39
-"Toudjourr" x39
-"Toudjourrah" x39
-"e du
+"ation, " x39
+"connu" x39
+"ais
 " x39
-"indiqu" x39
-"qu'une " x39
-"se re" x39
-"assez " x39
-"dire " x39
+"reven" x39
+"premier " x39
+"se d" x39
+"ési" x39
 "il s" x39
-"Gr" x39
-"se trouv" x39
+"Toudjourr" x39
+"se re" x39
+"situ" x39
+"sa
+" x39
 "e
 de " x39
-"premier " x39
-"barqu" x39
-"constitu" x39
-"ési" x39
-"solu" x38
-"Par" x38
-"pat" x38
-"combatt" x38
-"me, " x38
-"pour s" x38
-"Fr" x38
-"rev" x38
-"elle
-" x38
+"Toudjourrah" x39
+"également " x38
+"yeux " x38
+"indiqu" x38
+"rapp" x38
+"e; mais " x38
+".--D" x38
 "notre
 " x38
-"yeux " x38
-"épar" x38
-"pas de " x38
-"es et les " x38
-"dic" x38
-"à leurs " x38
-"ogu" x38
-"pla" x38
-"chass" x38
-"épo" x38
-"ordre " x38
-"e; il " x38
+"elle
+" x38
 "embr" x38
-"également " x38
-"plutôt " x38
-".--D" x38
-"ensi" x38
-"venu " x38
-", l'" x38
-"confir" x38
-"pouvoir " x38
-"plupart " x38
-", la " x38
-"es des " x38
-"troi" x38
-"peuple " x38
-"e; mais " x38
 "furent " x38
+"chass" x38
+"infl" x38
+"épo" x38
+"pat" x38
+"à leurs " x38
+"ensi" x38
+"es et les " x38
+"Par" x38
+"pour s" x38
+"épar" x38
+"ordre " x38
+"solu" x38
+"confir" x38
+"mouv" x38
+"rev" x38
+"dic" x38
+"combatt" x38
+"ogu" x38
+"plutôt " x38
+"pas de " x38
+"ait l'" x38
+"e; il " x38
+"pouvoir " x38
+"peuple " x38
+"troi" x38
+"peupl" x38
+"plupart " x38
 "Sultan" x37
-"cè" x37
-"ème " x37
-"but" x37
-"déser" x37
-"arqu" x37
-"ait l'" x37
-"ge " x37
-"Atsé" x37
-"cinq" x37
-"sse " x37
-"ces" x37
-"onç" x37
-"qu'en " x37
-"croy" x37
-"épau" x37
-"ret" x37
-" qui " x37
-"gur" x37
-"vêtement " x37
-"phy" x37
-"termin" x37
-"intéri" x37
-"s. Les " x37
-"cheval " x37
 "eur
 " x37
-"à-" x37
-"déf" x37
-"oï" x37
+"es des " x37
+"ge " x37
+"phy" x37
+"cinq" x37
 "opini" x37
 "ce que " x37
-"le plus " x37
-"tor" x37
-"ûmes " x37
-"et l'" x37
-"agré" x37
-"eint " x37
-"fils de " x37
-"rapp" x37
-"Man" x37
-"avec les " x37
-"indigènes " x37
-"sort" x37
-"tés " x37
-"père " x37
-"es en " x37
-"rés" x37
-"e, qui " x37
-"ogi" x37
-"chefs " x37
+"age, " x37
+"vêtement " x37
 "pour l'" x37
+"s. Les " x37
+"épau" x37
+"ogi" x37
+"onç" x37
+"qu'en " x37
+"rés" x37
+"ret" x37
+"agré" x37
+"Man" x37
+"chefs " x37
+"sort" x37
+"Fr" x37
+"le plus " x37
+"ème " x37
+"avec les " x37
+"lib" x37
 "campagne " x37
+"tés " x37
+"fils de " x37
+"père " x37
+"gur" x37
+"oï" x37
+"Atsé" x37
+"indigènes " x37
+" qui " x37
+"déser" x37
+", la " x37
+"à-" x37
+"arqu" x37
+"eint " x37
+"ûmes " x37
 "Chaw" x37
-"ons
-" x36
+"ue " x37
+"cheval " x37
+"déf" x37
+"intéri" x37
+"tor" x36
+"our " x36
 "sujet" x36
-"faut " x36
-"prit" x36
-"volon" x36
 "dj
 " x36
-"quoique " x36
-"tro" x36
-"à la main" x36
-"obé" x36
-" seul" x36
-"deux" x36
+"me, " x36
+"aband" x36
 "cavaleri" x36
-"cont" x36
-"mang" x36
-"Ra" x36
-"conduit" x36
+" seul" x36
 "s. C" x36
 "je ne " x36
+"ceux qui " x36
+"volon" x36
+"conduit" x36
+"entreten" x36
+"agu" x36
+"Une " x36
+"parmi les " x36
 "sup" x36
-"aband" x36
-"intellig" x36
 "bonne " x36
-"allait " x36
-"empêch" x36
-"ignor" x36
-"fantassin" x36
+"curi" x36
+"quoique " x36
+"obé" x36
 "pas
 " x36
-"lib" x36
-"consé" x36
+"mang" x36
+"éner" x36
+"empêch" x36
 "fficil" x36
-"parmi les " x36
+"cont" x36
+"ignor" x36
+"ons
+" x36
+"croy" x36
+"il d" x36
+"faut " x36
+"fantassin" x36
+"à la main" x36
+"orn" x36
 "e.
 
 C" x36
-"pein" x36
-"ceux qui " x36
-"éner" x36
-"entreten" x36
-"our " x36
-"agu" x36
-"qu'on" x36
-"tête " x36
-"ée de " x36
 "vis" x36
-"Une " x36
+"deux" x36
+"Ra" x36
+"pein" x36
+"allait " x36
 "repa" x36
-"e, ils " x35
-"passag" x35
-"parut " x35
-"rien " x35
-"nous nous " x35
-"es du " x35
-"nomin" x35
-"e. La " x35
-"couver" x35
-"reste " x35
-"venir " x35
-"commenc" x35
-"aucun " x35
-"prince " x35
-"dit-" x35
-"d'autres " x35
-"fri" x35
-"poi" x35
-"il, " x35
-"s et des " x35
-"yeux" x35
+"sse " x36
+"tête " x36
+"rappel" x35
 "èrent
 " x35
-"rappel" x35
-"dont les " x35
-"flu" x35
-"uy" x35
-"ers" x35
-"bandes " x35
-"ôt" x35
-"tient " x35
-"aurait " x35
+"direc" x35
+"parut " x35
 ".
 
 Je " x35
+"e. La " x35
+"es du " x35
+"poi" x35
+"réserv" x35
+"ôt" x35
+"commenc" x35
+"rien " x35
+"termin" x35
+"aucun " x35
+"ques" x35
+"but" x35
+"ait en " x35
+"eilli" x35
 "te
 " x35
+"s et des " x35
 "èvr" x35
-"eilli" x35
-"ait en " x35
+"tient " x35
+"nomin" x35
+"de de " x35
+"es en " x35
+"nous nous " x35
+"reste " x35
+"emi-" x35
+"fri" x35
+"uy" x35
+"d'autres " x35
+"ers" x35
+"trai" x35
+"es.
+" x35
+"bandes " x35
+"l'Abbaï" x35
+"yeux" x35
+"és" x35
+"aurait " x35
+"dont les " x35
+"qu'on" x35
+"prince " x35
 "e.
 
 --" x35
-"de de " x35
-"emi-" x35
-"réserv" x35
-"l'Abbaï" x35
-", comme " x35
-"direc" x35
-"nous, " x34
-"ques" x34
-"maison " x34
-"_ (_" x34
-"affair" x34
-"besoin" x34
-"-même " x34
-". Qu" x34
-"me dit " x34
-"prépar" x34
-"journ" x34
-"terre" x34
-"sec" x34
-"conséqu" x34
-"ures " x34
+"barqu" x34
 "Birro, " x34
-"person" x34
-"personne " x34
-"oeuf" x34
-" laiss" x34
-"à dé" x34
-"prét" x34
+"e du
+" x34
 "anis" x34
-"arbr" x34
-"sil" x34
-"exac" x34
+"n'en " x34
+"expé" x34
+"ou, " x34
 "ai
 " x34
-"n'était " x34
-"t à " x34
-"Un" x34
-"Ras Ali" x34
+"prépar" x34
+"paysans " x34
+"oeuf" x34
+"-même " x34
+"séqu" x34
+". Qu" x34
+"sonne " x34
+"personne " x34
+"ière " x34
+"qui les " x34
+"terre" x34
+"_ (_" x34
+"conséqu" x34
+"réfu" x34
+"me dit " x34
+"Tabor" x34
+"général" x34
+"votre " x34
+"maison " x34
+"bas" x34
+"arbr" x34
 "sur
 " x34
-"pit" x34
-"votre " x34
-"expé" x34
-"viol" x34
-"se d" x34
-"és" x34
-"accep" x34
-"qui les " x34
-"chal" x34
-"réfu" x34
-"mou" x34
-"afin de " x34
-"paysans " x34
-"Tabor" x34
-"ost" x34
-"tenant " x34
-"général" x34
-"qu'à " x34
 "étions " x34
-"n'en " x34
+"accep" x34
+"nous, " x34
+"n'était " x34
+"Ras Ali" x34
 "piè" x34
-"cond" x33
-"a, et " x33
-"aient la " x33
+"Un" x34
+"afin de " x34
+"Prince, " x34
+"qu'à " x34
+"besoin" x34
+"pit" x34
+"bén" x34
+"tenant " x34
+"affair" x34
+"sec" x34
+" laiss" x34
+"sil" x34
+"exac" x34
+"viol" x34
+"prét" x34
+"montr" x34
+"t à " x34
+"ost" x34
 "habitant" x33
-"ailleur" x33
-",000 " x33
-"es.
-" x33
-"Gallas " x33
-"agn" x33
+"combat " x33
+"a, et " x33
 "onc " x33
 "couch" x33
-"tiss" x33
-"attaqu" x33
-"Mi" x33
+"ris" x33
 "?
 
 " x33
-"fortun" x33
-"communi" x33
-"rout" x33
-"fati" x33
-"in " x33
-"toujour" x33
-"que les
-" x33
-"voil" x33
-"quelques
-" x33
-"franç" x33
-"culi" x33
-"Prince, " x33
-"fis " x33
-"mettent " x33
-"protec" x33
-"Damo" x33
+"terres " x33
+"intro" x33
 "notables " x33
-"es. Il " x33
-"carab" x33
 "alla " x33
-"voqu" x33
-"nuit " x33
-"s. Il " x33
-"qu'il
-" x33
-"ons" x33
-"citoy" x33
-"bas" x33
 "déjà " x33
 "tions, " x33
-"es, de " x33
-"terres " x33
-". M" x33
-"celles " x33
-"enfant" x33
-". Mais " x33
-"haute " x33
-"asse" x33
+"fati" x33
+"que les
+" x33
+"citoy" x33
+"s. Il " x33
+"carab" x33
+"protec" x33
+"es. Il " x33
+"in " x33
+"tiss" x33
 "par ses " x33
-"ière " x33
+"toujour" x33
+"enfant" x33
+"asse" x33
+". Mais " x33
+"Mi" x33
+"ent à " x33
+"e, ils " x33
 "abandonn" x33
+"voil" x33
+"rout" x33
+"ailleur" x33
+"ons" x33
+"fis " x33
+"celles " x33
+"communi" x33
+",000 " x33
 "État" x33
-"ris" x33
-"combat " x33
-"missionn" x32
-"suffis" x32
-"Gojam, " x32
-"dont la " x32
-"premier" x32
-"eux et " x32
-"enlev" x32
-"moins, " x32
-"telle " x32
-"ge" x32
-"mieux " x32
-"proté" x32
-"franch" x32
-"suis " x32
-"i " x32
-" doit " x32
-"dar" x32
-"épr" x32
-"derrière " x32
+"agn" x33
+"haute " x33
+"qu'il
+" x33
+"quelques
+" x33
+"i " x33
+"nuit " x33
+"franç" x33
+". M" x33
+"Damo" x33
+"Gallas " x33
+"cond" x33
+"aient la " x33
+"ait les " x32
+"parmi " x32
+"rogman" x32
 "mour" x32
-": «" x32
+"nô" x32
+"telle " x32
+"où l'" x32
+"origin" x32
+"suis " x32
+"ym" x32
+"e, qui " x32
+"suivi" x32
+" d'autres " x32
+"occup" x32
+"ifi" x32
+"moins, " x32
+"particu" x32
+"ci, " x32
+"boeuf" x32
+"mieux " x32
+"e dans le " x32
+"Dabr" x32
+"me fit " x32
+"red" x32
+"dont la " x32
+"demeur" x32
+"suffis" x32
 "cette
 " x32
-"boeuf" x32
-"omp" x32
-"rogman" x32
-"ou, " x32
-"verses " x32
-"me fit " x32
-"Ég" x32
-"eaux" x32
-"huiss" x32
-"suivi" x32
-"nô" x32
-"différ" x32
-"au d" x32
-"occup" x32
-"demeur" x32
-"s. D" x32
-"cél" x32
-" d'autres " x32
-"parmi " x32
-"de, " x32
-"atis" x32
-"frapp" x32
-"ym" x32
-"origin" x32
-"tenir " x32
-"ifi" x32
-" dans le " x32
-"ait les " x32
-"Les " x32
-"red" x32
-"dès " x32
 "manifes" x32
-"cinq " x32
-"de s'" x32
 "de ses
 " x32
-"où l'" x32
-"lo" x32
-"e dans le " x32
-"abond" x32
-"erci" x32
-"tente " x32
-"particuli" x32
+": «" x32
+"premier" x32
+"eux et " x32
 "az" x32
-"Dabr" x32
-"erait " x32
-"-mêm" x31
-"peu de " x31
-"tron" x31
-"rondel" x31
-"grâce " x31
-"gré " x31
-"dont le " x31
-"guerre, " x31
-"guli" x31
-"Ras" x31
+"atis" x32
+"particuli" x32
+"fortun" x32
+"franch" x32
+"dès " x32
+"ge" x32
+"verses " x32
+"dar" x32
+"s. D" x32
+"missionn" x32
+"au d" x32
+"tente " x32
+"Ég" x32
+"huiss" x32
+"mou" x32
+"proté" x32
+"frapp" x32
+"de, " x32
+"tenir " x32
+"cinq " x32
+"abond" x32
+"Gojam, " x32
+"épr" x32
+"derrière " x32
+"omp" x32
+"enlev" x32
+"de s'" x32
+"influ" x32
+"eaux" x32
+" dans le " x32
+"couver" x32
+"Les " x32
+"différ" x32
+"comme le " x31
+"reste, " x31
+"avent" x31
+"cél" x31
 "fusilier" x31
-"és de " x31
-"crain" x31
+"ences " x31
+"grâce " x31
+"réclam" x31
+"rondel" x31
+"esc" x31
+"ité de " x31
+"El" x31
+"sit " x31
+"s et de " x31
+"ant l'" x31
+"erci" x31
+"tenait " x31
+"Sab" x31
+"asil" x31
 "seule " x31
-"eu " x31
-"énergi" x31
+"place " x31
+"crain" x31
+"a l'" x31
+"Dieu " x31
+"Ti" x31
+"peu de " x31
+"âch" x31
+"moyen" x31
+"impérial" x31
 "Dedjadj
 " x31
-"avent" x31
-"Sab" x31
-"ni " x31
-"intro" x31
-"âch" x31
-"e le " x31
-"emment " x31
-"Dieu " x31
-"ent la " x31
-"ité de " x31
-"ation de " x31
-"place " x31
-"El" x31
-"elles, " x31
-", et il " x31
-"avec la " x31
-"Ti" x31
-"réclam" x31
-"reste, " x31
-"sit " x31
-" demand" x31
-"err" x31
-"esc" x31
-"er sa " x31
-"ent à " x31
-"ambi" x31
-"moyen" x31
-"tenait " x31
-"impérial" x31
-"supéri" x31
-"ences " x31
-"montr" x31
-"s et de " x31
-"caus" x31
-"Conefo" x31
 "èler" x31
-"asil" x31
+"mettent " x31
+"énergi" x31
+"-mêm" x31
+"elles, " x31
+"dont le " x31
+"guli" x31
+"Ras" x31
+"ation de " x31
+"cheval, " x31
+"avec la " x31
+"eu " x31
+"ent la " x31
+", et il " x31
+"supéri" x31
+"ambi" x31
+"er sa " x31
+"err" x31
+"clerg" x31
+"Conefo" x31
+"guerre, " x31
+"passag" x31
 "bataille " x31
-" sans " x30
-"gardi" x30
-"nar" x30
-"troupes " x30
-"uc" x30
-"églis" x30
-"que ce " x30
-"d'abord" x30
-"ci, " x30
-"pèler" x30
-"cas " x30
-"après, " x30
-"partir" x30
-" li" x30
-"arrière" x30
-"petites " x30
-"tion des " x30
-"opé" x30
-"prêt" x30
-"avant-" x30
+"emment " x31
+"caus" x31
+"gré " x31
 "c'était " x30
+"après, " x30
+"aller " x30
+"ni " x30
+"façon" x30
+"prisonnier" x30
+"j'étais " x30
+"pill" x30
+"d'abord" x30
+"temps de " x30
+"partir" x30
+"mis" x30
+"qualité" x30
+"églis" x30
+"cas " x30
+"il était " x30
+"é en " x30
+"arrière" x30
+"rô" x30
 "ou les " x30
-"es sont " x30
-"jusqu'à la " x30
-"fatigu" x30
+"manqu" x30
+"régi" x30
+"An" x30
+"gardi" x30
+" li" x30
+" sans " x30
+"Après " x30
+"e le " x30
 "lui
 " x30
-"rô" x30
-"prisonnier" x30
-"e dont " x30
-"itu" x30
-"ue " x30
-"j'étais " x30
-"Après " x30
-"réfugi" x30
-"é en " x30
-"velop" x30
-"cheval, " x30
-"pill" x30
-"m'ap" x30
-"An" x30
-"aller " x30
-"ël" x30
-"a l'" x30
-"façon" x30
-"chevaux" x30
-"régi" x30
-"à se " x30
 "envoya " x30
+"chevaux" x30
+"ël" x30
+"es de l'" x30
+"tion des " x30
+"réfugi" x30
+"jusqu'à la " x30
+"est" x30
+"pèler" x30
 "on de " x30
-"temps de " x30
+"petites " x30
+"velop" x30
+"e dont " x30
+"approch" x30
+"à se " x30
+"nar" x30
 "voir " x30
-"age, " x30
-"mond" x30
-"qualité" x30
-"mis" x30
-"justic" x29
-" une " x29
-"perç" x29
-"festin" x29
-"ésiastiqu" x29
-"clésiastiqu" x29
-"e. Mais " x29
-"partie " x29
-"tend" x29
-"avanc" x29
-"poser" x29
-"poitr" x29
-"abri" x29
-"n'ont " x29
-"attir" x29
-"e des
-" x29
-"content" x29
-"il était " x29
-"mauv" x29
-"it-" x29
-". J'" x29
-"cost" x29
-"ïd" x29
-"duc" x29
-"est" x29
-"front " x29
-"pensé" x29
+"itu" x30
+"que ce " x30
+"voqu" x30
+"fatigu" x30
+"opé" x30
+"avant-" x30
+"crou" x30
 "chez le " x29
+"poser" x29
+"clési" x29
+"s su" x29
+"s sans " x29
+"quitt" x29
+"fût " x29
+"mobil" x29
+"tantôt " x29
+"comme les " x29
+"nôtr" x29
+"amment " x29
+"viennent " x29
+"e. Il" x29
+"poitr" x29
+"festin" x29
+"appr" x29
+"abri" x29
 "commen" x29
-"IT" x29
-"offr" x29
-"ques, " x29
-"oubli" x29
-"chrétienn" x29
+"tal" x29
+"abb" x29
+"conserv" x29
+"aim" x29
+"ecclési" x29
 "ecclésiastiqu" x29
-"comme le " x29
-"suite " x29
-"que tu " x29
+"autorité" x29
+"age" x29
 ".
 
 D" x29
-"tantôt " x29
-"ent le " x29
-"amment " x29
-"quitt" x29
-"plui" x29
-"assembl" x29
-"s sans " x29
-"vé" x29
-"mur" x29
-"age" x29
-"tal" x29
-"conserv" x29
-"ernier " x29
-"orn" x29
-"viennent " x29
-"Waïzoro Man" x29
-" le d" x29
 "sépar" x29
-"Oubié" x29
-"es de l'" x29
-"class" x29
-"europé" x29
-"ant l'" x29
-"espér" x29
-"e. Il" x29
+"es sont " x29
+"istr" x29
+"mur" x29
+"partie " x29
 "ande " x29
-"fût " x29
-"uiv" x29
-"s en " x29
-"préfér" x29
-"sus" x29
-"autorité" x29
-"approch" x29
+"content" x29
+" le d" x29
+"à dé" x29
+"chrétienn" x29
+"assembl" x29
+"pensé" x29
+"plui" x29
 "Quelqu" x29
-"mobil" x29
-"es, mais " x29
+"suite " x29
 "mule " x29
-"aim" x29
-"nôtr" x29
-"ent en " x28
-"_ et " x28
-"a la " x28
-"es de la " x28
-"arrière-" x28
-". Ils " x28
-"Nos " x28
-"neu" x28
-"til" x28
-"malheur" x28
-"ologi" x28
-"exécu" x28
-"commenç" x28
-"poign" x28
-"désir" x28
-"père" x28
-"maladi" x28
-"influ" x28
-"HA" x28
-"garni" x28
-"usage " x28
-"mille " x28
-", et, " x28
+". J'" x29
+"europé" x29
+"attir" x29
+"duc" x29
+" une " x29
+"tron" x29
+"espér" x29
+"offr" x29
+"Waïzoro Man" x29
+"mond" x29
+"mauv" x29
+"oubli" x29
+"n'ont " x29
+"IT" x29
+"avanc" x29
+"je m'" x29
+"préfér" x29
+"tend" x29
+"ent le " x29
+"e des
+" x29
+"que tu " x29
+"ole " x29
+"Oubié" x29
+"ïd" x29
+"cost" x29
+"perç" x29
+"class" x29
+"ernier " x29
+"front " x29
+"troupes " x29
+"sus" x29
+"uiv" x29
+"e. Mais " x29
+"Polémarqu" x29
+"la plus " x28
 "reg" x28
-"hiver" x28
-"répond" x28
-"ussi" x28
-"assist" x28
-"favor" x28
-"entré" x28
-"illes " x28
-"affec" x28
-"écou" x28
+"ait au " x28
 "èrement " x28
-"sai" x28
-"compatriot" x28
-"oir, " x28
-"s.
-" x28
-"du s" x28
-"au s" x28
-"ins " x28
-"conven" x28
-"aug" x28
-"composé" x28
-"au camp" x28
-"
-l'" x28
-"compos" x28
-"gouverneur" x28
-"_ ou " x28
-"00 " x28
-"corps " x28
-"Égyp" x28
-"à cau" x28
-"oup" x28
+"berg" x28
 "s
 de " x28
+"compos" x28
+"bour" x28
+"til" x28
 "Moussawa, " x28
-"la plus " x28
-"Agaw" x28
-", qui " x28
+"os " x28
+"commenç" x28
+"_ ou " x28
+". Ils " x28
+"affec" x28
+"compatriot" x28
+"lui, " x28
+"Égyp" x28
+"assist" x28
+"s de
+" x28
+"ologi" x28
+"justic" x28
+"a la " x28
+"_ et " x28
+"père" x28
+"bâtim" x28
 "me donn" x28
+"ussi" x28
+"00 " x28
+"composé" x28
+"
+l'" x28
+"attaqu" x28
+"Agaw" x28
+"s.
+" x28
+"garni" x28
+"arrière-" x28
+"intim" x28
+"répond" x28
+"au s" x28
+"Nos " x28
+"illes " x28
+"neu" x28
+"malheur" x28
+"usage " x28
+"poign" x28
+"entraîn" x28
+"désir" x28
+"du s" x28
+"à cau" x28
 "ance
 " x28
-"bour" x28
-"bâtim" x28
-"ieus" x27
-"ceux" x27
-"èrent" x27
-"lah" x27
-"vieill" x27
-"faveur" x27
-"Ymer " x27
-"égu" x27
-"mir" x27
-"pour se " x27
-"frère " x27
-"j'avais " x27
-"vérit" x27
-"tes de " x27
-"prati" x27
-"à s'" x27
-"étoff" x27
-"mort " x27
-"accord" x27
-"où les " x27
-"istr" x27
-"intim" x27
-"point" x27
-"cot" x27
-"comme les " x27
-"age de " x27
-"e di" x27
-"Dedjadj Oubié" x27
-"berg" x27
-"jamais " x27
-"es de
+"ent en " x28
+"mille " x28
+"aug" x28
+"hiver" x28
+"favor" x28
+"maladi" x28
+"sai" x28
+"oir, " x28
+"HA" x28
+"nos
 " x27
+"égu" x27
+"e di" x27
+"gouverneur" x27
+"age de " x27
+"prud" x27
+"prati" x27
+"préven" x27
+"quelquefoi" x27
 "ahar" x27
-"intéress" x27
+"uc" x27
+"té, " x27
+"j'avais " x27
+"étoff" x27
+"erç" x27
+"jamais " x27
+"beur" x27
+"jusqu'au " x27
+"es, mais " x27
+"ieus" x27
+"Dedjadj Oubié" x27
+" demand" x27
+"vieill" x27
+"frère " x27
+"; ils " x27
+"cot" x27
+"faveur" x27
+"envers " x27
 "autour de " x27
+"lah" x27
+"où les " x27
+"tes de " x27
+"mort " x27
+"prit" x27
+", qui " x27
+"lorsque " x27
+"accord" x27
+"pour se " x27
+"thè" x27
+"ait des " x27
+"forc" x27
 "tis" x27
-"go" x27
-"lui, " x27
+"réguli" x27
+"adop" x27
+"mir" x27
+"dé " x27
+"à s'" x27
+"ant des " x27
+"position" x27
+"Ymer " x27
+"ent des " x27
+"e:" x27
+"nommé " x27
+"vérit" x27
+"point" x27
+"èrent" x27
+"intéress" x27
+"qu'elles " x27
+"ceux" x27
 "soldat " x27
 " leur
 " x27
-"en dé" x27
-"nommé " x27
-"ent des " x27
-"s su" x27
-"ant des " x27
-"quelquefoi" x27
-"qu'elles " x27
-"e:" x27
-"position" x27
-"réguli" x27
-"adop" x27
-"prud" x27
-"dé " x27
-"beur" x27
-"thè" x27
-"envers " x27
-"ait au " x27
-"nos
-" x27
-"; ils " x27
-"forc" x27
-"lorsque " x27
-"erç" x27
-"encour" x26
-"procur" x26
-"cela " x26
-"tenaient " x26
+"us, " x27
+"remarqu" x26
+"rapid" x26
+"Mal" x26
 "plic" x26
-"bagag" x26
-"se dé" x26
-"té, " x26
-"Gouvern" x26
-"sionomi" x26
-"tress" x26
-", s'" x26
-"clergé" x26
-"prétend" x26
-"vieillard" x26
-"RE " x26
-"soin" x26
-"amar" x26
-"gouvernement " x26
+"eti" x26
+"oivent " x26
+"es, de " x26
 "aquelle " x26
-"er leur " x26
-"ât " x26
-"ant d'" x26
-"annonç" x26
-"ait des " x26
-"s de son " x26
-"chacun " x26
-"comme un " x26
-"de ce " x26
-"nation " x26
-"au-" x26
-"nombre de " x26
-" loin" x26
-"plaid" x26
-"ité
+"e, et
 " x26
-"recu" x26
+"enfants " x26
+"conf" x26
+"go" x26
+"annonç" x26
+"e. Je " x26
+"ettre " x26
+"entré" x26
+"concil" x26
+"servit" x26
+"hist" x26
+", à " x26
+"clerc" x26
+"amar" x26
+"au-" x26
+"nation " x26
 "e:
 
 --" x26
 "ation
 " x26
-"enfants " x26
+"aux s" x26
+"trui" x26
+"tenaient " x26
+", s'" x26
+"chang" x26
+"autant plus " x26
+", et, " x26
+"pouill" x26
+"vieillard" x26
+"perd" x26
+"Gouvern" x26
 "gour" x26
+"ité
+" x26
+" serv" x26
+"plaid" x26
+"Empir" x26
+"ce qu'il " x26
+"pén" x26
+"nombre de " x26
+"RE " x26
+"carabin" x26
+"e de
+l'" x26
+"s de son " x26
+"s en " x26
+"encour" x26
+"soin" x26
+"Grec" x26
+"huit " x26
+"indis" x26
+"es de la " x26
+"cela " x26
+"n'y " x26
+"recu" x26
+"e, nous " x26
+"Lik Atskou" x26
 "évén" x26
-"encein" x26
+".--Le " x26
+"pour lui" x26
+", comme " x26
 "e.
 
 Les " x26
-"Grec" x26
-"oire " x26
-"n'y " x26
-"e et
-" x26
-"clerc" x26
-"plus, " x26
-"Empire " x26
+"t le " x26
+"gouvernement " x26
 "expres" x26
-"servit" x26
-"pouill" x26
-".--Le " x26
-"e de
-l'" x26
-" serv" x26
-"conf" x26
-", à " x26
-"écri" x26
-"porter " x26
-"och" x26
-"e. Je " x26
-"pour lui" x26
-"diverses " x26
-"ole " x26
-"Empir" x26
-"clin" x26
-"perd" x26
 "désor" x26
-"rapid" x26
-"hist" x26
-"carabin" x26
-"era " x26
-"chang" x26
-"remarqu" x26
-"concil" x26
-"adj" x26
-"huit " x26
-"aux s" x26
-"autant plus " x26
-"es, le " x26
-"oivent " x26
-"eti" x26
-"s de
-" x26
+"prétend" x26
+"corps " x26
+"Empire " x26
+" loin" x26
+"comme un " x26
+"diverses " x26
+"chacun " x26
+"tress" x26
+"bagag" x26
+"oire " x26
 "équi" x26
-"trui" x26
-"Mal" x26
-"e, nous " x26
-"Lik Atskou" x26
-"éné" x26
-"e, et
-" x26
-"ettre " x26
+"adj" x26
+"porter " x26
+"oblig" x26
+"encein" x26
+"plus, " x26
+"ant d'" x26
+"appliqu" x26
+"sionomi" x26
+"indépend" x26
+"ne d" x25
+"résolu" x25
+"hum" x25
+"on l'" x25
+"Quelques " x25
+"thé" x25
+"rav" x25
+"grac" x25
+"médiat" x25
+"es:" x25
+"entô" x25
+"fleuv" x25
+"moeurs " x25
+"alogu" x25
+". Nous " x25
+"era " x25
+"zz" x25
+"ébr" x25
+"romain" x25
+"Polémarques " x25
+"quement " x25
+"ai à " x25
+"mer, " x25
+"fou" x25
+"un peu " x25
+"se de " x25
+"trent" x25
+"Innar" x25
+"amm" x25
+"grav" x25
+" suzerain" x25
+"adress" x25
+", nous " x25
+"e dans les " x25
+"engage" x25
+"de son
+" x25
 ". Le
 " x25
-"lanc" x25
-"noir" x25
-"appliqu" x25
-"; je " x25
-"e dans l'" x25
-", nous " x25
-"elle-" x25
-"Polémarques " x25
-"médiat" x25
-"aventur" x25
-"ai à " x25
-"s, en " x25
-"caractère " x25
-"église " x25
-"accid" x25
-"e, je " x25
-"es:" x25
-"est-" x25
-"rejoin" x25
-"eurs" x25
-"dans une " x25
-"thé" x25
-"résolu" x25
-"congé" x25
-"fou" x25
-"us, " x25
-" suzerain" x25
-"mesur" x25
-"Quelques " x25
-". Les
-" x25
-"Tu " x25
-"at de " x25
-"entô" x25
-"chacun" x25
-"on l'" x25
 "tout, " x25
-"rav" x25
-"esquels " x25
-"tel " x25
-"amarign" x25
-"tan" x25
-"pul" x25
-"inf" x25
-"vu " x25
-"grac" x25
-"trent" x25
-"physionomi" x25
-"tap" x25
-"ram" x25
-"là, " x25
-"zz" x25
+"contribu" x25
+"elle-" x25
+"voit " x25
+"reconnaiss" x25
+"eurs" x25
+"erait " x25
+"camp, " x25
+"sent " x25
+"ins " x25
+"libér" x25
+"ée en " x25
 "Mon " x25
+"ram" x25
+"rejoin" x25
+"là, " x25
+"écri" x25
+"dans une " x25
+"tap" x25
+"s, en " x25
+"accid" x25
+"esquels " x25
+"noir" x25
+"produi" x25
+"tel " x25
+"longtemps " x25
+"est-" x25
+"physionomi" x25
+"tan" x25
+"at de " x25
+"vu " x25
+"Innary" x25
+"atten" x25
+"Tu " x25
+"ène " x25
+"lanc" x25
 "elles
 " x25
-"Gabr" x25
-"mer, " x25
-"appuy" x25
-"grav" x25
-"produi" x25
-"engage" x25
-". Nous " x25
-" est " x25
-"un peu" x25
-"reconnaiss" x25
-"prol" x25
-"t le " x25
-"moeurs " x25
-"libér" x25
-"e dans les " x25
-"sent " x25
-"hum" x25
-"un peu " x25
-".»
-
-" x25
-"Innar" x25
-"Innary" x25
-"petits " x25
-"romain" x25
-"fleuv" x25
-"amm" x25
-"alogu" x25
 "s.
 
 --" x25
-"adress" x25
-"contribu" x25
-"er sur" x25
-"de son
-" x25
-"quement " x25
-"voit " x25
-"s soldat" x25
-"atten" x25
+"essiv" x25
+"Gabr" x25
 "choses " x25
-"ébr" x25
-"debou" x24
-"_), " x24
-"résist" x24
-"Sain" x24
-"prenant " x24
-"longtemps " x24
-"de la
-" x24
-"entraîn" x24
-"en soi" x24
-"dans un " x24
-"Arab" x24
-"s que " x24
-"gé " x24
-"e. L'" x24
-"sont
-" x24
-"entre les " x24
-"quin" x24
-"teint " x24
-"t et " x24
-"Depuis " x24
-"formes " x24
-"e. Nous " x24
-"reconnaî" x24
-"souv" x24
-"is " x24
-"affai" x24
-"vinrent " x24
-"on se " x24
-"serait " x24
-"victoi" x24
-"mon frère, " x24
-"able, " x24
-"ant et " x24
-"apet" x24
+". Les
+" x25
+"er leur " x25
+"e dans l'" x25
+"s soldat" x25
+"quin" x25
+"prol" x25
+"ôn" x25
+"appuy" x25
+"ât " x25
+"inf" x25
+"d'une
+" x25
+"petits " x25
+"mesur" x25
+"pul" x25
+".»
+
+" x25
+"un peu" x25
+"e et
+" x25
+"armes, " x25
+"caractère " x25
+" est " x25
+"amarign" x25
+"par sa " x24
+"advers" x24
 "er aux " x24
-"tuni" x24
-"; l'" x24
-"troupe" x24
-"Mo" x24
-"n'a " x24
-"accus" x24
-"aisé" x24
-"temps, " x24
-"intérêt" x24
-"HAP" x24
-"HAPIT" x24
-" et
-" x24
-"eû" x24
-"ém" x24
 "compagni" x24
 "froi" x24
-"indis" x24
-"cuisin" x24
-"emploi" x24
+"ou des " x24
+" et
+" x24
+"ili" x24
+"moyen " x24
+"dans un " x24
+"_), " x24
+"HAP" x24
+"vrai" x24
 "ée
 " x24
-"a Tabor" x24
-"yr" x24
-"dain" x24
-"évit" x24
-" dur" x24
-"paraît " x24
-" que " x24
-"rédui" x24
-"firent " x24
-"ou des " x24
-"tre, " x24
-"s. S" x24
-"s de sa " x24
-"ïdine " x24
-"Dambya, " x24
-"aîch" x24
-"fraîch" x24
-"Kou" x24
-"ili" x24
-"mêmes " x24
-"Rou" x24
-"possi" x24
-"mag" x24
-"convers" x24
-"derniers " x24
-"À l'" x24
-"par sa " x24
-"d'une
-" x24
-"vrai" x24
-"réput" x24
-"kaël" x24
-"Mikaël" x24
-"action " x24
-"fois, " x24
-"pér" x24
-"Moussawa" x24
-"ourrit" x24
-"HAPITRE " x24
-"entir" x24
-"reb" x24
-"moyen " x24
-" servi" x24
-"appé" x24
-"éclat" x24
-"elli" x24
-"patri" x24
-" si " x24
+"repr" x24
 "ils s" x24
-"mois " x24
+"prolong" x24
+"pér" x24
+" dur" x24
+"tuni" x24
+"derniers " x24
+"serait " x24
+"il avait " x24
+"ourrit" x24
+"yr" x24
+"Sain" x24
+"réput" x24
+"il ne " x24
+"arrê" x24
+"entre les " x24
+"is " x24
 "tradition" x24
-"ement des " x24
-"advers" x24
+"e. L'" x24
+"elli" x24
+"able, " x24
+"HAPIT" x24
+"HAPITRE " x24
+"énéch" x24
+"inqui" x24
+"aisé" x24
+"emploi" x24
+"un d'" x24
+"du d" x24
+"souv" x24
+"aventur" x24
+"formes " x24
+"s. S" x24
+"patri" x24
+"paraît " x24
+"accus" x24
+"vinrent " x24
+"firent " x24
+"en soi" x24
+"sont
+" x24
+"eû" x24
+"cuisin" x24
+"kaël" x24
+"dain" x24
+"fois, " x24
+"grou" x24
+"Depuis " x24
+"convers" x24
+"prenant " x24
+"Kou" x24
+"ïdine " x24
+"À l'" x24
+"affai" x24
+"mêmes " x24
+"e. Nous " x24
+"troupe" x24
+"debou" x24
+"reb" x24
+"Mikaël" x24
+"t et " x24
+"apet" x24
+"rédui" x24
+"; l'" x24
+"fraî" x24
+"fraîch" x24
+"Mo" x24
+"reconnaî" x24
+"action " x24
+"mois " x24
+"venu" x24
+"e au " x24
+" servi" x24
+"tre, " x24
+"Rou" x24
 "Blat" x24
-"e au " x23
-"égard" x23
-"arrivâmes " x23
-"exig" x23
-"ble, " x23
-"esprit" x23
-"langue " x23
-"fus " x23
-"analogu" x23
-"es, la " x23
-"Allah" x23
-"fourni" x23
-"ôn" x23
-"Waïzoro" x23
-"pour nous " x23
-"croire " x23
-"il avait " x23
-"ils sont " x23
-"uiss" x23
-"inféri" x23
-"vertu" x23
+"entir" x24
+"en dé" x24
+"mon frère, " x24
+"mag" x24
+"Arab" x24
+" que " x24
+"on se " x24
+"inj" x24
+"ement des " x24
+"temps, " x24
+"ant et " x24
+"a Tabor" x24
+"n'a " x24
+"éclat" x24
+"Moussawa" x24
+"évit" x24
+"possi" x24
+"victoi" x24
+"; je " x24
+"résist" x24
+"teint " x24
+"appé" x24
+" si " x24
+"Dambya, " x24
+"fiefs " x23
+"circul" x23
 "Romain" x23
-"état " x23
-"avec un " x23
-"tre-" x23
-"es. D" x23
+"a-t-" x23
+"ici" x23
+"immédiat" x23
+"autres, " x23
+"plant" x23
+"heures " x23
+"respons" x23
+"jours de " x23
+"territ" x23
+"désign" x23
 "salu" x23
-"vassaux" x23
-"femme " x23
+"Que " x23
+"te en " x23
+"Kass" x23
+"ble, " x23
+" sou" x23
+"occupa" x23
+"cultiv" x23
+"tique " x23
+"ali" x23
+"Hal" x23
+"droit de " x23
+"aient les " x23
+"Mar" x23
+"er sur" x23
+"signe " x23
+"refu" x23
+"à faire " x23
+"propre " x23
+"croire " x23
+"Dabra Tabor" x23
+"ouvri" x23
+"compatrio" x23
+"de la
+" x23
+", de " x23
+"étroi" x23
+" était " x23
+"ani" x23
+"ouvert" x23
+"grap" x23
+"vertu" x23
 "tions
 " x23
-"étroi" x23
-"armes, " x23
-"e. On " x23
-"indépend" x23
-"de
-la " x23
-"dit-on, " x23
-"toute la " x23
-"jeunes " x23
-"du d" x23
-"faire
-" x23
-"il ne " x23
-"ement et " x23
-"ali" x23
-"territ" x23
-"ais de " x23
-"annu" x23
-", de " x23
-"immédiat" x23
-"sorti" x23
-"tié " x23
-"échapp" x23
-"conviv" x23
-"ani" x23
-"signe " x23
-"aspec" x23
-"jusqu'au " x23
-"parcour" x23
-"ne d" x23
-"respons" x23
-"cultiv" x23
-"peuples " x23
-"tique " x23
-"a,
-" x23
-"ici" x23
-"dang" x23
+"mout" x23
+"inféri" x23
+"avec un " x23
+"conseill" x23
 "bien
 " x23
-"portait " x23
+"
+les " x23
+"es. D" x23
+"hydromel " x23
+"ité des " x23
+"avec lui" x23
+"vassaux" x23
+"s de sa " x23
 "Conefo, " x23
+"analogu" x23
+"roul" x23
+"égard" x23
+"sorti" x23
+"regret" x23
+"Allah" x23
+"e, je " x23
+"esprit" x23
+"fourni" x23
+"exig" x23
+"portait " x23
+"ement et " x23
+"homme, " x23
+"dang" x23
+"complè" x23
+"tié " x23
+"étaient
+" x23
+"peuples " x23
+"échapp" x23
+"tre-" x23
+"arrivâmes " x23
+". Ce " x23
+"ais de " x23
+"langue " x23
+"pour nous " x23
+"conviv" x23
+"annu" x23
+"diss" x23
+"faire
+" x23
+"disait-il, " x23
+"es qui " x23
+"état " x23
+"a,
+" x23
+"fuy" x23
+"aspec" x23
+"orari" x23
+". On" x23
+"ités " x23
+"vont " x23
+"conc" x23
+"dit-on, " x23
+"s, des " x23
+"me dit-" x23
 ".
 
 P" x23
-"hydromel " x23
-"disait-il, " x23
-"Dabra Tabor" x23
-"es qui " x23
-"s les " x23
-"désign" x23
-"étaient
-" x23
-"occupa" x23
-"plant" x23
-"droit de " x23
-"homme, " x23
-"orari" x23
-"
-les " x23
-". Ce " x23
-"fiefs " x23
-"amis" x23
-"propre " x23
-"complè" x23
-"te en " x23
-"compatrio" x23
-"Que " x23
-"regret" x23
-"conseill" x23
-"nourrit" x23
-"grap" x23
-"membr" x23
-"avec lui" x23
-"s, des " x23
-"Hal" x23
-"à faire " x23
-"Kass" x23
 "gal" x23
-"diss" x23
-" était " x23
+"parcour" x23
+"membr" x23
 "réparti" x23
-"mout" x23
-"ité des " x23
-"Mar" x23
-"aient les " x23
-"circul" x23
-"jours de " x23
-"fuy" x23
+"ils sont " x23
+"prê" x23
+"e. On " x23
 "à cô" x23
-". On" x23
-"vont " x23
-"a-t-" x23
-"arrê" x23
-"e. En " x22
-"bois " x22
-"difficil" x22
-"je m'" x22
-"Ber" x22
-". Ces " x22
-"mais, " x22
-"bouclier" x22
-"partout " x22
-"a un " x22
-"nouvelle " x22
-"étendu" x22
-"interr" x22
-"Berber" x22
-"faisant " x22
-"attein" x22
-" depuis " x22
-"célè" x22
-"ensuite " x22
-"clu" x22
-"siè" x22
-"prê" x22
-"caravane " x22
-" sou" x22
-"fid" x22
-"trouve " x22
-"parfois " x22
-"Halaï" x22
-"néan" x22
-"mit" x22
-"habil" x22
+"toute la " x23
+"femme " x23
+"jeunes " x23
+"journé" x23
+"uiss" x23
+"amis" x23
+"nourrit" x23
+"loc" x22
+"eux, et " x22
+"Gouk" x22
 "comme une " x22
-"principaux " x22
-"monde " x22
-"coll" x22
-"province " x22
-"qui lui " x22
+"caravane " x22
+"na-" x22
+"trouve " x22
 "drap" x22
-"déci" x22
-"être
-" x22
-"présenc" x22
-"enfin " x22
-"dirent " x22
-"j'all" x22
-"revê" x22
-". De " x22
-"joign" x22
-"argent " x22
-"péci" x22
-". En" x22
-"hon" x22
-"introdui" x22
-"in, " x22
-"Waïzoro Manann" x22
-"s, mais " x22
-"rencontr" x22
-"autres, " x22
-"peau" x22
+"ent-" x22
 "nom de " x22
-"régn" x22
-"Fit-" x22
 "s
 d'" x22
+". En" x22
+"e! " x22
+"a un " x22
+"hon" x22
+" depuis " x22
+"es; les " x22
+"au pied" x22
+"celle de " x22
+"es de
+" x22
+"s, mais " x22
+"monde " x22
+"dici" x22
+"présenc" x22
+"mit" x22
+"enfin " x22
+"célè" x22
+"parfois " x22
+"dirent " x22
+"invit" x22
+"fréquent" x22
+"obs" x22
+"difficil" x22
+"siè" x22
+"argent " x22
+"bois " x22
+"eau, " x22
+"introdui" x22
+"attein" x22
+"chez les " x22
+"erber" x22
+"fid" x22
+"servir" x22
+"ennemi " x22
+"omin" x22
+"de
+la " x22
+"intérêt" x22
+"habil" x22
+"déci" x22
+"tiennent " x22
+"principaux " x22
+"péci" x22
+"nouveau " x22
+"j'all" x22
+"faisant " x22
+"contrées " x22
+"revê" x22
+"entendre " x22
+"excl" x22
+"mais, " x22
+"inclin" x22
+"mit " x22
+"avanç" x22
+"partout " x22
+"être
+" x22
+"m'avait " x22
+". Ces " x22
+"tré" x22
+"aussi, " x22
+"bouclier" x22
+"pendant, " x22
+"notr" x22
+"régn" x22
+"de nos " x22
+"joign" x22
+"peau" x22
+"donc " x22
+"dil" x22
+"Waïzoro" x22
+"Fit-" x22
+"province " x22
+"relativ" x22
+" et de " x22
+"ure, " x22
+"a en " x22
+"rencontr" x22
+"néan" x22
 "par les
 " x22
+"plaisir" x22
+"ables, " x22
+"Berber" x22
+"Waïzoro Manann" x22
 "une grande " x22
-"ce qu'il " x22
-", et nous " x22
-"ennemi " x22
-"retir" x22
-"servir" x22
-"arrivé" x22
-"entendre " x22
+"monté" x22
+"ance de " x22
+"jouiss" x22
+"abil" x22
 "Aden" x22
-"de nos " x22
-"contrées " x22
-"au pied" x22
-"a en " x22
+"Halaï" x22
+"qui lui " x22
+"interr" x22
+"pénétr" x22
+"e. En " x22
+"retir" x22
+"procur" x22
+". De " x22
+"nouvelle " x22
 "avons " x22
-"nouveau " x22
+"ensuite " x22
+"extr" x22
 " dans
 " x22
-"chez les " x22
-"plaisir" x22
-"inclin" x22
-"monté" x22
-"m'avait " x22
-"Gouk" x22
-"omin" x22
-"mit " x22
-"ouvert" x22
-"pendant, " x22
-"péné" x22
-"inqui" x22
-"e! " x22
-"eau, " x22
-"jouiss" x22
-"invit" x22
-"avanç" x22
-"aussi, " x22
-"dici" x22
-"ance de " x22
-"relativ" x22
-"donc " x22
-"notr" x22
-"heures " x22
-"abil" x22
-"obs" x22
-"fréquent" x22
-"tiennent " x22
-"écr" x22
-"na-" x22
-"ospit" x21
-"et se " x21
-"La " x21
-"corresp" x21
-"ges" x21
-" donne " x21
-"nombreux " x21
-"Européen" x21
-"mes, " x21
-"capitaine " x21
-"auprès du " x21
-"es. La " x21
-"èch" x21
-"cours " x21
-"kou " x21
-"piét" x21
-"loc" x21
-"Damote, " x21
-"Médir" x21
-"l'ex" x21
-"justice " x21
-"post" x21
-"duite " x21
-". Un " x21
-"petit" x21
-" suit" x21
-"s ser" x21
-"Gondar " x21
-"blanc" x21
-"ne s'" x21
-"consci" x21
-"er son " x21
-"ailleurs " x21
-"féod" x21
-"impres" x21
-"e de" x21
-"mouch" x21
-"roul" x21
-". On " x21
-"ar, " x21
-"qu'il avait " x21
 "gardé" x21
-"pierr" x21
-" souvent " x21
-"ouvri" x21
-"s seul" x21
-"conseil" x21
-"cham" x21
-"e dans la " x21
-"_A" x21
-"passi" x21
-"espèce de " x21
-"livr" x21
-"à
-la " x21
-"table " x21
-"escort" x21
-"à lui" x21
-"fréquemment " x21
-"joi" x21
-"conten" x21
-"celle de " x21
-"mer Rou" x21
-"après avoir " x21
+"] " x21
+"justice " x21
+"é le " x21
+"e, comme " x21
+"aîne " x21
+"Berberah" x21
 ", et
 " x21
-"e, comme " x21
-"; la " x21
-"tain" x21
-"laquelle " x21
-"Atsé " x21
-"mesure " x21
-"étranger" x21
-"prob" x21
-"C'est " x21
-"éclair" x21
-"pu " x21
-"Notre " x21
-"précip" x21
-"bit" x21
-"van" x21
-"téri" x21
-"obscur" x21
-"Berberah" x21
-"abb" x21
-"rect" x21
-"fusiliers " x21
-"s. Le " x21
-"aîne " x21
-"un d'" x21
-"eux de " x21
-"dél" x21
-"autorité " x21
-"prolong" x21
-"ille " x21
-"tes et " x21
-"Ilma " x21
-"effet" x21
-"aou" x21
-"cach" x21
-"mon d" x21
-"pour un " x21
-"] " x21
-"contre le " x21
-"reven" x21
-"-l" x21
-"d'après " x21
-"veille " x21
 "judici" x21
-" et de " x21
-"euse, " x21
-"aient des " x21
-"trafiquants " x21
-"terre, " x21
-"eux, et " x21
-",
-et " x21
-"mais" x21
-"te-" x21
-"éthiopienn" x21
-"que son " x21
+"; la " x21
+"Damote, " x21
+"joi" x21
+"Atsé " x21
 "e; et " x21
-"mass" x21
-"ée en " x21
-"chevel" x21
-"é au " x21
-"possé" x21
-"hospit" x21
-"ène " x21
-"princes " x21
-"e est " x21
+"e pour " x21
+"précip" x21
+"téri" x21
+"post" x21
+"mon d" x21
+"obscur" x21
 "fils, " x21
-"route " x21
-"correspond" x21
+"fréquemment " x21
+"consci" x21
+"après avoir " x21
+"ospit" x21
+"s seul" x21
+"étranger" x21
+"fusiliers " x21
+"é au " x21
+"table " x21
+"cach" x21
+"ne s'" x21
+"terre, " x21
+"C'est " x21
 "ressour" x21
+"chevel" x21
+"prob" x21
+"ar, " x21
+" suit" x21
+"laquelle " x21
+"blanc" x21
+"auprès du " x21
+"corresp" x21
+"correspond" x21
+"e de" x21
+"e dans la " x21
+"veille " x21
+"effet" x21
+"piét" x21
+" souvent " x21
+"l'ex" x21
+"rect" x21
+"lo" x21
+"mesure " x21
+"qu'il avait " x21
+"èch" x21
+"é d'" x21
+"trafiquants " x21
+"Notre " x21
+"livr" x21
+". On " x21
+"ille " x21
+"impres" x21
+"espèce de " x21
+"s. Le " x21
+"s les " x21
+"possé" x21
+"épi" x21
+"conseil" x21
+"kou " x21
+"à lui" x21
+"pu " x21
+"aou" x21
+"pierr" x21
+"_A" x21
+"écr" x21
+"escort" x21
+"Gondar " x21
+"féod" x21
+"tes et " x21
+"ind" x21
+"mer Rou" x21
+"tain" x21
+"euse, " x21
+"éclair" x21
+"autorité " x21
+"contre le " x21
+"al, " x21
+". Un " x21
+"nombreux " x21
+"à
+la " x21
+"duite " x21
+"arme " x21
+"Ilma " x21
+"te-" x21
+"ges" x21
+"que son " x21
+"eront " x21
+"mass" x21
+"aient des " x21
+"hospit" x21
+", et nous " x21
+"route " x21
+"ailleurs " x21
+"éthiopienn" x21
+"La " x21
+"eux de " x21
+"se dé" x21
+"chacun" x21
 "ent un " x21
-"qui dé" x20
-"Es" x20
-"courag" x20
-"tu
-" x20
-"bas " x20
-"écuy" x20
-"consist" x20
-"ure, " x20
-"ils s'" x20
-"s, la " x20
-"oblig" x20
-"Moussawa " x20
-"poitrin" x20
-"à celui" x20
-"veut " x20
-"terrain " x20
-"atteign" x20
-"Européens " x20
-"pénétr" x20
-"muni" x20
-", et le " x20
-"ostil" x20
-"hô" x20
-"effet, " x20
-"y
-" x20
-"jusqu'aux " x20
-"missionnaires " x20
-" dans les " x20
-"expédi" x20
+"es. La " x21
+"petit" x21
+"cours " x21
+"cham" x21
+"le-" x21
+"mais" x21
+"bit" x21
+"et se " x21
+"van" x21
+"Médir" x21
+"conten" x21
+"mes, " x21
+"d'après " x21
+"capitaine " x21
+"passi" x21
+"princes " x21
+"étendu" x21
+"m'ap" x21
+"inten" x21
 "recevoir" x20
-"repas " x20
-"Tous " x20
-"hostil" x20
-"toge, " x20
-"point de " x20
-"environ" x20
-"attendre " x20
-"enci" x20
-"chrétien" x20
-"bras " x20
-" sub" x20
-"échan" x20
-"sur son " x20
-"beaucoup de " x20
-"Fit-w" x20
-"Fit-worari" x20
-"air " x20
-"lendemain, " x20
-"s'était " x20
-"où il " x20
-"batt" x20
-"ades " x20
-"pur" x20
-"Adwa, " x20
-"lor" x20
-"onz" x20
-"témoi" x20
-"témoign" x20
-"père, " x20
-"plusieurs
-" x20
-" pour " x20
-"abat" x20
-"prirent " x20
-"échang" x20
-"vos " x20
-"ependant, " x20
-"d'être " x20
-"de sa
-" x20
-"ba" x20
-"avec son " x20
-"ent au " x20
-"ancien " x20
-"présence " x20
-" dehor" x20
-"tort" x20
-"far" x20
-"ant une " x20
-"plus en " x20
-"militair" x20
-"pau" x20
-"a une " x20
-"ateur" x20
-"[1" x20
-"ramen" x20
-"autre, " x20
-"empress" x20
-"alem" x20
-"quer" x20
-"premiers " x20
-"ind" x20
-"rom" x20
-"sans
-" x20
+"terrain " x20
 "mot " x20
-"vêtement" x20
-"population " x20
-"exclu" x20
-"ernier" x20
-"ils se " x20
-"choisi" x20
-"précéd" x20
-"passer " x20
-"intermédi" x20
-"une dé" x20
-"Jér" x20
-"Jérus" x20
-"Jérusalem" x20
-"ement à " x20
-"le, " x20
-"accour" x20
-"pas, " x20
-"er avec " x20
-"ade " x20
-"pt " x20
-"abre " x20
-"bruit " x20
-"er ses " x20
-"e, et il " x20
-"avantag" x20
-"Maï" x20
-"efois " x20
-"gardes " x20
-"ables, " x20
-"es. Le " x20
-"obj" x20
-" dans la " x20
-"re; " x20
-"liber" x20
-"Chalaka " x20
-"e les " x20
-"pron" x20
-"Monseigneur " x20
-"plupart des " x20
-"succes" x20
-"Dedjadj Oubié " x20
-"e pour " x20
-"opinion " x20
-"aucune " x20
-"qu'ils
-" x20
-"endant " x20
-"empêcher" x19
-"traîn" x19
-"Éthiopiens, " x19
-"fanteri" x19
-"emper" x19
-"Notre-" x19
-"naiss" x19
-"d'asil" x19
-"e
-des " x19
-"descend" x19
-"partag" x19
-"onzou" x19
-"Adwa" x19
-"aud" x19
-"Éthiopien" x19
-"remettre " x19
-" de sa " x19
-"lorsqu'ils " x19
-"gens, " x19
-"rus" x19
-"cipa" x19
-"Maïe-" x19
-"ant en " x19
-"ombr" x19
-"raison" x19
-"conc" x19
-"relations " x19
-"ruin" x19
-"lut" x19
-"un sol" x19
-"Europe, " x19
-"tul" x19
 ".
 
-Nous " x19
-"curios" x19
-"mâ" x19
-"à les " x19
-"face " x19
-"e un " x19
-" ses
-" x19
-"voix " x19
-" leurs
-" x19
-"rester" x19
-"conduis" x19
-"quelque
-" x19
-"couvrir" x19
-".--C" x19
-"annonc" x19
-"e, à " x19
-"tranch" x19
-"passait " x19
-"astr" x19
-"figur" x19
-"pour leur " x19
-"entre-" x19
-"sionn" x19
-"Lidj D" x19
-"sur un " x19
-"belle " x19
-"Konzou" x19
-"er à la " x19
-"avoir
-" x19
-"par des
-" x19
-"ant aux " x19
-"jeû" x19
-"es; les " x19
-"ûr" x19
-"mans " x19
-"Wol" x19
-"héri" x19
-"éthiopien" x19
-"teri" x19
-"harn" x19
-"ités " x19
+Nous " x20
+"Adwa, " x20
+"repas " x20
+"d'être " x20
+"ant une " x20
+"liber" x20
+"bé" x20
+"[1" x20
+"ent au " x20
+"militair" x20
+"Es" x20
+"efois " x20
+"expédi" x20
+"hô" x20
+"où il " x20
+"abat" x20
+"toge, " x20
+"pron" x20
+"pau" x20
+"Dedjadj Oubié " x20
+"obj" x20
+", un " x20
+"y
+" x20
+"usal" x20
+"échang" x20
+"enci" x20
+"à celui" x20
+"effet, " x20
+"église " x20
+"précéd" x20
+"plupart des " x20
+" sub" x20
+"de sa
+" x20
+"mouch" x20
+"abre " x20
+"Monseigneur " x20
+"présence " x20
+" dans la " x20
+"ablement " x20
+"Kon" x20
+"Fit-w" x20
+"père, " x20
+"s, la " x20
+"exclu" x20
+"beaucoup de " x20
+"seul " x20
+"ostil" x20
+"hostil" x20
+"Européen" x20
+"congé" x20
+"muni" x20
+"intermédi" x20
+"pas, " x20
+"accrou" x20
+"attendre " x20
+"tort" x20
+"écuy" x20
+"batt" x20
+"aucune " x20
+"camp " x20
+"ramen" x20
+"point de " x20
+", et le " x20
+"far" x20
+"avec son " x20
+"plus en " x20
+"moign" x20
+"témoign" x20
+"veut " x20
+"échan" x20
+"ernier" x20
+"re; " x20
+"population " x20
+"vos " x20
+"s'était " x20
+"e est " x20
+"pt " x20
+"a une " x20
+"e, et il " x20
+"choisi" x20
+"es. Le " x20
+"Tous " x20
+"in, " x20
+"missionnaires " x20
+"consist" x20
+"premiers " x20
+"bas " x20
+"passer " x20
+"bras " x20
+"vêtement" x20
+"autre, " x20
+"sans
+" x20
+"Fit-worari" x20
+"le, " x20
+"bruit " x20
+"Chalaka " x20
+"pour un " x20
+"Moussawa " x20
+"er son " x20
+"érusal" x20
+"érusalem" x20
+"Jérusalem" x20
+"Européens " x20
+"ependant, " x20
+"sur son " x20
+"air " x20
+"opinion " x20
+"qu'ils
+" x20
+",
+et " x20
+"empress" x20
+"pur" x20
+"er avec " x20
+" dans les " x20
+"ancien " x20
+"de ce " x20
+"ils se " x20
+"poitrin" x20
+"atteign" x20
+"avantag" x20
+"endant " x20
+"gardes " x20
+"e les " x20
+"chrétien" x20
+"rus" x20
+"jusqu'aux " x20
+"plusieurs
+" x20
+"ils s'" x20
+"it:
+
+--" x20
+"tu
+" x20
+"accour" x20
+"Maï" x20
+"er ses " x20
+"ée à " x20
+"rom" x20
+"Europe, " x19
+"vas" x19
+"clergé " x19
+"voix" x19
+"d'asil" x19
+"ombr" x19
+"Aïdine " x19
 "et,
 " x19
-"accueilli" x19
-"prétex" x19
-"cependant " x19
-"eul " x19
-" servic" x19
-"Zaou" x19
-"eigneur" x19
-"debout " x19
-"voulut " x19
-"eurs et " x19
-"tandis " x19
-"et de l'" x19
-"ée à " x19
-"Lidj Dori" x19
+"tranch" x19
+"Elle " x19
+"Dori" x19
 "ations, " x19
-"acqui" x19
-"Aïdine " x19
-"vainqu" x19
-"ance des " x19
-", un " x19
-"ograp" x19
-"à le " x19
-"eux,
-" x19
-"Angl" x19
-"remon" x19
-"se de " x19
-"touch" x19
+"traîn" x19
+"ba" x19
 "le de " x19
+"accueilli" x19
+"vassaux " x19
+"héri" x19
+"figur" x19
+"tandis " x19
+"oles " x19
+"astr" x19
+"établir" x19
+"distric" x19
+"étudi" x19
+"ances, " x19
+"euss" x19
+"can" x19
+"remettre " x19
+"au-dess" x19
+"é des " x19
+"prétex" x19
+"dél" x19
+"Rom" x19
+"clergé" x19
+"entre-" x19
+"environ" x19
+"face " x19
+"pour son " x19
+"er à la " x19
+"ograp" x19
+"même
+" x19
+"redout" x19
+"compagnon" x19
+"protég" x19
+"ouvr" x19
+"ante, " x19
+"Lidj Dori" x19
+"cependant " x19
+"Konz" x19
+"Konzou" x19
+"passait " x19
+"mâ" x19
+"là " x19
+"à les " x19
+" long" x19
+"ne pouvait " x19
+"un sol" x19
+"empêcher" x19
+"ade " x19
+"relations " x19
+"ant en " x19
+"eigneur" x19
+"lendemain, " x19
+"Zaou" x19
+".--C" x19
+"de soldat" x19
+"et de l'" x19
+"debout " x19
+"sur un " x19
+"ance des " x19
+"fanteri" x19
+"infanteri" x19
+"aud" x19
+"partag" x19
+"curios" x19
+"pour leur " x19
+"venu " x19
+"arrivé" x19
+"proc" x19
+"eul " x19
+"pus " x19
+"Angl" x19
+" de sa " x19
+"en ver" x19
+"qui ont " x19
+"èrent, " x19
+"gens, " x19
 "moins
 " x19
-"compli" x19
-"qui ont " x19
-"public" x19
-"étudi" x19
-"euss" x19
-"longue " x19
-"Elle " x19
-"compagnon" x19
-"vassaux " x19
-"vas" x19
-"aient le " x19
-"établir" x19
+"exerc" x19
+"Wol" x19
 "homme de " x19
-"redout" x19
-"tenu " x19
-" long" x19
-"trai" x19
-"de soldat" x19
-"ne pouvait " x19
+"ant aux " x19
+"alor" x19
+"conqu" x19
+"rester" x19
+"Éthiopien" x19
+"mans " x19
+"e un " x19
 "presque
 " x19
-"autres
+"le dé" x19
+"à le " x19
+"teri" x19
+"avoir
 " x19
-"é d'" x19
-"» " x19
-"au-dess" x19
-"ances, " x19
-"bienveill" x19
 "obéiss" x19
-"conqu" x19
-"Rom" x19
-"si
+"cipa" x19
+"naiss" x19
+"intérê" x19
+"chal" x19
+"compli" x19
+"bienveill" x19
+" leurs
 " x19
-"exerc" x19
-"os " x19
-"seul " x19
-"e ou " x19
+"jeû" x19
+"voix " x19
+" pour " x19
+"nag" x19
+"annonc" x19
+"log" x19
 " son
 " x19
-"voix" x19
-"èrent, " x19
-"ablement " x19
-"pour son " x19
-" suc" x19
-"can" x19
-"clergé " x19
-"distric" x19
+"sû" x19
+"quelque
+" x19
 "qualité " x19
-"nag" x19
-"juri" x18
-"archi" x18
-"unir" x18
+"raison" x19
+"vainqu" x19
+"och" x19
+"voulut " x19
+"Notre-" x19
+"sionn" x19
+"conduis" x19
+"tenu " x19
+"ement à " x19
+"lorsqu'ils " x19
+"descend" x19
+"autres
+" x19
+"ez-" x19
+"si
+" x19
+"remon" x19
+"exécu" x19
+"public" x19
+"e ou " x19
+"belle " x19
+"éthiopien" x19
+"Maïe-" x19
+"» " x19
+"longue " x19
+"ruin" x19
+" servic" x19
+"par des
+" x19
+"harn" x19
+"Éthiopiens, " x19
+"touch" x19
+"ateur" x19
+" ses
+" x19
+"eurs et " x19
+"lut" x19
+"prêt" x19
+"Adwa" x19
+"qui ne " x19
+"eux,
+" x19
+"emper" x19
+"acqui" x19
+"s. Je " x18
+"sources " x18
+"grain" x18
+"éni" x18
+"entôt, " x18
+"neuf" x18
+"guerres " x18
 "appui" x18
-"couvr" x18
-"l'habitu" x18
-"oiff" x18
-"prési" x18
+"lieu " x18
+"Lik Atskou " x18
+"ma
+" x18
+"patern" x18
+"appris " x18
+" dans l'" x18
+"véritable " x18
+"qu'à la " x18
 " lors" x18
-"L'" x18
-"iste " x18
-"quelques jours " x18
-"sous le " x18
+"fortune " x18
+"gens de " x18
+"se ré" x18
+" le dé" x18
+"e
+l'" x18
+"vivre " x18
+"celui " x18
 ".
 
 J'" x18
-"voulait " x18
-"pour me " x18
-"le" x18
-"avec ses " x18
-"accrou" x18
-"sources " x18
-"é le " x18
-"parti " x18
-"appréci" x18
-"perçoit " x18
-"pt" x18
-"trém" x18
-"extrém" x18
-"Lik Atskou " x18
-"force " x18
-"Sahala " x18
+"bien plus " x18
+"band" x18
+"trôn" x18
+"avou" x18
+"archi" x18
+"supérieur" x18
+"prési" x18
+"différent" x18
+"éprouv" x18
+"expliqu" x18
+"group" x18
+"L'" x18
+"en se " x18
+"sauv" x18
+"comprendre " x18
+"es: " x18
+"celui-" x18
+"ma, " x18
+"au milieu de " x18
+"voyant " x18
+"années " x18
+"faits " x18
+"y a " x18
+"reli" x18
+"forment " x18
+"qui dé" x18
+"Abbaï" x18
+"belli" x18
+"l'habitu" x18
+"s de ses " x18
+"villages " x18
 "ations
 " x18
-"refu" x18
-"achev" x18
-"vivre " x18
-"ai de " x18
-"villages " x18
-"appris " x18
-"Empereur" x18
-"différent" x18
-"es: " x18
-" devant " x18
-"fit
-" x18
-"gens de " x18
-"seulement " x18
-"pèr" x18
-"sion de " x18
-"é à la " x18
-", ils " x18
-"puissance " x18
-"est de " x18
-"faits " x18
-"là " x18
-"comprendre " x18
-" dans l'" x18
-"vast" x18
-"euga " x18
-"éprouv" x18
-"forment " x18
-"Ymer Sahal" x18
-"s de ses " x18
-"ez-" x18
-"national" x18
-"Abbaï" x18
-"avou" x18
-"ante, " x18
-"allu" x18
-"bien, " x18
-"euz" x18
-"expéri" x18
-"reli" x18
-"grain" x18
-"même
-" x18
-"entôt, " x18
-"pens" x18
-"bien plus " x18
-"ne se " x18
-"camp " x18
-"pus " x18
-"expliqu" x18
-"band" x18
-"j'ai " x18
-"qu'à la " x18
-"tion du " x18
-"en se " x18
-"supérieur" x18
-"au fond" x18
-"rarement " x18
-"e. Qu" x18
-"soldats, " x18
-"patern" x18
-"s. Je " x18
-"faite " x18
-"tenu" x18
-"véritable " x18
-"eront " x18
-"fill" x18
-"au milieu de " x18
-"envoyé " x18
-"décid" x18
-"importance " x18
-"sauv" x18
-"perm" x18
-" et le " x18
-"guerres " x18
-"fortune " x18
-"ma" x18
-"pour y " x18
-"uns " x18
-"belli" x18
-"ma, " x18
-"et en " x18
-"celui " x18
-"se ré" x18
-"'était " x18
-"passage " x18
-"vers le " x18
-"l'on " x18
-"instrum" x18
+"priv" x18
 "?
 
 --" x18
-"ma
-" x18
-" le dé" x18
-"qui ne " x18
-"lieu " x18
-"mer Roug" x18
-"à cette " x18
-"neuf" x18
-"
-
-
-" x18
-"opér" x18
-"péni" x18
-"qui nous " x18
-"ea " x18
-"ceux-" x18
-"sentim" x18
-"sim" x18
-"angul" x18
-"e, du " x18
-"group" x18
-"et une " x18
-"aver" x18
+"instrum" x18
+"avec ses " x18
+"vers le " x18
+"e. Qu" x18
+"'était " x18
+"perçoit " x18
+"ai de " x18
 "voyage " x18
-"voyant " x18
-"y a " x18
+"au fond" x18
+"euga " x18
+"et une " x18
+"bien, " x18
+"à cette " x18
+"sentim" x18
+"péni" x18
+"sous le " x18
+"extrém" x18
+"j'ai " x18
+"perm" x18
+", pour " x18
+"pens" x18
+"nuit, " x18
 "igne " x18
-"eg" x17
-"accompli" x17
-"qui sont " x17
-"mant" x17
-"s; les " x17
-"que j'avais " x17
-"é la " x17
-"par son " x17
-"e,
-et " x17
+"fill" x18
+"aver" x18
+"appréci" x18
+"tion du " x18
+"é à la " x18
+"Sahala " x18
+"pèr" x18
+"seulement " x18
+"l'on " x18
+"vast" x18
+"faite " x18
+"Ymer Sahal" x18
+"ent l'" x18
+"fus " x18
+"e, du " x18
+"ède " x18
+"unir" x18
+"aient le " x18
+"voulait " x18
+"euz" x18
+"fit
+" x18
+"tit" x18
+"ceux-" x18
+"oiff" x18
+"parti " x18
+"ne se " x18
+"force " x18
+"soldats, " x18
+"passage " x18
+"qui nous " x18
+"Empereur" x18
+"uns " x18
+"rarement " x18
+"maître, " x18
+"angul" x18
+"iste " x18
+"quelques jours " x18
+"opér" x18
+"le" x18
+"expéri" x18
+"importance " x18
+"s ser" x18
+"pt" x18
+"mer Roug" x18
+"est de " x18
+"sion de " x18
+"tenu" x18
+" devant " x18
+"s que " x18
+" et le " x18
+"é sur" x18
+"puissance " x18
+"ma" x18
+"envoyé " x18
 "
-des " x17
-"années " x17
-"recherch" x17
-"enir" x17
-"inva" x17
-"religion " x17
-"Ak" x17
-"pâ" x17
-"de son" x17
-"quoi " x17
-"armées " x17
-" devait " x17
-"an " x17
-"Tigraï" x17
-"lui di" x17
-"trib" x17
-"chez lui" x17
+
+
+" x18
+"sim" x18
+"ea " x18
+"e
+des " x18
+"achev" x18
 "meur" x17
-"satis" x17
-"offrir" x17
-"lign" x17
-"lui-même " x17
-"nuit, " x17
-"pati" x17
+"dor" x17
+"celui de " x17
+"sa" x17
+"qui sont " x17
+"pai" x17
+"fum" x17
+"pectac" x17
+"état de " x17
+"espa" x17
+"eaux, " x17
+"ou bien " x17
+"ent leur " x17
+"trib" x17
+"laisser " x17
+"été
+" x17
 ":
 
 «" x17
-"à celle " x17
-"il doit " x17
-"er; " x17
-"mouvement" x17
-"manifest" x17
-"par suit" x17
-"fabri" x17
-"Ilmor" x17
-"e. Cette " x17
-"pèlerin" x17
-"eurs d'" x17
-"pai" x17
-"armée, " x17
-" de son " x17
-"ions " x17
-"nobl" x17
-"consis" x17
-"envelop" x17
-"sa" x17
-"cipl" x17
-"emport" x17
-"és à " x17
-"es et
-" x17
-"comme la " x17
-",
-l'" x17
-"teur" x17
-"pécial" x17
-"frappé" x17
-"aque " x17
-"Tek" x17
-"intérê" x17
-"façon à " x17
-"celui de " x17
-"ou bien " x17
-"èvent " x17
-"s se
-" x17
-"été
-" x17
-"mère " x17
-"alou" x17
-"oles " x17
-"licit" x17
-"usage, " x17
-"ation des " x17
-"Dedjadj Oubié, " x17
-"laisser " x17
-"tromp" x17
-"e; le " x17
-"estin" x17
 "fini" x17
-"propor" x17
-"ent leur " x17
-"espa" x17
-"villes " x17
-"malgré " x17
-"donné " x17
-"inspir" x17
-"ingu" x17
-"aient en " x17
-"écarlat" x17
-"dû" x17
-"poser " x17
+"es, la " x17
 "but " x17
-"ait une " x17
-"par leurs " x17
-"propriét" x17
-"actu" x17
-"champ de " x17
-"montagn" x17
-"fig" x17
-"béné" x17
+"es, le " x17
+"recherch" x17
 
 
 Exemple of tokenization:
 
-[41mIl[43m s[42memble [45mqu'en [44mun [41mtemps [43mcomme le [42mnôtr[45me, [44moù [41mtout [43mpro[42mcè[45mde [44msi [41mrapid[43mement[42m,
-[45mil [44my [41mait [43mpeu[42m d'[45mop[44mport[41mun[43mité [42mà [45moffrir[44m [41mau [43mpublic[42m, comme [45mje [44mle [41mfai[43ms, [42mla
+[30m 
+[41mIl[43m s[42memble [45mqu'en [44mun [41mtemps [43mcomme le [42mnôtr[45me, [44moù [41mtout [43mproc[42mède [45msi [44mrapid[41mement[43m,
+[42mil [45my [44mait [41mpeu[43m d'[42mop[45mport[44mun[41mité [43mà [42moff[45mrir[44m [41mau [43mpublic[42m, comme [45mje [44mle [41mfai[43ms, [42mla
 [45mrel[44mation[41m d'un [43mvoyage [42men [45mpays [44mpresque [41min[43mconnu[42m, [45mlongtemps [44maprès [41mque [43mce
-[42mvoyage [45ma [44mété [41maccompli[43m.[42m_[45m
+[42mvoyage [45ma [44mété [41mac[43mcompli[42m.[45m_[44m
 
-[44m_[41mMais [43msi [42mun [45mvoyage [44mfait [41mdans un [43mbut [42mpur[45mement [44mgé[41mograp[43mhi[42mque [45mse trouv[44me
-[41mquelquefois [43mcomme [42mfrapp[45mé de [44mpér[41memp[43mtion [42mpar des [45mtrav[44maux [41mgé[43mograp[42mhi[45mqu[44mes
-[41mplus [43mré[42mcent[45ms, il [44mn'en [41mest [43mpoint de [42mmêm[45me d'un [44mvoyage [41mentre[43mpri[42ms, [45mcomme
-[44mcelui[41m-[43mci, [42mdans le [45mbut [44md'[41métudi[43mer les [42mmo[45meurs, [44mle [41mcaractère [43met [42mles
+[41m_[43mMais [42msi [45mun [44mvoyage [41mfait [43mdans un [42mbut [45mpur[44mement [41mgé[43mograp[42mhi[45mque [44mse trouv[41me
+[43mquelquefois [42mcomme [45mfrapp[44mé de [41mpér[43memp[42mtion [45mpar des [44mtrav[41maux [43mgé[42mograp[45mhi[44mqu[41mes
+[43mplus [42mré[45mcent[44ms, il [41mn'en [43mest [42mpoint de [45mmêm[44me d'un [41mvoyage [43mentre[42mpri[45ms, [44mcomme
+[41mcelui-[43mci, [42mdans le [45mbut [44md'[41métudi[43mer les [42mmo[45meurs, [44mle [41mcaractère [43met [42mles
 [45mins[44mtitu[41mtions [43md'[42mun des [45mpeuples [44mde l'[41mO[43mri[42ment [45mles plus [44mintéress[41mant[43ms et [42mles
 [45mmoins [44mconnu[41ms [43mjusqu'à [42mce [45mjour[44m.[41m_[43m
 
-[42m_[45mPar[44mti[41m [43mpour l'[42mO[45mri[44ment en [41m1[43m8[42m3[45m6[44m, [41mj'[43men s[42mui[45ms [44mre[41mvenu [43mune d[42mern[45mière [44mfois [41men
+[42m_[45mPar[44mti[41m [43mpour l'[42mO[45mri[44ment en [41m1[43m8[42m3[45m6[44m, [41mj'[43men s[42mui[45ms [44mreven[41mu [43mune d[42mern[45mière [44mfois [41men
 [43m1[42m8[45m6[44m2[41m, [43maprès [42mavoir[45m s[44mé[41mjourn[43mé [42mplus de [45mdou[44mze [41mans [43mdans la [42mH[45maut[44me-[41mÉthiopie, [43met
 [42maprès [45my [44mavoir [41mété [43mmêl[42mé, [45mcomme [44mté[41mmoin[43m ou [42mcomme [45mact[44meur, [41maux [43mévén[42mements [45mqui
 [44mont [41mat[43mti[42mré[45m sur [44mce [41mpays [43ml'[42matten[45mtion [44mde l'[41mEurop[43me. D[42mès [45mmon [44mretour[41m [43men
-[42mFr[45mance, [44msous [41ml'in[43mflu[42menc[45me des [44mimpres[41msions [43mreç[42mu[45mes [44mà l'[41métranger[43m, et [42mpour
+[42mFr[45mance, [44msous [41ml'[43minflu[42menc[45me des [44mimpres[41msions [43mreç[42mu[45mes [44mà l'[41métranger[43m, et [42mpour
 [45mcompl[44maire [41mà un [43mami[42m, [45mj'[44mai[41m donn[43mé à [42mcette [45mrel[44mation [41mune [43mforme [42mécr[45mit[44me. [41mM[43mais
 [42mpour [45mavoir[44m le d[41mroit [43mde [42mparl[45mer[44m d'un [41mpays [43msi[42m di[45mss[44membl[41mable [43mdu [42mnôtr[45me, il [44mne
-[41msuffi[43mt [42mpas [45md'[44my [41mavoir[43m s[42mé[45mjourn[44mé [41mun l[43mong[42m [45mtemp[44ms et [41mde s'[43mêtr[42me dé[45mnational[44mis[41mé
-[43men [42mquelque [45msort[44me, [41mafin de [43mvoir[42m de [45mplus [44mprès [41mles [43mhomm[42mes et les [45mchoses [44mque
-[41ml'[43mon se [42mprop[45mo[44mse de [41mfaire [43mconnaî[42mtr[45me;[44m lors[41mque l'[43mon [42mest [45mrentr[44mé[41m dans [43mson
-[42mmilieu[45m [44mnat[41mal[43m, il [42mfaut [45mencor[44me, [41mpour se [43msou[42mstr[45maire [44mà [41mtout [43men[42mg[45mou[44mement [41met
-[43mép[42mur[45mer ses [44mjug[41mement[43ms, [42mécar[45mter[44m, [41mpour un [43mtemp[42ms, les [45mopini[44mon[41ms et les [43midé[42mes
-[45mdont [44mon[41m s'[43mest [42mim[45mb[44mu [41mà l'[43métrang[42mer, [45met, [44mre[41mpren[43mant les [42mpoint[45ms de [44mvu[41me [43mses
-[42mcompatriot[45mes, [44ms'[41mhabitu[43mer de [42mnouveau [45mà leur [44mmani[41mère [43mde [42mpen[45mser[44m, [41mavant [43mde
-[42mleur [45moffrir[44m les [41mfr[43muit[42ms [45md'une [44mexpéri[41mence [43macqui[42ms[45me dans [44mdes [41mcon[43mdi[42mtions [45msi
-[44mdifférent[41mes de [43mcelles [42mqui nous [45mrégi[44mss[41ment[43m. M[42ma [45mrel[44mation [41mécr[43mit[42me, [45mj'[44mai[41m d[43monc[42m
-[45mlaiss[44mé [41mpass[43mer un [42mcertain[45m [44mtemp[41ms[43m.[42m_[45m
+[41msuffi[43mt [42mpas [45md'[44my [41mavoir[43m s[42mé[45mjourn[44mé [41mun l[43mong[42m [45mtemp[44ms et [41mde s'[43mêtr[42me d[45mén[44mation[41mal[43mis[42mé
+[45men [44mquelque [41msort[43me, [42mafin de [45mvoir[44m de [41mplus [43mprès [42mles [45mhomm[44mes et les [41mchoses [43mque
+[42ml'[45mon se [44mprop[41mo[43mse de [42mfaire [45mconnaî[44mtr[41me;[43m lors[42mque l'[45mon [44mest [41mrentr[43mé[42m dans [45mson
+[44mmilieu[41m [43mnat[42mal[45m, il [44mfaut [41mencor[43me, [42mpour se [45msou[44mstr[41maire [43mà [42mtout [45men[44mg[41mou[43mement [42met
+[45mép[44mur[41mer ses [43mjug[42mement[45ms, [44mécar[41mter[43m, [42mpour un [45mtemp[44ms, les [41mopini[43mon[42ms et les [45midé[44mes
+[41mdont [43mon[42m s'[45mest [44mim[41mb[43mu [42mà l'[45métrang[44mer, [41met, [43mre[42mpren[45mant les [44mpoint[41ms de [43mvu[42me [45mses
+[44mcompatriot[41mes, [43ms'[42mhabitu[45mer de [44mnouveau [41mà leur [43mmani[42mère [45mde [44mpen[41mser[43m, [42mavant [45mde
+[44mleur [41moff[43mrir[42m les [45mfr[44muit[41ms [43md'une [42mexpéri[45mence [44macqui[41ms[43me dans [42mdes [45mcon[44mdi[41mtions [43msi
+[42mdifférent[45mes de [44mcelles [41mqui nous [43mrégi[42mss[45ment[44m. M[41ma [43mrel[42mation [45mécr[44mit[41me, [43mj'[42mai[45m d[44monc[41m
+[43mlaiss[42mé [45mpass[44mer un [41mcertain[43m [42mtemp[45ms[44m.[41m_[43m
 
 
-[44m_A[41mu[43mjourd'hui[42m, [45mpar suit[44me du [41mre[43mdou[42mbl[45mement [44md'[41mac[43mtiv[42mité [45mque les [44mnation[41ms
-[43meuropé[42menn[45mes [44mmettent [41mà [43mét[42mendre [45mleurs [44mrelations [41mavec les [43mpeuples [42mles [45mplus
-[44mrec[41mul[43mé[42ms de l'[45mO[44mri[41ment[43m, et [42mpar suit[45me du [44mre[41mten[43mtiss[42mement [45mqu'[44mont [41meu[43m les
+[42m_A[45mu[44mjourd'hui[41m, [43mpar[42m suit[45me du [44mre[41mdou[43mbl[42mement [45md'[44mac[41mtiv[43mité [42mque les [45mnation[44ms
+[41meuropé[43menn[42mes [45mmett[44ment à [41mét[43mendre [42mleurs [45mrelations [44mavec les [41mpeuples [43mles [42mplus
+[45mrec[44mul[41mé[43ms de l'[42mO[45mri[44ment[41m, et [43mpar[42m suit[45me du [44mre[41mten[43mtiss[42mement [45mqu'[44mont [41meu[43m les
 [42mderniers [45mrapport[44ms de [41ml'A[43mn[42mgl[45met[44mer[41mre [43mavec [42mT[45mhé[44mod[41mor[43me, [42mj'ai [45mpens[44mé [41mque [43mmon
 [42mtrav[45mail[44m [41mne [43mserait [42mpa[45ms sans [44mutil[41mité[43m. Je [42mvi[45men[44ms de [41mle [43mre[42mprendr[45me, et [44mje
 [41ml'[43moff[42mre [45mavec la [44mconfi[41mance [43mque d[42monne [45mune [44mt[41mâch[43me [42mfid[45mèl[44mement [41mrem[43mpli[42me, et
@@ -4097,13 +4024,13 @@ D[44mE [41mK[43mÉ[42mN[45mE[44mH[41m [43mÀ [42mG[45mO[44mN[41mD[4
 [44m
 [41mNous [43mdonn[42mâmes [45mle [44msign[41mal[43m du[42m dé[45mpart [44mà [41mnos [43mcham[42mel[45mier[44ms. [41mA[43mv[42mant de [45mquit[44mter[41m la
 [43mriv[42me du [45mN[44mil, [41mmon frère [43met [42mmoi, [45mnous [44mb[41mûmes [43mdans le [42mcr[45meux [44mde la [41mmain[43m [42mune
-[45mdern[44mière [41mg[43mor[42mgé[45me [44mde son [41meau [43mbien[42mfais[45mant[44me, en [41mfais[43mant le [42mvo[45meu[44m de [41mnous
-[43mdés[42mal[45mté[44mr[41mer un [43mjour [42mà ses [45msources [44mm[41my[43ms[42mtéri[45meus[44mes, et [41mnous nous [43méloign[42mâ[45mmes
-[44mde [41mK[43mén[42me[45mh[44m, en [41mÉgyp[43mte, [42mle [45m2[44m5[41m dé[43mc[42mem[45mbre [44m1[41m8[43m3[42m7[45m, [44mpour nous [41mengag[43mer dans [42mle
-[45mdéser[44mt[41m.
+[45mdern[44mière [41mg[43morg[42mée [45mde son [44meau [41mbien[43mfais[42mant[45me, en [44mfais[41mant le [43mvo[42meu[45m de [44mnous
+[41mdés[43mal[42mté[45mr[44mer un [41mjour [43mà ses [42msources [45mm[44my[41ms[43mtéri[42meus[45mes, et [44mnous nous [41méloign[43mâ[42mmes
+[45mde [44mK[41mén[43me[42mh[45m, en [44mÉgyp[41mte, [43mle [42m2[45m5[44m d[41méc[43mem[42mbre [45m1[44m8[41m3[43m7[42m, [45mpour nous [44mengag[41mer dans [43mle
+[42mdéser[45mt[44m.
 
-[43mUn [42mpr[45mêtre [44mpi[41mé[43mmont[42mais, [45mun [44mAngl[41mais [43met [42mdeux[45m d[44mom[41mes[43mtiqu[42mes, [45mD[44momin[41mgo[43m et [42mAli[45m,
-l'[44mun [41mB[43mas[42mque, [45ml'[44mautre [41mÉgyp[43mti[42men [45mfor[44mmai[41ment, [43mavec [42mmon frère [45met [44mmoi, [41mnotre
+[41mUn [43mpr[42mêtre [45mpi[44mé[41mmont[43mais, [42mun [45mAngl[44mais [41met [43mdeux[42m d[45mom[44mes[41mtiqu[43mes, [42mD[45momin[44mgo[41m et [43mAli[42m,
+[45ml'[44mun [41mB[43mas[42mque, [45ml'[44mautre [41mÉgyp[43mti[42men [45mfor[44mmai[41ment, [43mavec [42mmon frère [45met [44mmoi, [41mnotre
 [43mtroup[42me [45maventur[44meu[41mse[43m; le [42mplus [45mâ[44mgé[41m d'[43mentre [42mnous [45mpouvait [44mavoir [41mving[43mt-[42msi[45mx[44m
 [41man[43ms, le [42mplus [45mjeun[44me di[41mx[43m-[42mse[45mpt[44m.
 
@@ -4114,9 +4041,9 @@ L'[41mambi[43mtion de [42mgagn[45mer le [44mmar[41mt[43my[42mre [45mava
 [42mdes [45mP[44mèr[41mes de [43mT[42mer[45mre[44m-[41mSain[43mt[42me. Le [45msupéri[44meur [41mnous [43mdis[42mait [45mqu'il [44mne [41ms[43mavait [42mà
 [45mqui nous [44madress[41mer, [43mlors[42mqu'on [45mfrapp[44ma [41mdis[43mcr[42mè[45mtement [44mà la [41mport[43me du [42mparl[45moir[44m.
 
---[41mV[43moi[42mci [45mjus[44mt[41mement, [43mre[42mprit[45m-[44mil [41men [43mnous [42mdésign[45mant [44mcelui[41m qui [43mentr[42mait, [45mle
-[44mP[41mère [43mG[42mi[45mus[44me[41mp[43mp[42me [45mS[44mapet[41mo, [43mde la [42mCon[45mgré[44mg[41mation des [43mL[42maz[45mar[44mist[41mes; [43mil [42ma [45métudi[44mé
+--[41mV[43moi[42mci [45mjus[44mt[41mement, [43mrepr[42mit-[45mil [44men [41mnous [43mdésign[42mant [45mcelui[44m qui [41mentr[43mait, [42mle
+[45mP[44mère [41mG[43mi[42mus[45me[44mp[41mp[43me [42mS[45mapet[44mo, [41mde la [43mCon[42mgré[45mg[44mation[41m des [43mL[42maz[45mar[44mist[41mes; [43mil [42ma [45métudi[44mé
 [41ml'[43marab[42me en [45mS[44my[41mri[43me, [42moù il [45mvient [44mde s[41mé[43mjourn[42mer [45mcomme [44mmissionn[41mair[43me, et [42mil
 [45mpourr[44ma [41mpeut-être [43mnous [42mdonn[45mer un [44mbon [41mconseil[43m.
 
-Le [42mP[45mère [44mS[41mapet[43mo [42métait [45mjeun[44me;[41m sa [43mfig[42mure [45mav[44men[41mante [43mpré[42mven[45mait [44men[41m sa [40m 
+Le [42mP[45mère [44mS[41mapet[43mo [42métait [45mjeun[44me;[41m sa [43mfi[42mg[45mure [44mav[41men[43mante [42mpréven[45mait [44men[41m sa [37m[40m 

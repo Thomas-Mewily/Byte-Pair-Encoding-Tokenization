@@ -1,29 +1,31 @@
 {
-    "idleHeartbeats": 6859,
-    "navigatingHeartbeats": 4702,
-    "totalCodingHeartbeats": 21322,
+    "idleHeartbeats": 6974,
+    "navigatingHeartbeats": 4805,
+    "totalCodingHeartbeats": 21706,
     "languageHeartbeats": {
         "markdown": 83,
         "plaintext": 233,
-        "rust": 19575,
+        "rust": 19864,
         "toml": 339,
-        "jsonc": 964,
+        "jsonc": 1010,
         "Log": 50,
-        "log": 78
+        "log": 78,
+        "scminput": 49
     },
     "fileHeartbeats": {
         "src/input/credit.md": 83,
         "src/input/69794.txt": 89,
         "src/input/13704.txt": 53,
-        "src/main.rs": 18530,
+        "src/main.rs": 18819,
         "src/byte_str.rs": 1045,
         "Cargo.toml": 339,
         "d:\\Me\\Dev\\Progra\\Rust\\Console\\Morphenisation\\src\\main.rs.git": 46,
-        "c:\\Users\\TTD\\AppData\\Roaming\\VSCodium\\User\\settings.json": 634,
+        "c:\\Users\\TTD\\AppData\\Roaming\\VSCodium\\User\\settings.json": 680,
         "extension-output-ms-vscode.cpptools-#4-C\\C++": 50,
         "rust-lang.rust-analyzer.rust-analyzer Extension.log": 78,
         ".vscode/launch.json": 285,
         "c:\\Users\\TTD\\AppData\\Roaming\\Code\\User\\settings.json": 45,
-        "src/input/18812.txt": 45
+        "src/input/18812.txt": 45,
+        "git\\scm0\\input": 49
     }
 }

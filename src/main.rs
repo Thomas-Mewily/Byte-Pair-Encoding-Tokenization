@@ -94,6 +94,7 @@ impl Debug for SpanColored<'_>
         use hexga_ansi_color::*;
         let rainbow = [AnsiColorKind::Blue, AnsiColorKind::Red, AnsiColorKind::Yellow, AnsiColorKind::Green, AnsiColorKind::Magenta];
         let mut rainbow_idx = 0;
+        writeln!(f, "{} ", AnsiColorKind::Black.foreground())?;
 
         for s in self.span.iter()
         {
@@ -102,7 +103,7 @@ impl Debug for SpanColored<'_>
             rainbow_idx += 1;
             write!(f, "{}{:?}", rainbow[rainbow_idx % rainbow.len()].background(), s.get(self.input))?;
         }
-        writeln!(f, "{} ", AnsiColorKind::Black.background())
+        writeln!(f, "{}{} ", AnsiColorKind::White.foreground(), AnsiColorKind::Black.background())
     }
 }
 
@@ -399,7 +400,7 @@ impl<'a> Iterator for SpanMerger<'a>
 }
 
 
-fn test_morphemization() {
+fn tokenize() {
     //let input = include_str!("./input/13704.txt");
     let input = include_str!("./input/18812.txt");
     //let input = "bonjour le bonbon";
@@ -408,7 +409,8 @@ fn test_morphemization() {
     //let input = "aaa";
     //let input = "ab_ab-ab";
     let mut it = SpanMerger::from_text(input);
-    let mut nb = 0;
+
+    let mut _nb = 0;
 
     let mut output = String::new();
 
@@ -417,63 +419,29 @@ fn test_morphemization() {
     while let Some((morphene, nb_merged)) = it.next()
     {
         if nb_merged <= 10 { break; }
-        nb += 1;
-        //println!();
-        //output.push_str(&format!("{nb} : \"{morphene:?}\" merged x{}", nb_merged));
+        _nb += 1;
         output.push_str(&format!("\"{morphene:?}\" x{}\n", nb_merged));
+        
+        //println!();
         //println!("{nb} : \"{morphene:?}\" merged x{}", nb_merged);
         //println!("{:?}", it.colored().limit(100));
         //dbg!(&it);
     }
 
+    let ex_len = u16::MAX as usize;
+
     output.push_str("\n\n");
     output.push_str("Exemple of tokenization:");
     output.push_str("\n\n");
-    output.push_str(&format!("{:?}", it.colored().limit(4096)));
+    output.push_str(&format!("{:?}", it.colored().limit(ex_len)));
 
     let path = "./exemple.txt";
     let full_path = std::path::absolute(path).expect("can't absolute path");
     std::fs::write(&full_path, output).expect("failed to save");
     println!("Done at {:?}", full_path);
     
-    //dbg!(&it);
+    println!("{:?}", it.colored().limit(ex_len));
 
-    /*
-    while let Some((morphene, nb_merged)) = it.next()
-    {
-        nb += 1;
-
-        //dbg!(&morphene);
-        //dbg!(&it);
-
-        //let entry = &it.glued_morphenes[morphene];
-        println!();
-        println!("{nb} : \"{morphene:?}\" merged x{}", nb_merged);
-        println!("{:?}", it.colored().limit(100));
-
-        //let wait = std::io::stdin().read_line(&mut String::new());
-        
-        //if entry.nb() <= 1 || morphene.len() >= 32 { break; }
-        //if it.morphene.len() <= 200 { break;}
-        /*
-        if let Some(m) = morphene.as_ref()
-        {
-            let mut morphene_frequency : Vec<_> = m.iter().collect();
-            morphene_frequency.sort_by_key(|(_b,f)| u64::MAX - **f);
-            let top : Vec<_> = morphene_frequency.iter().take(10).collect();
-            println!("{:?}", top);
-        }
-
-        println!("{:?}", it.colored());
-        println!();
-        */
-
-        //if morphene.len() <= 30 { break; }
-    }
-    */
-
-    //println!("{:?}", it.glued_morphenes);
-    println!("{:?}", it.colored().limit(1024));
 }
 
 
@@ -502,5 +470,5 @@ fn _char_frequency()
 fn main()
 {
     //char_frequency();
-    test_morphemization();
+    tokenize();
 }
