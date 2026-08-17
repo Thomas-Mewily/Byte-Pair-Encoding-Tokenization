@@ -2,6 +2,7 @@ use super::*;
 use std::{fmt::Display, ops::{Index, IndexMut, Range, RangeFrom, RangeFull, RangeInclusive, RangeTo, RangeToInclusive}};
 
 
+/// A byte slice that maybe an str. Try do Debug/Display it as str by default
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash)]
 #[repr(transparent)]
 pub struct ByteStr(pub [u8]);
@@ -18,7 +19,6 @@ impl Default for &mut ByteStr
         ByteStr::from_mut(&mut [])
     }
 }
-
 
 impl ByteStr 
 {
