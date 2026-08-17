@@ -11,6 +11,13 @@ use std::{
 #[repr(transparent)]
 pub struct ByteStr(pub [u8]);
 
+impl ByteStr 
+{
+    pub fn as_bytes(&self) -> &[u8] { &**self }
+    pub fn as_mut_bytes(&mut self) -> &mut [u8] { &mut **self }
+    pub fn as_str(&self) -> Option<&str> { str::from_utf8(self).ok() }
+}
+
 impl Default for &ByteStr {
     fn default() -> Self {
         ByteStr::from_ref(&[])
