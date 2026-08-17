@@ -340,62 +340,6 @@ impl<'a> Iterator for SpanMerger<'a>
         let nb_merged = self.merge_morphene(morphene).ok()?;
         if nb_merged == 0 { return None; }
         Some((morphene, nb_merged))
-
-        /*
-        let new_spans = &mut self.span.next;
-        let spans = self.span.current.deref();
-        let input = self.input;
-
-        let morphene = &mut self.morphenes;
-
-        morphene.clear();
-        new_spans.clear();
-
-        for i in 0..spans.len()-1
-        {
-            let (prev, next) = (spans[i], spans[i+1]);
-            debug_assert_eq!(prev.end(), next.begin);
-            let merged = Span { begin: prev.begin, len: prev.len + next.len };
-
-            let key = merged.get(input);
-            morphene.entry(key).and_modify(|frequency| { *frequency += 1 }).or_insert(1);
-        }
-
-        let Some((bytes, frequency)) = morphene.iter().max_by_key(|(_bytes, frequency)| **frequency).map(|(b,f)| (*b, *f)) else { return None; };
-
-        assert!(spans.len() >= 1);
-        
-        // Merge most common shape
-        new_spans.reserve(spans.len());
-        let mut i = 0;
-        while i <= spans.len()-2
-        {
-            let (prev, next) = (spans[i], spans[i+1]);
-            let len = prev.len+next.len;
-
-            if prev.len + next.len == bytes.len()
-                && prev.get(input) == bytes[0..prev.len]
-                && next.get(input) == bytes[prev.len.. len]
-            {
-                // match the bytes
-                new_spans.push(Span { begin: prev.begin, len });
-                i += 2;
-            }else
-            {
-                new_spans.push(prev);
-                i += 1;
-            }
-        }
-        if i == spans.len() - 1
-        {
-            new_spans.push(spans.last().copied().unwrap());
-        }
-
-        // dbg!(frequency);
-
-        self.span.swap();
-        Some((bytes, frequency))
-        */
     }
 }
 
