@@ -1,22 +1,22 @@
 {
-    "idleHeartbeats": 8556,
-    "navigatingHeartbeats": 5549,
-    "totalCodingHeartbeats": 28634,
+    "idleHeartbeats": 11096,
+    "navigatingHeartbeats": 6636,
+    "totalCodingHeartbeats": 29819,
     "languageHeartbeats": {
-        "markdown": 654,
-        "plaintext": 1034,
-        "rust": 25326,
+        "markdown": 657,
+        "plaintext": 1124,
+        "rust": 26368,
         "toml": 339,
         "jsonc": 1010,
         "Log": 50,
         "log": 78,
-        "scminput": 143
+        "scminput": 193
     },
     "fileHeartbeats": {
-        "src/input/credit.md": 83,
+        "src/input/credit.md": 86,
         "src/input/69794.txt": 89,
         "src/input/13704.txt": 53,
-        "src/main.rs": 23689,
+        "src/main.rs": 24644,
         "src/byte_str.rs": 1045,
         "Cargo.toml": 339,
         "d:\\Me\\Dev\\Progra\\Rust\\Console\\Morphenisation\\src\\main.rs.git": 46,
@@ -26,13 +26,13 @@
         ".vscode/launch.json": 285,
         "c:\\Users\\TTD\\AppData\\Roaming\\Code\\User\\settings.json": 45,
         "src/input/18812.txt": 45,
-        "git\\scm0\\input": 143,
+        "git\\scm0\\input": 193,
         "readme.md": 571,
         "input-0": 45,
         "src/input/19681.txt": 238,
         "src/input/16527.txt": 218,
         "src/input/100.txt": 210,
-        "exemple.txt": 90,
-        "src/span_merger.rs": 592
+        "exemple.txt": 180,
+        "src/span_merger.rs": 679
     }
 }

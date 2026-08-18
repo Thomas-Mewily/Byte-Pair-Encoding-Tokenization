@@ -1,6 +1,5 @@
 use super::*;
 
-
 #[derive(Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash, Default)]
 pub struct Span {
     pub begin: usize,
@@ -46,21 +45,22 @@ impl MorphenePairEntry {
 }
 
 #[derive(Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Debug, Hash)]
-pub enum InputKind
-{
+pub enum InputKind {
     Text,
     Byte,
 }
-impl InputKind
-{
-    pub const fn is_text(&self) -> bool { matches!(self, InputKind::Text )}
-    pub const fn is_byte(&self) -> bool { matches!(self, InputKind::Byte )}
+impl InputKind {
+    pub const fn is_text(&self) -> bool {
+        matches!(self, InputKind::Text)
+    }
+    pub const fn is_byte(&self) -> bool {
+        matches!(self, InputKind::Byte)
+    }
 }
 
 #[derive(Debug)]
 pub struct SpanMerger<'a> {
-
-    pub input_kind : InputKind,
+    pub input_kind: InputKind,
     pub input: &'a ByteStr,
     /// Span are never removed.
     /// Instead they are replaced by a Span with a 0 len.
@@ -74,10 +74,7 @@ pub struct SpanMerger<'a> {
     tmp_span_id: Vec<SpanID>,
 }
 
-
-
-impl<'a> SpanMerger<'a> 
-{
+impl<'a> SpanMerger<'a> {
     pub fn colored<'b>(&'b self) -> SpanColored<'b> {
         SpanColored {
             input: self.input,
@@ -139,67 +136,69 @@ impl Debug for SpanColored<'_> {
 
 impl<'a> SpanMerger<'a> {
     /// Return a sorted vec by frequency of the tokens
-    pub fn morphemes_vec(&'a self) -> Vec<(&'a ByteStr, usize)> 
-    { 
-        let mut v: Vec<(&ByteStr, usize)> = self.morphemes_map().iter().map(|(m,f)| (*m, *f)).collect();
+    pub fn morphemes_vec(&'a self) -> Vec<(&'a ByteStr, usize)> {
+        let mut v: Vec<(&ByteStr, usize)> =
+            self.morphemes_map().iter().map(|(m, f)| (*m, *f)).collect();
         v.sort_by_key(|(_m, f)| usize::MAX - *f);
         v
     }
 
-    pub fn morphemes_map_to_owned(&'a self) -> HashMap<Vec<u8>, usize>
-    {
-        self.morphemes_map().iter().map(|(k,v)| ((**k).to_owned(), *v)).collect()
+    pub fn morphemes_map_to_owned(&'a self) -> HashMap<Vec<u8>, usize> {
+        self.morphemes_map()
+            .iter()
+            .map(|(k, v)| ((**k).to_owned(), *v))
+            .collect()
     }
 
-    pub fn morphemes_map(&'a self) -> HashMap<&'a ByteStr, usize>
-    {
+    pub fn morphemes_map(&'a self) -> HashMap<&'a ByteStr, usize> {
         let mut tokens = HashMap::new();
-        for s in &self.spans
-        {
-            if s.is_empty() { continue; }
+        for s in &self.spans {
+            if s.is_empty() {
+                continue;
+            }
             *tokens.entry(s.get(self.input)).or_default() += 1;
         }
         tokens
     }
 
-
-    pub fn reset_span(&mut self) 
-    {
+    pub fn reset_span(&mut self) {
         self.spans.clear();
 
-        match self.input_kind
-        {
-            InputKind::Text => 
-            {
-                let Ok(s) = str::from_utf8(self.input) else { self.input_kind = InputKind::Byte; return self.reset_span(); };
-                self.spans.extend(s
-                .char_indices()
-                .map(|(idx, ch)| Span {
+        match self.input_kind {
+            InputKind::Text => {
+                let Ok(s) = str::from_utf8(self.input) else {
+                    self.input_kind = InputKind::Byte;
+                    return self.reset_span();
+                };
+                self.spans.extend(s.char_indices().map(|(idx, ch)| Span {
                     begin: idx,
                     len: ch.len_utf8(), // 1 for ASCII, 2 for ô, 3 for é, etc.
                 }));
-            },
-            InputKind::Byte => 
-            {
-                self.spans.extend(self.input
-                .iter()
-                .enumerate()
-                .map(|(idx, _)| Span { begin: idx, len: 1 }));
-            },
+            }
+            InputKind::Byte => {
+                self.spans.extend(
+                    self.input
+                        .iter()
+                        .enumerate()
+                        .map(|(idx, _)| Span { begin: idx, len: 1 }),
+                );
+            }
         }
     }
 
     pub fn reset_merge_pair(&mut self) {
         self.pairs.clear();
 
-        for i in 0..self.spans.len() - 1 
-        {
-
+        for i in 0..self.spans.len() - 1 {
             let suffix = self.spans[i];
             let preffix = self.spans[i + 1];
 
-            if self.single_morphene.contains(&**suffix.get(self.input)) { continue; }
-            if self.single_morphene.contains(&**preffix.get(self.input)) { continue; }
+            if self.single_morphene.contains(&**suffix.get(self.input)) {
+                continue;
+            }
+            if self.single_morphene.contains(&**preffix.get(self.input)) {
+                continue;
+            }
 
             let merged = Span {
                 begin: suffix.begin,
@@ -225,8 +224,9 @@ impl<'a> SpanMerger<'a> {
         */
     }
 
-    fn new<T>(value: T, input_kind : InputKind) -> Self
-    where T: Into<&'a ByteStr>
+    fn new<T>(value: T, input_kind: InputKind) -> Self
+    where
+        T: Into<&'a ByteStr>,
     {
         let value = value.into();
         let mut s = Self {
@@ -270,8 +270,7 @@ impl<'a> SpanMerger<'a> {
             .pairs
             .iter()
             .max_by_key(|(merge_pair, entry)| {
-                if entry.nb() < max_so_far || self.single_morphene.contains(&****merge_pair)
-                {
+                if entry.nb() < max_so_far || self.single_morphene.contains(&****merge_pair) {
                     0
                 } else {
                     max_so_far = max_so_far.max(entry.nb());
@@ -321,6 +320,9 @@ impl<'a> SpanMerger<'a> {
             let suffix_len = merged_len - prefix_len;
             let merged_span = prefix_span.with_added_len(suffix_len);
 
+            // TODO : optimize the dead span (len 0) to indicate how far the next non dead span is, thus reducing the nb of iteration for
+            // computing the prev_id and next_id
+
             let prev_id = {
                 let mut tmp_prev_idx = prefix_id;
                 loop {
@@ -363,7 +365,8 @@ impl<'a> SpanMerger<'a> {
                 let prev_pair = prev.with_added_len(prefix_len);
                 debug_assert_eq!(prev.end(), prefix_span.begin);
 
-                let prev_is_single_morphene = self.single_morphene.contains(&**prev.get(self.input));
+                let prev_is_single_morphene =
+                    self.single_morphene.contains(&**prev.get(self.input));
 
                 match self.pairs.get_mut(prev_pair.get(self.input)) {
                     Some(entry) => {
@@ -371,15 +374,13 @@ impl<'a> SpanMerger<'a> {
                     }
                     None => {
                         // maybe unreachable() I'm not sure
-                        if !prev_is_single_morphene 
-                        {
+                        if !prev_is_single_morphene {
                             assert_eq!(prev_pair.get(self.input), morphene_pair);
                         }
                     }
                 }
 
-                if !prev_is_single_morphene
-                {
+                if !prev_is_single_morphene {
                     let new_prev_pair = prev.with_added_len(merged_len);
                     self.pairs
                         .entry(new_prev_pair.get(self.input))
@@ -387,7 +388,6 @@ impl<'a> SpanMerger<'a> {
                         .suffix_spans_id
                         .insert(prev_id);
                 }
-
             }
 
             if let Some(next_id) = next_id {
@@ -396,23 +396,21 @@ impl<'a> SpanMerger<'a> {
                 debug_assert_eq!(next.begin, suffix_span.end());
                 let suffix_pair = suffix_span.with_added_len(next.len);
 
-                let next_is_single_morphene = self.single_morphene.contains(&**next.get(self.input));
+                let next_is_single_morphene =
+                    self.single_morphene.contains(&**next.get(self.input));
 
                 match self.pairs.get_mut(suffix_pair.get(self.input)) {
                     Some(entry) => {
                         entry.suffix_spans_id.remove(&suffix_id);
                     }
-                    None => 
-                    {
-                        if !next_is_single_morphene 
-                        {
+                    None => {
+                        if !next_is_single_morphene {
                             assert_eq!(suffix_pair.get(self.input), morphene_pair);
                         }
                     }
                 }
 
-                if !next_is_single_morphene
-                {
+                if !next_is_single_morphene {
                     let new_next_pair = merged_span.with_added_len(next.len);
                     self.pairs
                         .entry(new_next_pair.get(self.input))

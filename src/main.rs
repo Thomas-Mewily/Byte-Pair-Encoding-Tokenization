@@ -21,16 +21,15 @@ pub use span_merger::*;
 mod sub_slice;
 pub use sub_slice::*;
 
-
 /*
 fn test_input()
 {
     type NbMorpheme = usize;
     let text_input =  include_str!("./input/18812.txt"); // French
-    
+
     let input = ByteStr::from_ref(text_input.as_bytes());
     let mut it = SpanMerger::from_text(input);
-    
+
     loop
     {
         it.reset_span();
@@ -51,7 +50,7 @@ fn test_input()
             /*
             match it.input_kind
             {
-                InputKind::Text => 
+                InputKind::Text =>
                 {
                     for c in input.as_str().unwrap().all_sub_slice()
                     {
@@ -83,6 +82,9 @@ fn test_tokenization_morphemization() {
     let input = include_str!("./input/100.txt"); // English super long
     //let input = include_str!("./input/18812.txt"); // French
     //let input = include_str!("./input/14741.txt"); // Russian
+
+    //let input = &*std::fs::read_to_string("src/input/rust_std_file_glued_uncomplete.txt").expect("failed to read"); // Rust
+    //let input = include_str!("./input/rust_std_file_glued_uncomplete.txt"); // Rust super super long
     //let input = "bonjour le bonbon";
     //let input = "abcabcxbc";
     //let input = "aabaa";
@@ -94,11 +96,10 @@ fn test_tokenization_morphemization() {
     // Todo detect separator. Separator tend to lower the total number of token
     // In the most used morphene, split in in different group to isolate separator
     //let separator = [" ", ",", ".", "!", "?", ";", "-"];
-    //let separator = ["e"]; // 2910 tokens
-    let separator = [" "]; // 2865 tokens
-    //let separator : &[&'static str] = &[]; // 3340 tokens
-    for sep in separator
-    {
+    //let separator = ["e"]; // 2910 tokens on french
+    let separator = [" "]; // 2865 tokens on french
+    //let separator: &[&'static str] = &[]; // 3340 tokens on french
+    for sep in separator {
         it.single_morphene
             .insert(sep.as_bytes().iter().copied().collect());
     }
@@ -117,15 +118,26 @@ fn test_tokenization_morphemization() {
         output.push_str(&format!("\"{morphene:?}\" x{}\n", nb_merged));
 
         //println!();
-        //println!("{_nb} : \"{morphene:?}\" merged x{}", nb_merged);
+        println!("{_nb} : \"{morphene:?}\" merged x{}", nb_merged);
         //println!("{:?}", it.colored().limit(100));
         //dbg!(&it);
     }
 
-    //let ex_len = u16::MAX as usize;
-    let ex_len = 256;
+    let ex_len = u16::MAX as usize;
+    //let ex_len = 256;
 
     output.push_str("\n\n");
+    output.push_str("\n\n");
+    output.push_str("Morphene:");
+    output.push_str("\n\n");
+    output.push_str("\n\n");
+
+    for (morphene, frequency) in it.morphemes_vec() {
+        output.push_str(&format!("\"{:?}\" : x{}\r\n", morphene, frequency));
+    }
+    output.push_str("\n\n");
+    output.push_str("\n\n");
+
     output.push_str("Exemple of tokenization:");
     output.push_str("\n\n");
     output.push_str(&format!("{:?}", it.colored().limit(ex_len)));
