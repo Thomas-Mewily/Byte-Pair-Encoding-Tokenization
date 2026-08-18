@@ -1,5 +1,5 @@
-// Coded by an LLM :
-use super::*;
+// This part was coded by an LLM :
+// It's currently not used yet
 
 pub trait AllSubSlice {
     fn all_sub_slice(&self) -> Vec<&Self>;

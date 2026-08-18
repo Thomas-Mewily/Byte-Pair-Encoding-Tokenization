@@ -18,8 +18,8 @@ pub use byte_str::*;
 mod span_merger;
 pub use span_merger::*;
 
-mod sub_slice;
-pub use sub_slice::*;
+//mod sub_slice;
+//pub use sub_slice::*;
 
 /*
 fn test_input()
@@ -35,15 +35,15 @@ fn test_input()
         it.reset_span();
         it.reset_merge_pair();
 
-        while let Some((_morphene, frequency)) = it.next()
+        while let Some((_morpheme, frequency)) = it.next()
         {
             if frequency <= 10 { break; }
         }
 
-        let most_used_morphene = it.morphemes_vec();
-        let add_split : Option<(&Morphene, NbMorpheme)> = None;
+        let most_used_morpheme = it.morphemes_vec();
+        let add_split : Option<(&Morpheme, NbMorpheme)> = None;
 
-        for (morphene, frequence) in most_used_morphene
+        for (morpheme, frequence) in most_used_morpheme
         {
             todo!();
 
@@ -59,7 +59,7 @@ fn test_input()
                 },
                 InputKind::Byte => todo!(),
             }
-            for c in morphene
+            for c in morpheme
             {
 
             }
@@ -92,15 +92,15 @@ fn test_tokenization_morphemization() {
     //let input = "ab_ab-ab";
     let mut it = SpanMerger::from_text(input);
 
-    // Force separator to be a morphene on it's own
+    // Force separator to be a morpheme on it's own
     // Todo detect separator. Separator tend to lower the total number of token
-    // In the most used morphene, split in in different group to isolate separator
+    // In the most used morpheme, split in in different group to isolate separator
     //let separator = [" ", ",", ".", "!", "?", ";", "-"];
     //let separator = ["e"]; // 2910 tokens on french
     let separator = [" "]; // 2865 tokens on french
     //let separator: &[&'static str] = &[]; // 3340 tokens on french
     for sep in separator {
-        it.single_morphene
+        it.single_morpheme
             .insert(sep.as_bytes().iter().copied().collect());
     }
     it.reset_merge_pair(); // since we added some separator
@@ -110,15 +110,15 @@ fn test_tokenization_morphemization() {
 
     //dbg!(&it);
 
-    while let Some((morphene, nb_merged)) = it.next() {
+    while let Some((morpheme, nb_merged)) = it.next() {
         if nb_merged <= 20 {
             break;
         }
         _nb += 1;
-        output.push_str(&format!("\"{morphene:?}\" x{}\n", nb_merged));
+        output.push_str(&format!("\"{morpheme:?}\" x{}\n", nb_merged));
 
         //println!();
-        println!("{_nb} : \"{morphene:?}\" merged x{}", nb_merged);
+        println!("{_nb} : \"{morpheme:?}\" merged x{}", nb_merged);
         //println!("{:?}", it.colored().limit(100));
         //dbg!(&it);
     }
@@ -128,12 +128,12 @@ fn test_tokenization_morphemization() {
 
     output.push_str("\n\n");
     output.push_str("\n\n");
-    output.push_str("Morphene:");
+    output.push_str("Morpheme:");
     output.push_str("\n\n");
     output.push_str("\n\n");
 
-    for (morphene, frequency) in it.morphemes_vec() {
-        output.push_str(&format!("\"{:?}\" : x{}\r\n", morphene, frequency));
+    for (morpheme, frequency) in it.morphemes_vec() {
+        output.push_str(&format!("\"{:?}\" : x{}\r\n", morpheme, frequency));
     }
     output.push_str("\n\n");
     output.push_str("\n\n");

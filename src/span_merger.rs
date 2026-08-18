@@ -70,7 +70,7 @@ pub struct SpanMerger<'a> {
     pub pairs: HashMap<&'a MorphenePair, MorphenePairEntry>,
     /// Will not merge these pair / single char.
     /// Stuff like separator / space / dot for ex
-    pub single_morphene: HashSet<Vec<u8>>,
+    pub single_morpheme: HashSet<Vec<u8>>,
     tmp_span_id: Vec<SpanID>,
 }
 
@@ -193,10 +193,10 @@ impl<'a> SpanMerger<'a> {
             let suffix = self.spans[i];
             let preffix = self.spans[i + 1];
 
-            if self.single_morphene.contains(&**suffix.get(self.input)) {
+            if self.single_morpheme.contains(&**suffix.get(self.input)) {
                 continue;
             }
-            if self.single_morphene.contains(&**preffix.get(self.input)) {
+            if self.single_morpheme.contains(&**preffix.get(self.input)) {
                 continue;
             }
 
@@ -234,7 +234,7 @@ impl<'a> SpanMerger<'a> {
             spans: Vec::new(),
             pairs: HashMap::new(),
             tmp_span_id: Vec::new(),
-            single_morphene: HashSet::new(),
+            single_morpheme: HashSet::new(),
             input_kind,
         };
         s.reset_span();
@@ -270,7 +270,7 @@ impl<'a> SpanMerger<'a> {
             .pairs
             .iter()
             .max_by_key(|(merge_pair, entry)| {
-                if entry.nb() < max_so_far || self.single_morphene.contains(&****merge_pair) {
+                if entry.nb() < max_so_far || self.single_morpheme.contains(&****merge_pair) {
                     0
                 } else {
                     max_so_far = max_so_far.max(entry.nb());
@@ -366,7 +366,7 @@ impl<'a> SpanMerger<'a> {
                 debug_assert_eq!(prev.end(), prefix_span.begin);
 
                 let prev_is_single_morphene =
-                    self.single_morphene.contains(&**prev.get(self.input));
+                    self.single_morpheme.contains(&**prev.get(self.input));
 
                 match self.pairs.get_mut(prev_pair.get(self.input)) {
                     Some(entry) => {
@@ -397,7 +397,7 @@ impl<'a> SpanMerger<'a> {
                 let suffix_pair = suffix_span.with_added_len(next.len);
 
                 let next_is_single_morphene =
-                    self.single_morphene.contains(&**next.get(self.input));
+                    self.single_morpheme.contains(&**next.get(self.input));
 
                 match self.pairs.get_mut(suffix_pair.get(self.input)) {
                     Some(entry) => {
