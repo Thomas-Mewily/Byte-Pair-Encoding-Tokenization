@@ -32,6 +32,9 @@ This code is designed in an efficiant way to avoid memory allocation and useless
 Sometime I use the term Tokenization, sometime the term [Morphemization](https://en.wikipedia.org/wiki/Morpheme).
 It's also possible to force certain morphemes (like separators, spaces, dots) to remain as individual tokens, and they should NOT be merged.
 
+TODO: it should be possible to detect statically those special morpheme that act like
+- separator (space, dot...) detecting them = a bit less morphemes, and the morpheme are used way more frequently (I guess, wip)
+
 Exemple on ["Douze ans de séjour dans la Haute-Éthiopie"](input/18812.txt) by Arnauld d' Abbadie, provided by the [Project Gutenberg](input/credit.md).
 
 <img width="827" height="812" alt="image" src="https://github.com/user-attachments/assets/9d38b0a0-e490-430c-a5b2-dde49d003dd5" />
