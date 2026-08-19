@@ -35,10 +35,10 @@ impl Span {
 pub type SpanID = usize;
 
 #[derive(Clone, Default, PartialEq, Eq, Debug)]
-pub struct MorphenePairEntry {
+pub struct MorphPairEntry {
     pub suffix_spans_id: HashSet<SpanID>,
 }
-impl MorphenePairEntry {
+impl MorphPairEntry {
     pub fn nb(&self) -> usize {
         self.suffix_spans_id.len()
     }
@@ -58,19 +58,22 @@ impl InputKind {
     }
 }
 
+
 #[derive(Debug)]
-pub struct SpanMerger<'a> {
+pub struct SpanMerger<'a> 
+{
     pub input_kind: InputKind,
     pub input: &'a ByteStr,
+
     /// Span are never removed.
     /// Instead they are replaced by a Span with a 0 len.
     /// All the span are always contiguous (relative to the input) and do not overlap together.
-    pub spans: Vec<Span>, //OldNextSpans,
+    pub spans: Vec<Span>,
     /// Morphene encoder
-    pub pairs: HashMap<&'a MorphenePair, MorphenePairEntry>,
+    pub pairs: HashMap<&'a MorphPair, MorphPairEntry>,
     /// Will not merge these pair / single char.
-    /// Stuff like separator / space / dot for ex
-    pub single_morpheme: HashSet<Vec<u8>>,
+    /// Can contains stuff like separator / space / dot for ex
+    pub reserved_morpheme: HashSet<Vec<u8>>,
     tmp_span_id: Vec<SpanID>,
 }
 
@@ -193,10 +196,10 @@ impl<'a> SpanMerger<'a> {
             let suffix = self.spans[i];
             let preffix = self.spans[i + 1];
 
-            if self.single_morpheme.contains(&**suffix.get(self.input)) {
+            if self.reserved_morpheme.contains(&**suffix.get(self.input)) {
                 continue;
             }
-            if self.single_morpheme.contains(&**preffix.get(self.input)) {
+            if self.reserved_morpheme.contains(&**preffix.get(self.input)) {
                 continue;
             }
 
@@ -209,7 +212,7 @@ impl<'a> SpanMerger<'a> {
             let entry = self
                 .pairs
                 .entry(key)
-                .or_insert_with(|| MorphenePairEntry::default());
+                .or_insert_with(|| MorphPairEntry::default());
             entry.suffix_spans_id.insert(i);
         }
 
@@ -234,7 +237,7 @@ impl<'a> SpanMerger<'a> {
             spans: Vec::new(),
             pairs: HashMap::new(),
             tmp_span_id: Vec::new(),
-            single_morpheme: HashSet::new(),
+            reserved_morpheme: HashSet::new(),
             input_kind,
         };
         s.reset_span();
@@ -259,18 +262,20 @@ impl<'a> SpanMerger<'a> {
     }
 }
 
-pub type Morphene = ByteStr;
-pub type MorphenePair = ByteStr;
-//pub type NextMorpheneEntry<'a, 'entry> = (&'a Morphene, &'entry MorpheneEntry);
+pub type Morph = ByteStr;
+pub type MorphPair = ByteStr;
 
-impl<'a> SpanMerger<'a> {
-    pub fn most_frequent_morphene_pair(&self) -> Option<(&'a MorphenePair, &MorphenePairEntry)> {
+impl<'a> SpanMerger<'a> 
+{
+    pub fn most_frequent_non_reserved_morpheme_pair(&self) -> Option<(&'a MorphPair, &MorphPairEntry)> 
+    {
         let mut max_so_far = 0;
         let Some((merge_pair, entry)) = self
             .pairs
             .iter()
-            .max_by_key(|(merge_pair, entry)| {
-                if entry.nb() < max_so_far || self.single_morpheme.contains(&****merge_pair) {
+            .max_by_key(|(merge_pair, entry)| 
+            {
+                if entry.nb() < max_so_far || self.reserved_morpheme.contains(&****merge_pair) {
                     0
                 } else {
                     max_so_far = max_so_far.max(entry.nb());
@@ -290,7 +295,7 @@ impl<'a> SpanMerger<'a> {
     ///      |||||||||||||
     ///  aka morphene_pair / merged_pair
     /// ```
-    pub fn merge_morphene(&mut self, morphene_pair: &MorphenePair) -> Result<NbMerged, ()> {
+    pub fn merge_morpheme_pair(&mut self, morphene_pair: &MorphPair) -> Result<NbMerged, ()> {
         // println!("{}", morphene_pair.escape_ascii());
         //dbg!(&morphene_pair.escape_ascii());
         //dbg!(&self.pair_frequency);
@@ -366,7 +371,7 @@ impl<'a> SpanMerger<'a> {
                 debug_assert_eq!(prev.end(), prefix_span.begin);
 
                 let prev_is_single_morphene =
-                    self.single_morpheme.contains(&**prev.get(self.input));
+                    self.reserved_morpheme.contains(&**prev.get(self.input));
 
                 match self.pairs.get_mut(prev_pair.get(self.input)) {
                     Some(entry) => {
@@ -384,7 +389,7 @@ impl<'a> SpanMerger<'a> {
                     let new_prev_pair = prev.with_added_len(merged_len);
                     self.pairs
                         .entry(new_prev_pair.get(self.input))
-                        .or_insert_with(|| MorphenePairEntry::default())
+                        .or_insert_with(|| MorphPairEntry::default())
                         .suffix_spans_id
                         .insert(prev_id);
                 }
@@ -397,7 +402,7 @@ impl<'a> SpanMerger<'a> {
                 let suffix_pair = suffix_span.with_added_len(next.len);
 
                 let next_is_single_morphene =
-                    self.single_morpheme.contains(&**next.get(self.input));
+                    self.reserved_morpheme.contains(&**next.get(self.input));
 
                 match self.pairs.get_mut(suffix_pair.get(self.input)) {
                     Some(entry) => {
@@ -414,7 +419,7 @@ impl<'a> SpanMerger<'a> {
                     let new_next_pair = merged_span.with_added_len(next.len);
                     self.pairs
                         .entry(new_next_pair.get(self.input))
-                        .or_insert_with(|| MorphenePairEntry::default())
+                        .or_insert_with(|| MorphPairEntry::default())
                         .suffix_spans_id
                         .insert(prefix_id);
                 }
@@ -441,10 +446,10 @@ impl<'a> SpanMerger<'a> {
 pub type NbMerged = usize;
 
 impl<'a> Iterator for SpanMerger<'a> {
-    type Item = (&'a Morphene, NbMerged);
+    type Item = (&'a Morph, NbMerged);
     fn next(&mut self) -> Option<Self::Item> {
-        let (morphene, _entry) = self.most_frequent_morphene_pair()?;
-        let nb_merged = self.merge_morphene(morphene).ok()?;
+        let (morphene, _entry) = self.most_frequent_non_reserved_morpheme_pair()?;
+        let nb_merged = self.merge_morpheme_pair(morphene).ok()?;
         if nb_merged == 0 {
             return None;
         }

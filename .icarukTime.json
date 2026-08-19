@@ -1,11 +1,11 @@
 {
-    "idleHeartbeats": 11096,
-    "navigatingHeartbeats": 6636,
-    "totalCodingHeartbeats": 29988,
+    "idleHeartbeats": 11687,
+    "navigatingHeartbeats": 6754,
+    "totalCodingHeartbeats": 32113,
     "languageHeartbeats": {
         "markdown": 657,
         "plaintext": 1124,
-        "rust": 26537,
+        "rust": 28662,
         "toml": 339,
         "jsonc": 1010,
         "Log": 50,
@@ -33,6 +33,7 @@
         "src/input/16527.txt": 218,
         "src/input/100.txt": 210,
         "exemple.txt": 180,
-        "src/span_merger.rs": 679
+        "src/span_merger.rs": 798,
+        "src/language_analysis.rs": 2006
     }
 }

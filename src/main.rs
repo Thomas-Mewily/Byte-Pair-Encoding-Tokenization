@@ -18,6 +18,9 @@ pub use byte_str::*;
 mod span_merger;
 pub use span_merger::*;
 
+mod language_analysis;
+pub use language_analysis::*;
+
 //mod sub_slice;
 //pub use sub_slice::*;
 
@@ -100,7 +103,7 @@ fn test_tokenization_morphemization() {
     let separator = [" "]; // 2865 tokens on french
     //let separator: &[&'static str] = &[]; // 3340 tokens on french
     for sep in separator {
-        it.single_morpheme
+        it.reserved_morpheme
             .insert(sep.as_bytes().iter().copied().collect());
     }
     it.reset_merge_pair(); // since we added some separator
@@ -188,6 +191,7 @@ fn _char_frequency() {
 
 fn main() {
     //char_frequency();
-    test_tokenization_morphemization();
+    //test_tokenization_morphemization();
     //test_input();
+    //test_language_guesser = Lan
 }
