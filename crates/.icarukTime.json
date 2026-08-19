@@ -1,12 +1,12 @@
 {
-    "idleHeartbeats": 11702,
-    "navigatingHeartbeats": 6793,
-    "totalCodingHeartbeats": 32608,
+    "idleHeartbeats": 11687,
+    "navigatingHeartbeats": 6754,
+    "totalCodingHeartbeats": 32113,
     "languageHeartbeats": {
         "markdown": 657,
         "plaintext": 1124,
-        "rust": 28710,
-        "toml": 786,
+        "rust": 28662,
+        "toml": 339,
         "jsonc": 1010,
         "Log": 50,
         "log": 78,
@@ -18,7 +18,7 @@
         "src/input/13704.txt": 53,
         "src/main.rs": 24813,
         "src/byte_str.rs": 1045,
-        "Cargo.toml": 529,
+        "Cargo.toml": 339,
         "d:\\Me\\Dev\\Progra\\Rust\\Console\\Morphenisation\\src\\main.rs.git": 46,
         "c:\\Users\\TTD\\AppData\\Roaming\\VSCodium\\User\\settings.json": 680,
         "extension-output-ms-vscode.cpptools-#4-C\\C++": 50,
@@ -33,8 +33,7 @@
         "src/input/16527.txt": 218,
         "src/input/100.txt": 210,
         "exemple.txt": 180,
-        "src/span_merger.rs": 846,
-        "src/language_analysis.rs": 2006,
-        "crates/language_test/Cargo.toml": 257
+        "src/span_merger.rs": 798,
+        "src/language_analysis.rs": 2006
     }
 }

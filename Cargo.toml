@@ -1,12 +1,15 @@
-[package]
-name = "morphenisation"
-version = "0.1.0"
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.0.1-beta.1"
+authors = ["Mewily <thomas.mewily@gmail.com>"]
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/Thomas-Mewily/TODO"
+repository = "https://github.com/Thomas-Mewily/TODO"
 edition = "2024"
 
-[dependencies]
-hexga_ansi_color = "0.0.11-beta.56"
-
-[profile.dev]
-opt-level = 0  # Disable all optimizations
-debug = 2   # Include full debug info
-#lto = false
+[workspace.dependencies]
+language_stat = { path = "./crates/language_stat", version = "0.0.1-beta.1" }
+language_test = { path = "./crates/language_test", version = "0.0.1-beta.1" }

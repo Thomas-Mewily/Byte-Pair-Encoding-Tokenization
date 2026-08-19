@@ -1,28 +1,4 @@
-/*
-Based and inspired by :
-
-
-https://en.wikipedia.org/wiki/Byte-pair_encoding
-https://github.com/openai/tiktoken/tree/main
-*/
-use std::{
-    collections::{HashMap, HashSet},
-    fmt::{Debug, Formatter, Result as FmtResult},
-    hash::Hash,
-    ops::{Deref, DerefMut},
-};
-
-mod byte_str;
-pub use byte_str::*;
-
-mod span_merger;
-pub use span_merger::*;
-
-mod language_analysis;
-pub use language_analysis::*;
-
-//mod sub_slice;
-//pub use sub_slice::*;
+// cargo run --release --bin=language_test
 
 /*
 fn test_input()
@@ -80,6 +56,10 @@ fn find_best_separator<'a>(s : SpanMerger<'a>)
     s.tokens_map()
 }
 */
+
+use std::collections::HashMap;
+
+use language_stat::SpanMerger;
 
 fn test_tokenization_morphemization() {
     let input = include_str!("./input/100.txt"); // English super long
@@ -191,7 +171,7 @@ fn _char_frequency() {
 
 fn main() {
     //char_frequency();
-    //test_tokenization_morphemization();
+    test_tokenization_morphemization();
     //test_input();
     //test_language_guesser = Lan
 }

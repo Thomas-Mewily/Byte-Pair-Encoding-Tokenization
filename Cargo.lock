@@ -9,8 +9,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3ce7ffe3bacd1be8229fd096aaab29ac3d33a83bbab61e75a603d24d1e8d305a"
 
 [[package]]
-name = "morphenisation"
-version = "0.1.0"
+name = "language_stat"
+version = "0.0.1-beta.1"
 dependencies = [
  "hexga_ansi_color",
+]
+
+[[package]]
+name = "language_test"
+version = "0.0.1-beta.1"
+dependencies = [
+ "hexga_ansi_color",
+ "language_stat",
 ]

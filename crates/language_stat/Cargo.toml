@@ -1,0 +1,16 @@
+[package]
+name = "language_stat"
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+homepage.workspace = true
+repository.workspace = true
+edition.workspace = true
+
+[dependencies]
+hexga_ansi_color = "0.0.11-beta.56"
+
+[profile.dev]
+opt-level = 0  # Disable all optimizations
+debug = 2   # Include full debug info
+#lto = false

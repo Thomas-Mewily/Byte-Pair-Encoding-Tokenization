@@ -5,25 +5,38 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug executable 'morphenisation'",
+            "name": "Debug executable 'language_test'",
             "type": "lldb",
             "request": "launch",
             "cargo": {
                 "args": [
                     "run",
-                    "--bin=morphenisation"
+                    "--bin=language_test",
+                    "--package=language_test"
                 ]
             },
-            "args": [],
+            "args": []
         },
         {
-            "name": "Debug unit tests in executable 'morphenisation'",
+            "name": "Debug unit tests in library 'language_stat'",
             "type": "lldb",
             "request": "launch",
             "cargo": {
                 "args": [
                     "test",
-                    "--bin=morphenisation"
+                    "--package=language_stat"
+                ]
+            }
+        },
+        {
+            "name": "Debug unit tests in executable 'language_test'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=language_test",
+                    "--package=language_test"
                 ]
             }
         }
